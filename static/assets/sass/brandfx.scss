@@ -1,0 +1,68 @@
+@import "compass/css3";
+
+html, body {
+  background-color: #232323;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+// nav-back
+section#nav-back {
+
+  & a {
+    color: #fff;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-left: 22px;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 10px;
+      height: 16px;
+      background: url("/assets/images/back-arrow.svg") no-repeat center;
+    }
+  }
+}
+
+// hero
+section#hero {
+  color: #fff;
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 22px;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 4px;
+      width: 5px;
+      height: 19px;
+      background-color: #f2bb05;
+    }
+  }
+
+  h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 52px;
+  }
+}
+

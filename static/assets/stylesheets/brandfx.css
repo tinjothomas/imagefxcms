@@ -1,0 +1,65 @@
+/* line 3, ../sass/brandfx.scss */
+html, body {
+  background-color: #232323;
+}
+
+/* line 7, ../sass/brandfx.scss */
+* a {
+  text-decoration: none;
+}
+
+/* line 11, ../sass/brandfx.scss */
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 19, ../sass/brandfx.scss */
+section#nav-back a {
+  color: #fff;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding-left: 22px;
+}
+/* line 26, ../sass/brandfx.scss */
+section#nav-back a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 16px;
+  background: url("/assets/images/back-arrow.svg") no-repeat center;
+}
+
+/* line 40, ../sass/brandfx.scss */
+section#hero {
+  color: #fff;
+}
+/* line 43, ../sass/brandfx.scss */
+section#hero h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 22px;
+  position: relative;
+}
+/* line 51, ../sass/brandfx.scss */
+section#hero h1:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 5px;
+  height: 19px;
+  background-color: #f2bb05;
+}
+/* line 63, ../sass/brandfx.scss */
+section#hero h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 52px;
+}

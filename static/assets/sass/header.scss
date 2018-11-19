@@ -1,0 +1,59 @@
+@import "compass/css3";
+
+* a {
+  text-decoration: none;
+}
+#navbar {
+  background-color: #161414;
+  height: 110px;
+  @include box-shadow(10px 5px 12px 9px rgba(0, 0, 0, 0.12));
+
+  & li {
+    & a {
+      line-height: 62px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 0;
+      margin: 0;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 0;
+        background-color: #bc0c14;
+        @include transition(height 0.2s)
+      }
+
+      &:not(.request-quote):hover:after {
+        height: 4px;
+      }
+    }
+  }
+}
+
+ul.navbar-nav {
+
+  & .request-quote {
+    background-color: #bc0c14;
+    @include box-shadow(inset -4px -5px 0 0 #cb2c33);
+    padding: 0 32px !important;
+    font-size: 18px;
+    @include transition(all 0.2s);
+  }
+}
+
+#navbarSupportedContent {
+  position: fixed;
+  right: 50px;
+}
+
+#dummy-top-margin {
+  margin-top: 110px;
+}

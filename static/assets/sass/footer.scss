@@ -1,0 +1,23 @@
+@import "compass/css3";
+
+footer {
+  height: 140px;
+  background-color: #161414;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
+    height: auto;
+  }
+
+  & .logo, .copyright, .social {
+    height: 140px;
+    display: flex;
+
+    @media screen and (max-width: 768px) {
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,492 @@
+/* line 3, ../sass/home.scss */
+html, body {
+  background-color: #232323;
+}
+
+/* line 7, ../sass/home.scss */
+* a {
+  text-decoration: none;
+}
+
+/* line 11, ../sass/home.scss */
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 17, ../sass/home.scss */
+#slides, .carousel-item {
+  height: 550px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  /* line 17, ../sass/home.scss */
+  #slides, .carousel-item {
+    height: 320px;
+  }
+}
+
+/* line 27, ../sass/home.scss */
+#hero-matter {
+  position: relative;
+  color: #d3d3d3;
+}
+/* line 31, ../sass/home.scss */
+#hero-matter h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 25px;
+  line-height: 1.4;
+  position: relative;
+  max-width: 467px;
+}
+/* line 40, ../sass/home.scss */
+#hero-matter h1:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 44px;
+  height: 5px;
+  background-color: #bc0c14;
+  top: -21px;
+}
+/* line 51, ../sass/home.scss */
+#hero-matter:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 150px);
+  left: 0;
+  top: 0;
+  background-color: #161414;
+}
+
+/* line 64, ../sass/home.scss */
+#services {
+  color: #d3d3d3;
+  position: relative;
+}
+/* line 68, ../sass/home.scss */
+#services .heading span.top, #services .heading span.shadow {
+  display: block;
+  font-family: 'lato', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 52px;
+}
+/* line 75, ../sass/home.scss */
+#services .heading span.top:before, #services .heading span.shadow:before {
+  content: 'Our services';
+  height: 52px;
+  width: 190px;
+  position: absolute;
+}
+/* line 82, ../sass/home.scss */
+#services .heading span.top:after, #services .heading span.shadow:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
+}
+/* line 93, ../sass/home.scss */
+#services .heading span.top {
+  position: relative;
+}
+/* line 96, ../sass/home.scss */
+#services .heading span.top:before {
+  left: 7px;
+  top: 0;
+  padding-left: 40px;
+  background-color: #bc0c14;
+}
+/* line 103, ../sass/home.scss */
+#services .heading span.top:after {
+  top: 0;
+  left: 171px;
+  border-bottom: 52px solid #bc0c14;
+}
+/* line 110, ../sass/home.scss */
+#services .heading span.shadow {
+  position: absolute;
+}
+/* line 113, ../sass/home.scss */
+#services .heading span.shadow:before {
+  left: 17px;
+  top: 4px;
+  padding-left: 30px;
+  background-color: #232323;
+}
+/* line 120, ../sass/home.scss */
+#services .heading span.shadow:after {
+  top: 4px;
+  left: 181px;
+  border-bottom: 52px solid #232323;
+}
+/* line 127, ../sass/home.scss */
+#services .services {
+  background-color: #444444;
+  padding: 32px 0 42px 0;
+  -moz-box-shadow: 10px 16px 12px 9px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 10px 16px 12px 9px rgba(0, 0, 0, 0.12);
+  box-shadow: 10px 16px 12px 9px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+/* line 133, ../sass/home.scss */
+#services .services:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 94%;
+  left: 50%;
+  top: 3%;
+  background-color: #2d2a2a;
+}
+@media screen and (max-width: 768px) {
+  /* line 133, ../sass/home.scss */
+  #services .services:after {
+    display: none;
+  }
+}
+/* line 148, ../sass/home.scss */
+#services .services .service {
+  padding: 0 62px;
+}
+/* line 152, ../sass/home.scss */
+#services .services .service-name {
+  font-family: 'montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 26px;
+  position: relative;
+}
+/* line 160, ../sass/home.scss */
+#services .services .service-name:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 20px;
+  background-color: #f2bb05;
+  left: 0;
+  top: 6px;
+}
+/* line 172, ../sass/home.scss */
+#services .services .service-description {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+/* line 179, ../sass/home.scss */
+#services .services a {
+  color: #d3d3d3 !important;
+}
+/* line 183, ../sass/home.scss */
+#services .services .button {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 65px;
+  position: relative;
+}
+/* line 191, ../sass/home.scss */
+#services .services .button:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #bc0c14;
+  right: 0;
+  bottom: -14px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 203, ../sass/home.scss */
+#services .services .button:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #bc0c14;
+  right: 0;
+  bottom: -12px;
+  background: url("../images/arrow.svg") no-repeat center;
+}
+
+/* line 219, ../sass/home.scss */
+#phone {
+  color: #d3d3d3;
+  font-family: "montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* line 227, ../sass/home.scss */
+#new-products {
+  color: #d3d3d3;
+  position: relative;
+  margin-bottom: 148px;
+}
+/* line 232, ../sass/home.scss */
+#new-products:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 135%;
+  top: 40%;
+  background-color: #161414;
+}
+/* line 242, ../sass/home.scss */
+#new-products .heading {
+  font-family: "lato", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+/* line 248, ../sass/home.scss */
+#new-products .products {
+  background-color: #444444;
+  padding-top: 15px;
+  position: relative;
+  -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+}
+/* line 255, ../sass/home.scss */
+#new-products .products .product {
+  margin-bottom: 15px;
+}
+/* line 259, ../sass/home.scss */
+#new-products .products .product:not(:nth-of-type(1)) {
+  padding-left: 7.5px;
+}
+@media screen and (max-width: 992px) {
+  /* line 259, ../sass/home.scss */
+  #new-products .products .product:not(:nth-of-type(1)) {
+    padding-left: 15px;
+  }
+}
+/* line 267, ../sass/home.scss */
+#new-products .products .product:not(:nth-of-type(4)) {
+  padding-right: 7.5px;
+}
+@media screen and (max-width: 992px) {
+  /* line 267, ../sass/home.scss */
+  #new-products .products .product:not(:nth-of-type(4)) {
+    padding-right: 15px;
+  }
+}
+/* line 275, ../sass/home.scss */
+#new-products .products .product .image {
+  height: 180px;
+  width: 100%;
+}
+/* line 280, ../sass/home.scss */
+#new-products .products .product .name {
+  font-family: 'lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+/* line 287, ../sass/home.scss */
+#new-products .products .product .price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f2bb05;
+}
+/* line 296, ../sass/home.scss */
+#new-products .shop-now {
+  color: #fff;
+  background-color: #bc0c14;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px 25px;
+  position: absolute;
+  right: 20px;
+  bottom: -35px;
+  text-transform: uppercase;
+}
+/* line 306, ../sass/home.scss */
+#new-products .shop-now img {
+  margin: -3px 0 0 20px;
+}
+
+/* line 313, ../sass/home.scss */
+#recent-works {
+  color: #d3d3d3;
+  position: relative;
+}
+/* line 317, ../sass/home.scss */
+#recent-works .container {
+  background-color: #444444;
+  padding: 26px;
+  -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+}
+/* line 323, ../sass/home.scss */
+#recent-works .container .heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  line-height: 1.36;
+  font-weight: 600;
+  margin-bottom: 45px;
+  position: relative;
+  padding-left: 30px;
+  color: #fff;
+}
+/* line 333, ../sass/home.scss */
+#recent-works .container .heading:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 80%;
+  left: 0;
+  top: 10%;
+  background-color: #f2bb05;
+}
+/* line 345, ../sass/home.scss */
+#recent-works .container .see-works {
+  color: #d3d3d3;
+  padding-left: 30px;
+  position: relative;
+}
+/* line 350, ../sass/home.scss */
+#recent-works .container .see-works:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #bc0c14;
+  right: -80px;
+  bottom: -14px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 362, ../sass/home.scss */
+#recent-works .container .see-works:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #bc0c14;
+  right: -80px;
+  bottom: -12px;
+  background: url("../images/arrow.svg") no-repeat center;
+}
+/* line 375, ../sass/home.scss */
+#recent-works .container .work {
+  padding: 0;
+}
+/* line 379, ../sass/home.scss */
+#recent-works .container .work-1 {
+  height: 404px;
+  position: relative;
+}
+/* line 384, ../sass/home.scss */
+#recent-works .container .work-2, #recent-works .container .work-3 {
+  height: 202px;
+  position: relative;
+}
+/* line 389, ../sass/home.scss */
+#recent-works .container .project-name {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  width: 100%;
+  background-color: rgba(2, 2, 2, 0.46);
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+/* line 401, ../sass/home.scss */
+#recent-works .container .work:hover .project-name {
+  background-color: #020202;
+}
+
+/* line 408, ../sass/home.scss */
+#end-part {
+  color: #d3d3d3;
+  margin: 95px 0 74px 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 408, ../sass/home.scss */
+  #end-part {
+    padding: 15px;
+  }
+}
+/* line 416, ../sass/home.scss */
+#end-part .left {
+  margin-left: -15px;
+}
+/* line 419, ../sass/home.scss */
+#end-part .left h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* line 425, ../sass/home.scss */
+#end-part .left p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 432px;
+}
+/* line 432, ../sass/home.scss */
+#end-part .left .request-quote {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 20px;
+  background-color: #bc0c14;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 432, ../sass/home.scss */
+  #end-part .left .request-quote {
+    font-size: 14px;
+  }
+}
+/* line 450, ../sass/home.scss */
+#end-part .right h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* line 456, ../sass/home.scss */
+#end-part .right p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  /* line 464, ../sass/home.scss */
+  #end-part .right {
+    margin-top: 60px;
+    padding: 0;
+  }
+}
