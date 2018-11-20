@@ -256,22 +256,33 @@ html, body {
       //width: calc(25% - 11.75px);
       margin-bottom: 15px;
 
-      &:not(:nth-of-type(1)) {
-        padding-left: 7.5px;
+      // 2 works in 1 row
+      &:nth-of-type(odd) {
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+          padding-right: 7.5px;
+        }
+      }
+      &:nth-of-type(even) {
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+          padding-left: 7.5px;
+        }
+      }
 
-        @media screen and (max-width: 992px) {
+      // 4 works in 1 row
+      @media screen and (min-width: 993px) {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+      }
+      &:nth-of-type(4n+1) {
+        @media screen and (min-width: 993px) {
           padding-left: 15px;
         }
       }
-
-      &:not(:nth-of-type(4)) {
-        padding-right: 7.5px;
-
-        @media screen and (max-width: 992px) {
+      &:nth-of-type(4n) {
+        @media screen and (min-width: 993px) {
           padding-right: 15px;
         }
       }
-
       & .image{
         height: 180px;
         width: 100%;

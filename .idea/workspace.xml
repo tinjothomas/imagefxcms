@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695b9ff9-e9ea-4503-9edf-88d0941d2c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/brandfx.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/brandfx.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/brandfx/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/brandfx/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/back-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/brandfx/back-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/sass/brandfx.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/brandfx.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/brandfx.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/brandfx.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/home.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/sass/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/home.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,19 +47,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="brandfx" value="5" />
-          <entry key="html" value="7723" />
+          <entry key="html" value="7727" />
           <entry key="js" value="286" />
           <entry key="md" value="58" />
-          <entry key="scss" value="7448" />
+          <entry key="scss" value="7449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7723" />
+          <entry key="HTML" value="7727" />
           <entry key="JavaScript" value="286" />
           <entry key="Markdown" value="58" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="7448" />
+          <entry key="SCSS" value="7449" />
         </counts>
       </usages-collector>
     </session>
@@ -73,17 +68,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.4341917">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/assets/sass/home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="218" column="7" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+                <state relative-caret-position="529">
+                  <caret line="284" column="7" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
                   <folding>
                     <element signature="e#174#274#0" />
                     <element signature="e#304#899#0" />
                     <element signature="e#923#3830#0" />
                     <element signature="e#3848#3949#0" />
-                    <element signature="e#3981#5494#0" />
+                    <element signature="e#4990#5064#0" />
+                    <element signature="e#5093#5197#0" />
+                    <element signature="e#5224#5329#0" />
                     <element signature="e#5526#7383#0" />
                     <element signature="e#7407#8509#0" />
                   </folding>
@@ -91,20 +88,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/assets/sass/brandfx.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="250" column="14" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
+                <state relative-caret-position="26">
+                  <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
                   <folding>
                     <element signature="e#539#545#0" />
-                    <element signature="e#1363#1972#0" />
                     <element signature="e#1527#1545#0" />
                     <element signature="e#1674#1795#0" />
                     <element signature="e#1916#1942#0" />
                     <element signature="e#1991#2013#0" />
                     <element signature="e#2120#2138#0" />
                     <element signature="e#3295#3301#0" />
+                    <element signature="e#3817#3823#0" />
                   </folding>
                 </state>
               </provider>
@@ -114,7 +111,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layouts/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-24">
@@ -142,11 +139,13 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layouts/brandfx/list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="100" column="57" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+                <state relative-caret-position="140">
+                  <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+                  <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+                  <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
                   <folding>
                     <element signature="n#section#0;n#!!top" />
                     <element signature="n#section#1;n#!!top" />
@@ -224,10 +223,10 @@
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/static/assets/scripts/brandfx.js" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
-        <option value="$PROJECT_DIR$/static/assets/sass/home.scss" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/static/assets/sass/brandfx.scss" />
         <option value="$PROJECT_DIR$/layouts/brandfx/list.html" />
+        <option value="$PROJECT_DIR$/static/assets/sass/home.scss" />
       </list>
     </option>
   </component>
@@ -368,12 +367,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542348889789</updated>
       <workItem from="1542348893537" duration="60097000" />
-      <workItem from="1542607195441" duration="14638000" />
+      <workItem from="1542607195441" duration="15080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74735000" />
+    <option name="totallyTimeSpent" value="75177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -382,7 +381,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.18454936" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.40382165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40382165" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -502,6 +501,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/brandfx/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+          <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
+          <folding>
+            <element signature="n#section#0;n#!!top" />
+            <element signature="n#section#1;n#!!top" />
+            <element signature="n#section#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#section#4;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#section#4;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#section#4;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
@@ -528,67 +561,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/sass/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="218" column="7" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
-          <folding>
-            <element signature="e#174#274#0" />
-            <element signature="e#304#899#0" />
-            <element signature="e#923#3830#0" />
-            <element signature="e#3848#3949#0" />
-            <element signature="e#3981#5494#0" />
-            <element signature="e#5526#7383#0" />
-            <element signature="e#7407#8509#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/sass/brandfx.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="250" column="14" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
+        <state relative-caret-position="26">
+          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
           <folding>
             <element signature="e#539#545#0" />
-            <element signature="e#1363#1972#0" />
             <element signature="e#1527#1545#0" />
             <element signature="e#1674#1795#0" />
             <element signature="e#1916#1942#0" />
             <element signature="e#1991#2013#0" />
             <element signature="e#2120#2138#0" />
             <element signature="e#3295#3301#0" />
+            <element signature="e#3817#3823#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/brandfx/list.html">
+    <entry file="file://$PROJECT_DIR$/static/assets/sass/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="100" column="57" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+        <state relative-caret-position="529">
+          <caret line="284" column="7" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
           <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#section#1;n#!!top" />
-            <element signature="n#section#2;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#4;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#section#4;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#section#4;n#!!top" />
+            <element signature="e#174#274#0" />
+            <element signature="e#304#899#0" />
+            <element signature="e#923#3830#0" />
+            <element signature="e#3848#3949#0" />
+            <element signature="e#4990#5064#0" />
+            <element signature="e#5093#5197#0" />
+            <element signature="e#5224#5329#0" />
+            <element signature="e#5526#7383#0" />
+            <element signature="e#7407#8509#0" />
           </folding>
         </state>
       </provider>
