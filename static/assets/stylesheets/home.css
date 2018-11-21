@@ -16,7 +16,7 @@ html, body {
 
 /* line 17, ../sass/home.scss */
 #slides, .carousel-item {
-  height: 550px;
+  height: 450px;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -147,7 +147,7 @@ html, body {
   top: 3%;
   background-color: #2d2a2a;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   /* line 133, ../sass/home.scss */
   #services .services:after {
     display: none;
@@ -266,15 +266,21 @@ html, body {
 /* line 255, ../sass/home.scss */
 #new-products .products .product {
   margin-bottom: 15px;
+  overflow: hidden;
+}
+/* line 260, ../sass/home.scss */
+#new-products .products .product:hover {
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%);
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 260, ../sass/home.scss */
+  /* line 265, ../sass/home.scss */
   #new-products .products .product:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 265, ../sass/home.scss */
+  /* line 270, ../sass/home.scss */
   #new-products .products .product:nth-of-type(even) {
     padding-left: 7.5px;
   }
@@ -287,37 +293,37 @@ html, body {
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 276, ../sass/home.scss */
+  /* line 281, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n+1) {
     padding-left: 15px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 281, ../sass/home.scss */
+  /* line 286, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n) {
     padding-right: 15px;
   }
 }
-/* line 286, ../sass/home.scss */
+/* line 291, ../sass/home.scss */
 #new-products .products .product .image {
   height: 180px;
   width: 100%;
 }
-/* line 291, ../sass/home.scss */
+/* line 296, ../sass/home.scss */
 #new-products .products .product .name {
   font-family: 'lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
 }
-/* line 298, ../sass/home.scss */
+/* line 303, ../sass/home.scss */
 #new-products .products .product .price {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #f2bb05;
 }
-/* line 307, ../sass/home.scss */
+/* line 312, ../sass/home.scss */
 #new-products .shop-now {
   color: #fff;
   background-color: #bc0c14;
@@ -330,17 +336,17 @@ html, body {
   bottom: -35px;
   text-transform: uppercase;
 }
-/* line 317, ../sass/home.scss */
+/* line 322, ../sass/home.scss */
 #new-products .shop-now img {
   margin: -3px 0 0 20px;
 }
 
-/* line 324, ../sass/home.scss */
+/* line 329, ../sass/home.scss */
 #recent-works {
   color: #d3d3d3;
   position: relative;
 }
-/* line 328, ../sass/home.scss */
+/* line 333, ../sass/home.scss */
 #recent-works .container {
   background-color: #444444;
   padding: 26px;
@@ -348,7 +354,7 @@ html, body {
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 334, ../sass/home.scss */
+/* line 339, ../sass/home.scss */
 #recent-works .container .heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -359,7 +365,7 @@ html, body {
   padding-left: 30px;
   color: #fff;
 }
-/* line 344, ../sass/home.scss */
+/* line 349, ../sass/home.scss */
 #recent-works .container .heading:before {
   content: '';
   display: block;
@@ -370,13 +376,13 @@ html, body {
   top: 10%;
   background-color: #f2bb05;
 }
-/* line 356, ../sass/home.scss */
+/* line 361, ../sass/home.scss */
 #recent-works .container .see-works {
   color: #d3d3d3;
   padding-left: 30px;
   position: relative;
 }
-/* line 361, ../sass/home.scss */
+/* line 366, ../sass/home.scss */
 #recent-works .container .see-works:before {
   content: '';
   position: absolute;
@@ -390,7 +396,7 @@ html, body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 373, ../sass/home.scss */
+/* line 378, ../sass/home.scss */
 #recent-works .container .see-works:after {
   content: '';
   position: absolute;
@@ -402,21 +408,21 @@ html, body {
   bottom: -12px;
   background: url("../images/arrow.svg") no-repeat center;
 }
-/* line 386, ../sass/home.scss */
+/* line 391, ../sass/home.scss */
 #recent-works .container .work {
   padding: 0;
 }
-/* line 390, ../sass/home.scss */
+/* line 395, ../sass/home.scss */
 #recent-works .container .work-1 {
   height: 404px;
   position: relative;
 }
-/* line 395, ../sass/home.scss */
+/* line 400, ../sass/home.scss */
 #recent-works .container .work-2, #recent-works .container .work-3 {
   height: 202px;
   position: relative;
 }
-/* line 400, ../sass/home.scss */
+/* line 405, ../sass/home.scss */
 #recent-works .container .project-name {
   font-family: "lato", sans-serif;
   font-size: 16px;
@@ -431,40 +437,40 @@ html, body {
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
 }
-/* line 412, ../sass/home.scss */
+/* line 417, ../sass/home.scss */
 #recent-works .container .work:hover .project-name {
   background-color: #020202;
 }
 
-/* line 419, ../sass/home.scss */
+/* line 424, ../sass/home.scss */
 #end-part {
   color: #d3d3d3;
   margin: 95px 0 74px 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 419, ../sass/home.scss */
+  /* line 424, ../sass/home.scss */
   #end-part {
     padding: 15px;
   }
 }
-/* line 427, ../sass/home.scss */
+/* line 432, ../sass/home.scss */
 #end-part .left {
   margin-left: -15px;
 }
-/* line 430, ../sass/home.scss */
+/* line 435, ../sass/home.scss */
 #end-part .left h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 436, ../sass/home.scss */
+/* line 441, ../sass/home.scss */
 #end-part .left p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   max-width: 432px;
 }
-/* line 443, ../sass/home.scss */
+/* line 448, ../sass/home.scss */
 #end-part .left .request-quote {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -476,18 +482,18 @@ html, body {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 443, ../sass/home.scss */
+  /* line 448, ../sass/home.scss */
   #end-part .left .request-quote {
     font-size: 14px;
   }
 }
-/* line 461, ../sass/home.scss */
+/* line 466, ../sass/home.scss */
 #end-part .right h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 467, ../sass/home.scss */
+/* line 472, ../sass/home.scss */
 #end-part .right p {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -495,7 +501,7 @@ html, body {
   padding-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
-  /* line 475, ../sass/home.scss */
+  /* line 480, ../sass/home.scss */
   #end-part .right {
     margin-top: 60px;
     padding: 0;
