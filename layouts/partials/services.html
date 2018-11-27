@@ -1,0 +1,113 @@
+<!-- navigate back -->
+<section id="nav-back">
+  <div class="container">
+    <div class="row">
+      <div class="col mt-4">
+        <div class="row">
+          <a href="/" class="navigate-back">Home</a>
+        </div> <!-- /.row -->
+      </div> <!-- /.my-4 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#nav-back -->
+
+<!-- hero -->
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 text">
+        <div class="row">
+          <h1 class="my-4">{{ .context.Title }}</h1>
+        </div> <!-- /.row -->
+        <div class="row">
+          <h2 class="my-4">{{ .context.Params.heading }}</h2>
+        </div> <!-- /.row -->
+        <div class="row">
+          <p class="my-4">{{ .context.Params.intro }}</p>
+        </div> <!-- /.row -->
+      </div> <!-- /.col-12 col-lg-6 text -->
+      <div class="col-12 col-lg-6 image"
+           style="background: url('{{ .context.Params.image }}') no-repeat center; -webkit-background-size: cover; background-size: cover;"></div> <!-- /.col-12 col-lg-6 image -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#hero -->
+
+<!-- recent works -->
+<section id="recent-works">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 works">
+        <div class="row">
+          {{ $page := .context.GetPage "/gallery.md" }}
+          {{ range first 8 (shuffle (where $page.Params.gallery "category" .service)) }}
+          <div class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .image }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </div>
+          {{ end }}
+        </div> <!-- /.row -->
+        <div class="heading">Recent Works</div>
+        <a href="#" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg" alt=""></a>
+      </div> <!-- /.col-12 works -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#recent-works -->
+
+{{ $section_2 := index .context.Params.section_2 0 }}
+<section id="turn-around">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 mb-4 left">
+        <div class="heading">{{ $section_2.title }}</div>
+      </div> <!-- /.col-6 heading -->
+      <div class="col-12 col-lg-6 right">
+        <p>{{ $section_2.description }}</p>
+      </div> <!-- /.col-6 right -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#turn-around -->
+
+<!-- our advantages -->
+<section id="our-advantages">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 order-2 order-lg-1 mb-4 mb-lg-0">
+        <div class="heading">Our Advantages</div>
+      </div> <!-- /.col-6 -->
+      <div class="col-12 col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 text-center text-lg-right">
+        <div class="phone">
+          <img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850
+        </div> <!-- /.phone -->
+      </div> <!-- /.col-6 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 advantage mb-4">
+        {{ $usp := index .context.Params.usp 0 }}
+        <h1 class="heading">{{ $usp.heading }}</h1>
+        <div class="detail">
+          <p>{{ $usp.body }}</p>
+        </div>
+      </div> <!-- /.col-3 advantage -->
+    </div> <!-- /.row -->
+    <div class="row">
+      <div class="col-12 col-lg-4 advantage mb-4 mx-auto">
+        {{ $usp := index .context.Params.usp 1 }}
+        <h1 class="heading">{{ $usp.heading }}</h1>
+        <div class="detail">
+          <p>{{ $usp.body }}</p>
+        </div>
+      </div> <!-- /.col-3 advantage -->
+    </div> <!-- /.row -->
+    <div class="row">
+      <div class="col-12 col-lg-4 advantage mb-4 ml-auto">
+        {{ $usp := index .context.Params.usp 2 }}
+        <h1 class="heading">{{ $usp.heading }}</h1>
+        <div class="detail">
+          <p>{{ $usp.body }}</p>
+        </div>
+      </div> <!-- /.col-3 advantage -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#our-advantages -->

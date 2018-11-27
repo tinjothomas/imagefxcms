@@ -1,0 +1,49 @@
+{{ partial "header" (dict "docTitle" "ImageFX - Visual Branding" "stylesheet" "about") }}
+
+<section id="nav-back">
+  <div class="container">
+    <div class="row">
+      <div class="col mt-4">
+        <div class="row">
+          <a href="/" class="navigate-back">Home</a>
+        </div> <!-- /.row -->
+      </div> <!-- /.my-4 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#nav-back -->
+
+<!-- hero -->
+<section id="heading">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 text">
+        <div class="row">
+          <h1 class="my-4">{{ .Title }}</h1>
+        </div> <!-- /.row -->
+      </div> <!-- /.col-12 col-lg-6 text -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /#hero -->
+
+<!-- main -->
+<section id="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <h2>{{ .Params.heading_1 }}</h2>
+        <p>{{ .Params.desc_1 }}</p>
+      </div>
+      <!-- /.col-12 col-lg-8 -->
+      <div class="col-12 col-lg-8 mx-auto">
+        <h2>{{ .Params.heading_2 }}</h2>
+        <p>{{ .Params.desc_2 }}</p>
+      </div>
+      <!-- /.col-12 col-lg-8 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section> <!-- /#main -->
+
+
+{{ partial "footer" (dict "script" "") }}

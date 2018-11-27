@@ -1,0 +1,164 @@
+/* line 3, ../sass/works.scss */
+html, body {
+  background-color: #232323;
+}
+
+/* line 7, ../sass/works.scss */
+* a {
+  text-decoration: none;
+}
+
+/* line 11, ../sass/works.scss */
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 19, ../sass/works.scss */
+section#nav-back a {
+  color: #fff;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding-left: 22px;
+}
+/* line 26, ../sass/works.scss */
+section#nav-back a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 16px;
+  background: url("/assets/images/brandfx/back-arrow.svg") no-repeat center;
+}
+
+/* line 40, ../sass/works.scss */
+section#heading {
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 44, ../sass/works.scss */
+section#heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 22px;
+  position: relative;
+}
+/* line 52, ../sass/works.scss */
+section#heading h1:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 5px;
+  height: 19px;
+  background-color: #f2bb05;
+}
+
+/* line 68, ../sass/works.scss */
+section#main .service {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #444444;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* line 76, ../sass/works.scss */
+section#main .service a {
+  color: #fff;
+  height: 51px;
+  padding: 0 35px;
+  line-height: 51px;
+  display: block;
+}
+/* line 84, ../sass/works.scss */
+section#main .service.active {
+  background-color: #bc0c14;
+}
+/* line 89, ../sass/works.scss */
+section#main .gallery {
+  background-color: #444444;
+  -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+}
+/* line 93, ../sass/works.scss */
+section#main .gallery .photo-container {
+  height: 180px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* line 97, ../sass/works.scss */
+  section#main .gallery .photo-container:nth-of-type(odd) {
+    padding-right: 7.5px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* line 102, ../sass/works.scss */
+  section#main .gallery .photo-container:nth-of-type(even) {
+    padding-left: 7.5px;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* line 93, ../sass/works.scss */
+  section#main .gallery .photo-container {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* line 113, ../sass/works.scss */
+  section#main .gallery .photo-container:nth-of-type(4n+1) {
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* line 118, ../sass/works.scss */
+  section#main .gallery .photo-container:nth-of-type(4n) {
+    padding-right: 15px;
+  }
+}
+/* line 124, ../sass/works.scss */
+section#main .gallery .photo-container .photo {
+  height: 100%;
+}
+
+/* line 131, ../sass/works.scss */
+#lightbox {
+  height: 100vh;
+  top: 0 !important;
+}
+/* line 135, ../sass/works.scss */
+#lightbox .lb-outerContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, calc(-50% - 80px));
+  -ms-transform: translate(-50%, calc(-50% - 80px));
+  -webkit-transform: translate(-50%, calc(-50% - 80px));
+  transform: translate(-50%, calc(-50% - 80px));
+  -moz-box-shadow: 4px 5px 11px 2px black;
+  -webkit-box-shadow: 4px 5px 11px 2px black;
+  box-shadow: 4px 5px 11px 2px black;
+}
+/* line 143, ../sass/works.scss */
+#lightbox .lb-details {
+  position: absolute;
+  bottom: 30px;
+}
+/* line 148, ../sass/works.scss */
+#lightbox .lb-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+/* line 154, ../sass/works.scss */
+#lightbox .lb-caption {
+  font-family: "Loto", sans-serif;
+  font-size: 16px;
+}

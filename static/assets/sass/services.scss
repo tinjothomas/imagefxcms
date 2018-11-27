@@ -81,16 +81,38 @@ section#hero {
   }
 
   & .image {
-    background: url("/assets/images/brandfx/hero.jpeg") no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
     min-height: 300px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border: 4px solid #bc0c14;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      left: -12px;
+      top: -12px;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border: 4px solid #bc0c14;
+      border-left-color: transparent;
+      border-top-color: transparent;
+      right: -12px;
+      bottom: -12px;
+    }
   }
 }
 
 section#recent-works {
   position: relative;
-  z-index: 2000;
+  z-index: 100;
 
   & .works {
     background-color: #444444;

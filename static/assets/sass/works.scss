@@ -1,0 +1,158 @@
+@import "compass/css3";
+
+html, body {
+  background-color: #232323;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+// nav-back
+section#nav-back {
+
+  & a {
+    color: #fff;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-left: 22px;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 10px;
+      height: 16px;
+      background: url("/assets/images/brandfx/back-arrow.svg") no-repeat center;
+    }
+  }
+}
+
+// hero
+section#heading {
+  color: #fff;
+  margin-bottom: 20px;
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 22px;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 4px;
+      width: 5px;
+      height: 19px;
+      background-color: #f2bb05;
+    }
+  }
+}
+
+// main
+section#main {
+
+  & .service {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #444444;
+    color: #ffffff;
+    cursor: pointer;
+    
+    & a {
+      color: #fff;
+      height: 51px;
+      padding: 0 35px;
+      line-height: 51px;
+      display: block;
+    }
+    
+    &.active {
+      background-color: #bc0c14;
+    }
+  }
+
+  & .gallery {
+    background-color: #444444;
+    @include box-shadow(4px 5px 11px 2px rgba(0, 0, 0, 0.12));
+
+    & .photo-container {
+      height: 180px;
+
+      // 2 works in 1 row
+      &:nth-of-type(odd) {
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+          padding-right: 7.5px;
+        }
+      }
+      &:nth-of-type(even) {
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+          padding-left: 7.5px;
+        }
+      }
+
+      // 4 works in 1 row
+      @media screen and (min-width: 993px) {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+      }
+      &:nth-of-type(4n+1) {
+        @media screen and (min-width: 993px) {
+          padding-left: 15px;
+        }
+      }
+      &:nth-of-type(4n) {
+        @media screen and (min-width: 993px) {
+          padding-right: 15px;
+        }
+      }
+
+      & .photo {
+        height: 100%;
+      }
+    }
+  }
+}
+
+#lightbox {
+  height: 100vh;
+  top: 0 !important;
+
+  & .lb-outerContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, calc(-50% - 80px)));
+    @include box-shadow(4px 5px 11px 2px rgba(0, 0, 0, 1));
+  }
+
+  & .lb-details {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  & .lb-close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  & .lb-caption {
+    font-family: "Loto", sans-serif;
+    font-size: 16px;
+  }
+}

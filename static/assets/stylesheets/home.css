@@ -26,12 +26,21 @@ html, body {
   }
 }
 
-/* line 27, ../sass/home.scss */
+/* line 25, ../sass/home.scss */
+ol.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 32, ../sass/home.scss */
 #hero-matter {
   position: relative;
   color: #d3d3d3;
 }
-/* line 31, ../sass/home.scss */
+/* line 36, ../sass/home.scss */
 #hero-matter h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
@@ -41,7 +50,7 @@ html, body {
   position: relative;
   max-width: 467px;
 }
-/* line 40, ../sass/home.scss */
+/* line 45, ../sass/home.scss */
 #hero-matter h1:before {
   content: '';
   position: absolute;
@@ -51,7 +60,11 @@ html, body {
   background-color: #bc0c14;
   top: -21px;
 }
-/* line 51, ../sass/home.scss */
+/* line 56, ../sass/home.scss */
+#hero-matter p {
+  margin-bottom: 15px;
+}
+/* line 60, ../sass/home.scss */
 #hero-matter:before {
   content: '';
   display: block;
@@ -63,12 +76,12 @@ html, body {
   background-color: #161414;
 }
 
-/* line 64, ../sass/home.scss */
+/* line 73, ../sass/home.scss */
 #services {
   color: #d3d3d3;
   position: relative;
 }
-/* line 68, ../sass/home.scss */
+/* line 77, ../sass/home.scss */
 #services .heading span.top, #services .heading span.shadow {
   display: block;
   font-family: 'lato', sans-serif;
@@ -76,14 +89,14 @@ html, body {
   font-weight: 400;
   line-height: 52px;
 }
-/* line 75, ../sass/home.scss */
+/* line 84, ../sass/home.scss */
 #services .heading span.top:before, #services .heading span.shadow:before {
   content: 'Our services';
   height: 52px;
   width: 190px;
   position: absolute;
 }
-/* line 82, ../sass/home.scss */
+/* line 91, ../sass/home.scss */
 #services .heading span.top:after, #services .heading span.shadow:after {
   position: absolute;
   content: '';
@@ -93,41 +106,41 @@ html, body {
   border-left: 26px solid transparent;
   border-right: 26px solid transparent;
 }
-/* line 93, ../sass/home.scss */
+/* line 102, ../sass/home.scss */
 #services .heading span.top {
   position: relative;
 }
-/* line 96, ../sass/home.scss */
+/* line 105, ../sass/home.scss */
 #services .heading span.top:before {
   left: 7px;
   top: 0;
   padding-left: 40px;
   background-color: #bc0c14;
 }
-/* line 103, ../sass/home.scss */
+/* line 112, ../sass/home.scss */
 #services .heading span.top:after {
   top: 0;
   left: 171px;
   border-bottom: 52px solid #bc0c14;
 }
-/* line 110, ../sass/home.scss */
+/* line 119, ../sass/home.scss */
 #services .heading span.shadow {
   position: absolute;
 }
-/* line 113, ../sass/home.scss */
+/* line 122, ../sass/home.scss */
 #services .heading span.shadow:before {
   left: 17px;
   top: 4px;
   padding-left: 30px;
   background-color: #232323;
 }
-/* line 120, ../sass/home.scss */
+/* line 129, ../sass/home.scss */
 #services .heading span.shadow:after {
   top: 4px;
   left: 181px;
   border-bottom: 52px solid #232323;
 }
-/* line 127, ../sass/home.scss */
+/* line 136, ../sass/home.scss */
 #services .services {
   background-color: #444444;
   padding: 32px 0 42px 0;
@@ -136,7 +149,7 @@ html, body {
   box-shadow: 10px 16px 12px 9px rgba(0, 0, 0, 0.12);
   position: relative;
 }
-/* line 133, ../sass/home.scss */
+/* line 142, ../sass/home.scss */
 #services .services:after {
   content: '';
   display: block;
@@ -148,16 +161,16 @@ html, body {
   background-color: #2d2a2a;
 }
 @media screen and (max-width: 992px) {
-  /* line 133, ../sass/home.scss */
+  /* line 142, ../sass/home.scss */
   #services .services:after {
     display: none;
   }
 }
-/* line 148, ../sass/home.scss */
+/* line 157, ../sass/home.scss */
 #services .services .service {
   padding: 0 62px;
 }
-/* line 152, ../sass/home.scss */
+/* line 161, ../sass/home.scss */
 #services .services .service-name {
   font-family: 'montserrat', sans-serif;
   font-size: 22px;
@@ -166,7 +179,7 @@ html, body {
   padding-left: 26px;
   position: relative;
 }
-/* line 160, ../sass/home.scss */
+/* line 169, ../sass/home.scss */
 #services .services .service-name:before {
   position: absolute;
   content: '';
@@ -177,18 +190,18 @@ html, body {
   left: 0;
   top: 6px;
 }
-/* line 172, ../sass/home.scss */
+/* line 181, ../sass/home.scss */
 #services .services .service-description {
   font-family: "lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   padding: 20px 0;
 }
-/* line 179, ../sass/home.scss */
+/* line 188, ../sass/home.scss */
 #services .services a {
   color: #d3d3d3 !important;
 }
-/* line 183, ../sass/home.scss */
+/* line 192, ../sass/home.scss */
 #services .services .button {
   font-family: "lato", sans-serif;
   font-size: 16px;
@@ -197,7 +210,7 @@ html, body {
   padding-right: 65px;
   position: relative;
 }
-/* line 191, ../sass/home.scss */
+/* line 200, ../sass/home.scss */
 #services .services .button:before {
   content: '';
   position: absolute;
@@ -211,7 +224,7 @@ html, body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 203, ../sass/home.scss */
+/* line 212, ../sass/home.scss */
 #services .services .button:after {
   content: '';
   position: absolute;
@@ -224,7 +237,7 @@ html, body {
   background: url("../images/arrow.svg") no-repeat center;
 }
 
-/* line 219, ../sass/home.scss */
+/* line 228, ../sass/home.scss */
 #phone {
   color: #d3d3d3;
   font-family: "montserrat", sans-serif;
@@ -232,13 +245,13 @@ html, body {
   font-weight: 600;
 }
 
-/* line 227, ../sass/home.scss */
+/* line 236, ../sass/home.scss */
 #new-products {
   color: #d3d3d3;
   position: relative;
   margin-bottom: 148px;
 }
-/* line 232, ../sass/home.scss */
+/* line 241, ../sass/home.scss */
 #new-products:before {
   content: '';
   display: block;
@@ -248,13 +261,13 @@ html, body {
   top: 40%;
   background-color: #161414;
 }
-/* line 242, ../sass/home.scss */
+/* line 251, ../sass/home.scss */
 #new-products .heading {
   font-family: "lato", sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
-/* line 248, ../sass/home.scss */
+/* line 257, ../sass/home.scss */
 #new-products .products {
   background-color: #444444;
   padding-top: 15px;
@@ -263,67 +276,67 @@ html, body {
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 255, ../sass/home.scss */
+/* line 264, ../sass/home.scss */
 #new-products .products .product {
   margin-bottom: 15px;
   overflow: hidden;
 }
-/* line 260, ../sass/home.scss */
+/* line 269, ../sass/home.scss */
 #new-products .products .product:hover {
   -webkit-filter: grayscale(20%);
   filter: grayscale(20%);
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 265, ../sass/home.scss */
+  /* line 274, ../sass/home.scss */
   #new-products .products .product:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 270, ../sass/home.scss */
+  /* line 279, ../sass/home.scss */
   #new-products .products .product:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 255, ../sass/home.scss */
+  /* line 264, ../sass/home.scss */
   #new-products .products .product {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 281, ../sass/home.scss */
+  /* line 290, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n+1) {
     padding-left: 15px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 286, ../sass/home.scss */
+  /* line 295, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n) {
     padding-right: 15px;
   }
 }
-/* line 291, ../sass/home.scss */
+/* line 300, ../sass/home.scss */
 #new-products .products .product .image {
   height: 180px;
   width: 100%;
 }
-/* line 296, ../sass/home.scss */
+/* line 305, ../sass/home.scss */
 #new-products .products .product .name {
   font-family: 'lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
 }
-/* line 303, ../sass/home.scss */
+/* line 312, ../sass/home.scss */
 #new-products .products .product .price {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #f2bb05;
 }
-/* line 312, ../sass/home.scss */
+/* line 321, ../sass/home.scss */
 #new-products .shop-now {
   color: #fff;
   background-color: #bc0c14;
@@ -336,17 +349,17 @@ html, body {
   bottom: -35px;
   text-transform: uppercase;
 }
-/* line 322, ../sass/home.scss */
+/* line 331, ../sass/home.scss */
 #new-products .shop-now img {
   margin: -3px 0 0 20px;
 }
 
-/* line 329, ../sass/home.scss */
+/* line 338, ../sass/home.scss */
 #recent-works {
   color: #d3d3d3;
   position: relative;
 }
-/* line 333, ../sass/home.scss */
+/* line 342, ../sass/home.scss */
 #recent-works .container {
   background-color: #444444;
   padding: 26px;
@@ -354,7 +367,7 @@ html, body {
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 339, ../sass/home.scss */
+/* line 348, ../sass/home.scss */
 #recent-works .container .heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -365,7 +378,7 @@ html, body {
   padding-left: 30px;
   color: #fff;
 }
-/* line 349, ../sass/home.scss */
+/* line 358, ../sass/home.scss */
 #recent-works .container .heading:before {
   content: '';
   display: block;
@@ -376,13 +389,13 @@ html, body {
   top: 10%;
   background-color: #f2bb05;
 }
-/* line 361, ../sass/home.scss */
+/* line 370, ../sass/home.scss */
 #recent-works .container .see-works {
   color: #d3d3d3;
   padding-left: 30px;
   position: relative;
 }
-/* line 366, ../sass/home.scss */
+/* line 375, ../sass/home.scss */
 #recent-works .container .see-works:before {
   content: '';
   position: absolute;
@@ -396,7 +409,7 @@ html, body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 378, ../sass/home.scss */
+/* line 387, ../sass/home.scss */
 #recent-works .container .see-works:after {
   content: '';
   position: absolute;
@@ -408,69 +421,71 @@ html, body {
   bottom: -12px;
   background: url("../images/arrow.svg") no-repeat center;
 }
-/* line 391, ../sass/home.scss */
+/* line 400, ../sass/home.scss */
 #recent-works .container .work {
   padding: 0;
 }
-/* line 395, ../sass/home.scss */
+/* line 404, ../sass/home.scss */
 #recent-works .container .work-1 {
   height: 404px;
   position: relative;
 }
-/* line 400, ../sass/home.scss */
+/* line 409, ../sass/home.scss */
 #recent-works .container .work-2, #recent-works .container .work-3 {
   height: 202px;
   position: relative;
 }
-/* line 405, ../sass/home.scss */
+/* line 414, ../sass/home.scss */
 #recent-works .container .project-name {
+  position: absolute;
+  width: 100%;
   font-family: "lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   height: 40px;
   line-height: 40px;
   padding: 0 15px;
-  width: 100%;
   background-color: rgba(2, 2, 2, 0.46);
   -moz-transition: background 0.2s;
   -o-transition: background 0.2s;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
+  overflow: hidden;
 }
-/* line 417, ../sass/home.scss */
+/* line 428, ../sass/home.scss */
 #recent-works .container .work:hover .project-name {
   background-color: #020202;
 }
 
-/* line 424, ../sass/home.scss */
+/* line 435, ../sass/home.scss */
 #end-part {
   color: #d3d3d3;
   margin: 95px 0 74px 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 424, ../sass/home.scss */
+  /* line 435, ../sass/home.scss */
   #end-part {
     padding: 15px;
   }
 }
-/* line 432, ../sass/home.scss */
+/* line 443, ../sass/home.scss */
 #end-part .left {
   margin-left: -15px;
 }
-/* line 435, ../sass/home.scss */
+/* line 446, ../sass/home.scss */
 #end-part .left h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 441, ../sass/home.scss */
+/* line 452, ../sass/home.scss */
 #end-part .left p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   max-width: 432px;
 }
-/* line 448, ../sass/home.scss */
+/* line 459, ../sass/home.scss */
 #end-part .left .request-quote {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -482,18 +497,18 @@ html, body {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 448, ../sass/home.scss */
+  /* line 459, ../sass/home.scss */
   #end-part .left .request-quote {
     font-size: 14px;
   }
 }
-/* line 466, ../sass/home.scss */
+/* line 477, ../sass/home.scss */
 #end-part .right h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 472, ../sass/home.scss */
+/* line 483, ../sass/home.scss */
 #end-part .right p {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -501,7 +516,7 @@ html, body {
   padding-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
-  /* line 480, ../sass/home.scss */
+  /* line 491, ../sass/home.scss */
   #end-part .right {
     margin-top: 60px;
     padding: 0;

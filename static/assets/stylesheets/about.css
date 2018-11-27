@@ -1,0 +1,92 @@
+/* line 3, ../sass/about.scss */
+html, body {
+  background-color: #232323;
+}
+
+/* line 7, ../sass/about.scss */
+* a {
+  text-decoration: none;
+}
+
+/* line 11, ../sass/about.scss */
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 19, ../sass/about.scss */
+section#nav-back a {
+  color: #fff;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding-left: 22px;
+}
+/* line 26, ../sass/about.scss */
+section#nav-back a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 16px;
+  background: url("/assets/images/brandfx/back-arrow.svg") no-repeat center;
+}
+
+/* line 40, ../sass/about.scss */
+section#heading {
+  color: #fff;
+  margin-bottom: 80px;
+}
+/* line 44, ../sass/about.scss */
+section#heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 22px;
+  position: relative;
+}
+/* line 52, ../sass/about.scss */
+section#heading h1:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 5px;
+  height: 19px;
+  background-color: #f2bb05;
+}
+
+/* line 66, ../sass/about.scss */
+section#main {
+  text-align: center;
+  color: #d3d3d3;
+}
+/* line 70, ../sass/about.scss */
+section#main h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+/* line 76, ../sass/about.scss */
+section#main h2:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 44px;
+  height: 5px;
+  background-color: #bc0c14;
+  margin: 0 auto;
+  bottom: -10px;
+}
+/* line 88, ../sass/about.scss */
+section#main p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}

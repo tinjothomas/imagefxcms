@@ -22,6 +22,11 @@ html, body {
     height: 320px;
   }
 }
+ol.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  @include border-radius(5px);
+}
 
 // HERO-MATTER
 #hero-matter {
@@ -46,6 +51,10 @@ html, body {
       background-color: #bc0c14;
       top: -21px;
     }
+  }
+
+  p {
+    margin-bottom: 15px;
   }
 
   &:before {
@@ -403,15 +412,17 @@ html, body {
     }
 
     & .project-name {
+      position: absolute;
+      width: 100%;
       font-family: "lato", sans-serif;
       font-size: 16px;
       font-weight: 400;
       height: 40px;
       line-height: 40px;
       padding: 0 15px;
-      width: 100%;
       background-color: rgba(2,2,2,0.46);
       @include transition(background 0.2s);
+      overflow: hidden;
     }
 
     & .work:hover .project-name {

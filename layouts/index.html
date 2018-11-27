@@ -2,13 +2,16 @@
 
 <section id="slides">
   <div id="heroSlider" class="carousel slide" data-ride="carousel" data-pause="false" data-speed="5000">
+    <ol class="carousel-indicators">
+      {{ range $index, $elm := .Params.slides }}
+      <li data-target="#heroSlider" data-slide-to="{{ $index }}" {{ if eq $index 0 }}class="active"{{ end }}></li>
+      {{ end }}
+    </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active"
-           style="background: url('assets/images/slide-1.jpeg') no-repeat bottom; -webkit-background-size: cover;background-size: cover;"></div>
-      <div class="carousel-item"
-           style="background: url('assets/images/slide-2.jpeg') no-repeat bottom; -webkit-background-size: cover;background-size: cover;"></div>
-      <div class="carousel-item"
-           style="background: url('assets/images/slide-3.jpeg') no-repeat bottom; -webkit-background-size: cover;background-size: cover;"></div>
+      {{ range $index, $elm := .Params.slides }}
+      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}"
+           style="background: url('{{ .image }}') no-repeat bottom; -webkit-background-size: cover;background-size: cover;"></div>
+      {{ end }}
     </div>
     <a class="carousel-control-prev" href="#heroSlider" role="button" data-slide="prev">
       <img src="assets/images/prev.svg" alt="">
@@ -25,11 +28,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 px-5 pb-3">
-        <h1>The fact you're here says you understand the importance of creating environments that create connections with your customers.</h1>
+        <h1>{{ .Title }}</h1>
       </div> <!-- /.col-6 -->
       <div class="col-12 col-lg-6 px-5 pb-3">
-        <p class="mb-3">Making and sustaining those connections means having the right flow, the right feel, the right image for your business. And that's where we come in. Not only do we provide dynamic graphics, displays and other promotional features, we produce, fabricate, install and maintain them. We are, in essence, your one-stop image-maker.</p>
-        <p class="mb-3">Whether you're a service station or restaurant, an auto dealership or a Fortune 500 Company, ImageFX has the expertise, the resources and the vision to create (or re-create) your space and delivery vehicles. We create powerful branding that engages your customers, and we do it quickly and efficiently. Check out all our FX services.</p>
+        <p class="mb-3">{{ .Content }}</p>
       </div> <!-- /.col-6 -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
@@ -47,36 +49,36 @@
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
             <div class="top">
               <div class="service-name">BrandingFx</div>
-              <p class="service-description">The power of placement. The psychology of color. The flow of communications. It all plays into the image of your company. Which is why you need a proactive partner that excels in strategy and design, and that has mastered the art of collaboration.</p>
+              <p class="service-description">{{ .Params.brandfx_desc }}</p>
             </div> <!-- /.top -->
-            <a href="/brandfx/">
+            <a href="/brandingfx/">
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
             <div class="top">
               <div class="service-name">SignFX</div>
-              <p class="service-description">Promotional signs. Monument and backlit signs. LED displays. Whatever it is, the overall look and feel of your interior and exterior graphics play a role in how customers experience your environment. How the displays flow, their colors and type fonts all have an impact on the customer experience. And SignFX doesn't overlook a single detail.</p>
+              <p class="service-description">{{ .Params.signfx_desc }}</p>
             </div> <!-- /.top -->
-            <a href="#">
+            <a href="/signfx/">
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
             <div class="top">
               <div class="service-name">VehicleFX</div>
-              <p class="service-description">The more you get your brand and your message out there, the more top of mind you'll be with your customers. And whether you drive a truck, a van, or a car, vehicle messaging is a good way to get the word out. It's also one of the least expensive and most effective ways to reach customers. If you're out on the water, you may want to splash your logo on your boat, too.</p>
+              <p class="service-description">{{ .Params.vehiclefx_desc }}</p>
             </div> <!-- /.top -->
-            <a href="#">
+            <a href="/vehiclefx/">
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
             <div class="top">
               <div class="service-name">DesignFX</div>
-              <p class="service-description">Sometimes you want something unique. Something that targets a specific audience or captures a special ambience. Other times, you may want to develop a new brand or update your image. Perhaps you want to unveil a new logo. Whatever your custom design needs may be, DesignFX is the answer.</p>
+              <p class="service-description">{{ .Params.designfx_desc }}</p>
             </div> <!-- /.top -->
-            <a href="#">
+            <a href="/designfx/">
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
@@ -162,27 +164,39 @@
         <div class="row">
           <div class="col-12 col-lg-11 ml-auto">
             <div class="row">
+
+              <!--{ $s := newScratch }}-->
+              <!--{ $page := .GetPage "/gallery.md" }}-->
+              <!--use, range first 3 (shuffle $page.Params.gallery), for random images-->
+              <!--{ range first 3 $page.Params.gallery }}-->
+              <!--{ $s.Add "images" (slice .image) }}-->
+              <!--{ $s.Add "descriptions" (slice .description) }}-->
+              <!--{ end }}-->
+
+              <!--{ $images := $s.Get "images" }}-->
+              <!--{ $descriptions := $s.Get "descriptions" }}-->
+
               <div class="col-12 col-md-8 work work-1 d-flex"
                    style="
-                  background: url('assets/images/recent-work-1.jpeg') no-repeat center;
+                  background: url('{{ .Params.image_1 }}') no-repeat center;
                   -webkit-background-size: cover;background-size: cover;">
-                <div class="project-name align-self-end">Inverom Corporate office NY</div>
+                <div class="project-name align-self-end">{{ .Params.description_1 }}</div>
               </div> <!-- /.col-8 -->
               <div class="col-4 pr-4 d-none d-md-block">
                 <div class="row">
                   <div class="col-12 work work-2 d-flex"
                        style="
-                      background: url('assets/images/recent-work-2.jpeg') no-repeat center;
+                      background: url('{{ .Params.image_2 }}') no-repeat center;
                       -webkit-background-size: cover;background-size: cover;">
-                    <div class="project-name align-self-end">Navistar</div>
+                    <div class="project-name align-self-end">{{ .Params.description_2 }}</div>
                   </div> <!-- /.col-12 image -->
                 </div> <!-- /.row -->
                 <div class="row">
                   <div class="col-12 work work-3 d-flex"
                        style="
-                      background: url('assets/images/recent-work-3.jpeg') no-repeat center;
+                      background: url('{{ .Params.image_3 }}') no-repeat center;
                       -webkit-background-size: cover;background-size: cover;">
-                    <div class="project-name align-self-end">Signboards at …</div>
+                    <div class="project-name align-self-end">{{ .Params.description_3 }}</div>
                   </div> <!-- /.col-12 image -->
                 </div> <!-- /.row -->
               </div> <!-- /.col-4 -->
@@ -198,24 +212,24 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 left">
-        <h1 class="mb-3">ImageFX Is Your One-Stop Image Source.</h1>
-        <p class="mb-5">If you're looking to create high-impact branding, you've come to the right place. Our suite of customizable services range from total imaging solutions and environmental branding to vehicle branding and signage.</p>
+        <h1 class="mb-3">{{ .Params.bottom_heading }}</h1>
+        <p class="mb-5">{{ .Params.bottom_desc }}</p>
         <a href="#" class="request-quote">Contact us for a free estimate</a>
       </div> <!-- /.col-7 left -->
       <div class="col-12 col-lg-4 ml-auto right">
         <h4>CONTACT US</h4>
         <p class="address">
-          ImageFX <br>
-          16 W 109 83rd St. <br>
-          Burr Ridge, IL 60527
+          {{ .Params.address_1 }} <br>
+          {{ .Params.address_2 }} <br>
+          {{ .Params.address_3 }}
         </p>
         <p>
-          Phone: 630-655-2850 <br>
-          E-mail: contact@imagefxcorp.com
+          Phone: {{ .Params.phone }} <br>
+          E-mail: {{.Params.email }}
         </p>
       </div> <!-- /.col-5 right -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 </section> <!-- /#end-part -->
 
-{{ partial "footer" (dict "script" "home") }}
+{{ partial "footer" (dict "script" "") }}

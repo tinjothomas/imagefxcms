@@ -8,8 +8,14 @@
   height: 110px;
   @include box-shadow(10px 5px 12px 9px rgba(0, 0, 0, 0.12));
 
-  & li {
-    & a {
+  @media screen and (max-width: 1200px) {
+    height: auto;
+    padding-bottom: 45px;
+    min-height: 110px;
+  }
+
+  & li.nav-item {
+    & a.nav-link {
       line-height: 62px;
       color: #fff;
       font-family: 'Lato', sans-serif;
@@ -45,14 +51,78 @@ ul.navbar-nav {
     @include box-shadow(inset -4px -5px 0 0 #cb2c33);
     padding: 0 32px !important;
     font-size: 18px;
+    text-align: center;
     @include transition(all 0.2s);
+  }
+  
+  & .services {
+    cursor: pointer;
+    position: relative;
+
+    & .dropdown {
+      position: absolute;
+      background-color: #444444;
+      line-height: normal;
+      overflow: hidden;
+      display: none;
+      left: 0;
+      top: 55px;
+      @include box-shadow(10px 16px 12px 9px rgba(0, 0, 0, 0.12));
+      z-index: 2000;
+
+      @media screen and (max-width: 1200px) {
+        left: 30px;
+        top: 45px;
+      }
+
+      & a {
+        line-height: normal;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+      }
+
+      & .drop-item {
+        padding: 15px 60px 15px 36px;
+        border-left: 2px solid transparent;
+
+        &:hover {
+          background-color: #232323;
+          border-left: 2px solid #f2bb05;
+        }
+      }
+    }
+
+    &:hover .dropdown {
+      display: block;
+    }
   }
 }
 
-#navbarSupportedContent {
-  position: fixed;
-  right: 50px;
+
+// Coming soon
+#shop-now {
+  position: relative;
+  cursor: default;
+
+  &:before {
+    content: 'COMING SOON';
+    position: absolute;
+    background-color: #bc0c14;
+    padding: 3px;
+    color: #ffffff;
+    font-size: 9px;
+    left: 38px;
+    top: 3px;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
+// Coming soon
+
+
 
 #dummy-top-margin {
   margin-top: 110px;

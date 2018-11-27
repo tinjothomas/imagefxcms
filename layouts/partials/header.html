@@ -14,44 +14,55 @@
   <!-- custom css -->
   <link rel="stylesheet" href="/assets/stylesheets/header.css">
   <link rel="stylesheet" href="/assets/stylesheets/footer.css">
+  <link rel="stylesheet" href="/lightbox2-master/dist/css/lightbox.css">
   <link rel="stylesheet" href="/assets/stylesheets/{{ .stylesheet }}.css">
 </head>
 
 <body>
 
-<section id="header">
-  <div class="container-fluid p-0">
-    <div class="row">
-      <nav class="navbar navbar-expand-lg m-0 fixed-top navbar-dark" id="navbar">
-        <div class="container">
-          <div class="row">
-            <a class="navbar-brand" href="#"><img src="/assets/images/logo.svg" width="280" alt="imagefx logo"></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-xl-5 mr-lg-4">
-                  <a class="nav-link" href="#">Services <span class="sr-only">Services</span></a>
-                </li>
-                <li class="nav-item mr-xl-5 mr-lg-4">
-                  <a class="nav-link" href="#">About us<span class="sr-only">About us</span></a>
-                </li>
-                <li class="nav-item mr-xl-5 mr-lg-4">
-                  <a class="nav-link" href="#"><img src="/assets/images/shop.svg" width="21" class="mr-xl-3 mr-lg-2" alt="svg image of cart">Online store<span class="sr-only">Online store</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link request-quote" href="#">REQUEST A QUOTE<span class="sr-only">Request a quote</span></a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.collapse navbar-collapse -->
-          </div>
-          <!-- /.row -->
+<section id="header">
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-xl px-5 fixed-top navbar-dark" id="navbar">
+        <a class="navbar-brand" href="/"><img src="/assets/images/logo.svg" width="280" alt="imagefx logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-xl-5 mr-lg-4 services">
+              <a class="nav-link">Services <span class="sr-only">Services</span></a>
+              <div class="list-unstyled dropdown">
+                <a href="/brandingfx/"><div class="drop-item">BrandingFx</div></a>
+                <a href="/signfx/"><div class="drop-item">SignFx</div></a>
+                <a href="/vehiclefx/"><div class="drop-item">VehicleFx</div></a>
+                <a href="/designfx/"><div class="drop-item">DesignFx</div></a>
+              </div>
+              <!-- /.list-unstyled dropdown -->
+            </li>
+            <li class="nav-item mr-xl-5 mr-lg-4">
+              <a class="nav-link" href="/works/">Works<span class="sr-only">Works</span></a>
+            </li>
+            <li class="nav-item mr-xl-5 mr-lg-4">
+              <a class="nav-link" href="/about/">About us<span class="sr-only">About us</span></a>
+            </li>
+            <li class="nav-item mr-xl-5 mr-lg-4">
+              <a class="nav-link" id="shop-now">
+                <img src="/assets/images/shop.svg"
+                     class="mr-xl-3 mr-lg-2" width="21" alt="svg image of cart">Online store<span class="sr-only">Online store</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link request-quote" href="#">REQUEST A QUOTE<span class="sr-only">Request a quote</span></a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+        <!-- /.collapse navbar-collapse -->
       </nav>
+
+
     </div>
     <!-- /.row -->
   </div>

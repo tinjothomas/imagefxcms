@@ -1,20 +1,20 @@
-/* line 3, ../sass/brandfx.scss */
+/* line 3, ../sass/services.scss */
 html, body {
   background-color: #232323;
 }
 
-/* line 7, ../sass/brandfx.scss */
+/* line 7, ../sass/services.scss */
 * a {
   text-decoration: none;
 }
 
-/* line 11, ../sass/brandfx.scss */
+/* line 11, ../sass/services.scss */
 * p {
   padding: 0;
   margin: 0;
 }
 
-/* line 19, ../sass/brandfx.scss */
+/* line 19, ../sass/services.scss */
 section#nav-back a {
   color: #fff;
   position: relative;
@@ -22,7 +22,7 @@ section#nav-back a {
   font-size: 20px;
   padding-left: 22px;
 }
-/* line 26, ../sass/brandfx.scss */
+/* line 26, ../sass/services.scss */
 section#nav-back a:before {
   content: '';
   display: block;
@@ -34,12 +34,12 @@ section#nav-back a:before {
   background: url("/assets/images/brandfx/back-arrow.svg") no-repeat center;
 }
 
-/* line 40, ../sass/brandfx.scss */
+/* line 40, ../sass/services.scss */
 section#hero {
   color: #fff;
   margin-bottom: 80px;
 }
-/* line 44, ../sass/brandfx.scss */
+/* line 44, ../sass/services.scss */
 section#hero h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
@@ -48,7 +48,7 @@ section#hero h1 {
   padding-left: 22px;
   position: relative;
 }
-/* line 52, ../sass/brandfx.scss */
+/* line 52, ../sass/services.scss */
 section#hero h1:before {
   content: '';
   display: block;
@@ -59,12 +59,12 @@ section#hero h1:before {
   height: 19px;
   background-color: #f2bb05;
 }
-/* line 64, ../sass/brandfx.scss */
+/* line 64, ../sass/services.scss */
 section#hero h2 {
   font-family: 'Courgette', cursive;
   font-size: 52px;
 }
-/* line 68, ../sass/brandfx.scss */
+/* line 68, ../sass/services.scss */
 section#hero p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -73,76 +73,98 @@ section#hero p {
   max-width: 542px;
 }
 @media screen and (max-width: 992px) {
-  /* line 68, ../sass/brandfx.scss */
+  /* line 68, ../sass/services.scss */
   section#hero p {
     max-width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 68, ../sass/brandfx.scss */
+  /* line 68, ../sass/services.scss */
   section#hero p {
     max-width: 452px;
   }
 }
-/* line 83, ../sass/brandfx.scss */
+/* line 83, ../sass/services.scss */
 section#hero .image {
-  background: url("/assets/images/brandfx/hero.jpeg") no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
   min-height: 300px;
+  position: relative;
+}
+/* line 87, ../sass/services.scss */
+section#hero .image:before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 4px solid #bc0c14;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  left: -12px;
+  top: -12px;
+}
+/* line 99, ../sass/services.scss */
+section#hero .image:after {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 4px solid #bc0c14;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  right: -12px;
+  bottom: -12px;
 }
 
-/* line 91, ../sass/brandfx.scss */
+/* line 113, ../sass/services.scss */
 section#recent-works {
   position: relative;
-  z-index: 2000;
+  z-index: 100;
 }
-/* line 95, ../sass/brandfx.scss */
+/* line 117, ../sass/services.scss */
 section#recent-works .works {
   background-color: #444444;
   padding-top: 15px;
   position: relative;
 }
-/* line 100, ../sass/brandfx.scss */
+/* line 122, ../sass/services.scss */
 section#recent-works .works .work {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 104, ../sass/brandfx.scss */
+  /* line 126, ../sass/services.scss */
   section#recent-works .works .work:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 109, ../sass/brandfx.scss */
+  /* line 131, ../sass/services.scss */
   section#recent-works .works .work:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 100, ../sass/brandfx.scss */
+  /* line 122, ../sass/services.scss */
   section#recent-works .works .work {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 120, ../sass/brandfx.scss */
+  /* line 142, ../sass/services.scss */
   section#recent-works .works .work:nth-of-type(4n+1) {
     padding-left: 15px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 125, ../sass/brandfx.scss */
+  /* line 147, ../sass/services.scss */
   section#recent-works .works .work:nth-of-type(4n) {
     padding-right: 15px;
   }
 }
-/* line 131, ../sass/brandfx.scss */
+/* line 153, ../sass/services.scss */
 section#recent-works .works .work .image {
   height: 180px;
 }
-/* line 138, ../sass/brandfx.scss */
+/* line 160, ../sass/services.scss */
 section#recent-works .see-more-works {
   color: #fff;
   background-color: #bc0c14;
@@ -155,11 +177,11 @@ section#recent-works .see-more-works {
   bottom: -35px;
   text-transform: uppercase;
 }
-/* line 148, ../sass/brandfx.scss */
+/* line 170, ../sass/services.scss */
 section#recent-works .see-more-works img {
   margin: -3px 0 0 20px;
 }
-/* line 153, ../sass/brandfx.scss */
+/* line 175, ../sass/services.scss */
 section#recent-works .heading {
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -171,7 +193,7 @@ section#recent-works .heading {
   left: 15px;
   top: -53px;
 }
-/* line 164, ../sass/brandfx.scss */
+/* line 186, ../sass/services.scss */
 section#recent-works .heading:before {
   content: '';
   position: absolute;
@@ -185,14 +207,14 @@ section#recent-works .heading:before {
   border-bottom: 53px solid #161414;
 }
 
-/* line 181, ../sass/brandfx.scss */
+/* line 203, ../sass/services.scss */
 section#turn-around {
   color: #d3d3d3;
   margin-top: 120px;
   margin-bottom: 120px;
   position: relative;
 }
-/* line 187, ../sass/brandfx.scss */
+/* line 209, ../sass/services.scss */
 section#turn-around:before {
   content: '';
   display: block;
@@ -202,7 +224,7 @@ section#turn-around:before {
   bottom: -76px;
   background-color: #161414;
 }
-/* line 198, ../sass/brandfx.scss */
+/* line 220, ../sass/services.scss */
 section#turn-around .heading {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
@@ -210,7 +232,7 @@ section#turn-around .heading {
   padding-top: 15px;
   position: relative;
 }
-/* line 205, ../sass/brandfx.scss */
+/* line 227, ../sass/services.scss */
 section#turn-around .heading:before {
   content: "";
   display: block;
@@ -221,36 +243,36 @@ section#turn-around .heading:before {
   left: 0;
   top: 0;
 }
-/* line 217, ../sass/brandfx.scss */
+/* line 239, ../sass/services.scss */
 section#turn-around p {
   font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 
-/* line 224, ../sass/brandfx.scss */
+/* line 246, ../sass/services.scss */
 section#our-advantages {
   color: #fff;
   margin-bottom: 60px;
 }
-/* line 228, ../sass/brandfx.scss */
+/* line 250, ../sass/services.scss */
 section#our-advantages .heading {
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 234, ../sass/brandfx.scss */
+/* line 256, ../sass/services.scss */
 section#our-advantages .phone {
   color: #d3d3d3;
   font-family: "montserrat", sans-serif;
   font-size: 35px;
   font-weight: 600;
 }
-/* line 241, ../sass/brandfx.scss */
+/* line 263, ../sass/services.scss */
 section#our-advantages .advantage {
   padding-left: 35px;
   position: relative;
 }
-/* line 245, ../sass/brandfx.scss */
+/* line 267, ../sass/services.scss */
 section#our-advantages .advantage:before {
   content: '';
   position: absolute;
@@ -261,14 +283,14 @@ section#our-advantages .advantage:before {
   left: 15px;
   background-color: #f2bb05;
 }
-/* line 256, ../sass/brandfx.scss */
+/* line 278, ../sass/services.scss */
 section#our-advantages .advantage .heading {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #fff;
 }
-/* line 263, ../sass/brandfx.scss */
+/* line 285, ../sass/services.scss */
 section#our-advantages .advantage .detail {
   font-family: "Lato", sans-serif;
   font-size: 16px;
