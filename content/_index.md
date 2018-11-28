@@ -1,8 +1,8 @@
 ---
 slides:
-    - image: "assets/images/slide-1.jpeg"
-    - image: "assets/images/slide-2.jpeg"
-    - image: "assets/images/slide-3.jpeg"
+    - image: "assets/images/slides/slide-1.jpg"
+    - image: "assets/images/slides/slide-2.jpg"
+    - image: "assets/images/slides/slide-3.jpg"
     
 title: "The fact you're here says you understand the importance of creating environments that create connections with your customers."
 
@@ -11,11 +11,11 @@ signfx_desc: "Promotional signs. Monument and backlit signs. LED displays. Whate
 vehiclefx_desc: "The more you get your brand and your message out there, the more top of mind you'll be with your customers. And whether you drive a truck, a van, or a car, vehicle messaging is a good way to get the word out. It's also one of the least expensive and most effective ways to reach customers. If you're out on the water, you may want to splash your logo on your boat, too."
 designfx_desc: "Sometimes you want something unique. Something that targets a specific audience or captures a special ambience. Other times, you may want to develop a new brand or update your image. Perhaps you want to unveil a new logo. Whatever your custom design needs may be, DesignFX is the answer."
 
-image_1: "/assets/images/works/product-1.jpeg"
+image_1: "/assets/images/works/design/file3.jpg"
 description_1: "Inverom Corporate office NY"
-image_2: "/assets/images/works/product-2.jpeg"
+image_2: "/assets/images/works/design/file16.jpg"
 description_2: "Navistar"
-image_3: "/assets/images/works/product-3.jpeg"
+image_3: "/assets/images/works/brand/file6.jpg"
 description_3: "Singboards at Singboards at …Singboards at …Singboards at ……"
 
 bottom_heading: "ImageFX Is Your One-Stop Image Source."

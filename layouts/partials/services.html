@@ -15,7 +15,7 @@
 <section id="hero" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
-      <div class="col-11 col-lg-12 mx-auto col-lg-6 text">
+      <div class="col-11 col-lg-6 mx-auto text">
         <div class="row">
           <h1 class="my-4">{{ .context.Title }}</h1>
         </div> <!-- /.row -->
@@ -47,7 +47,7 @@
           {{ end }}
         </div> <!-- /.row -->
         <div class="heading">Recent Works</div>
-        <a href="#" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg" alt=""></a>
+        <a href="/works/{{ .service }}" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg" alt=""></a>
       </div> <!-- /.col-12 works -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
@@ -75,7 +75,7 @@
         <div class="heading">Our Advantages</div>
       </div> <!-- /.col-6 -->
       <div class="col-12 col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 text-center text-lg-right">
-        <div class="phone" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+        <div class="phone">
           <a href="tel:630-655-2850"><img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850</a>
         </div> <!-- /.phone -->
       </div> <!-- /.col-6 -->

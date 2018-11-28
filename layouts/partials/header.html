@@ -17,7 +17,9 @@
 
   <link rel="stylesheet" href="/assets/stylesheets/header.css">
   <link rel="stylesheet" href="/assets/stylesheets/footer.css">
+  {{ if .lightbox }}
   <link rel="stylesheet" href="/lightbox2-master/dist/css/lightbox.css">
+  {{ end }}
   <link rel="stylesheet" href="/assets/stylesheets/{{ .stylesheet }}.css">
 </head>
 
@@ -28,9 +30,11 @@
   <div class="container-fluid">
     <div class="row">
       <nav class="navbar navbar-expand-xl px-5 fixed-top navbar-dark" id="navbar">
-        <a class="navbar-brand" href="/"><img src="/assets/images/logo.svg" width="280" alt="imagefx logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="/"><img src="/assets/images/logo.svg" width="240" alt="imagefx logo"></a>
+        <button class="navbar-toggler border-0 p-0" type="button"
+                data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="/assets/images/menu.svg" width="32" alt="">
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,10 +58,10 @@
             <li class="nav-item mr-xl-5 mr-lg-4">
               <a class="nav-link" id="shop-now">
                 <img src="/assets/images/shop.svg"
-                     class="mr-xl-3 mr-lg-2" width="21" alt="svg image of cart">Online store<span class="sr-only">Online store</span>
+                     class="mr-xl-3 mr-2" width="21" alt="svg image of cart">Online store<span class="sr-only">Online store</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item my-4 my-lg-0 ">
               <a class="nav-link request-quote" href="#">REQUEST A QUOTE<span class="sr-only">Request a quote</span></a>
             </li>
           </ul>

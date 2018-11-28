@@ -11,8 +11,6 @@
 
   @media screen and (max-width: 1200px) {
     height: auto;
-    padding-bottom: 45px;
-    min-height: 110px;
   }
 
   & .navbar-brand {
@@ -139,4 +137,8 @@ ul.navbar-nav {
 
 #dummy-top-margin {
   margin-top: 110px;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 69px;
+  }
 }

@@ -31,7 +31,7 @@ section#nav-back a:before {
   top: 6px;
   width: 10px;
   height: 16px;
-  background: url("/assets/images/brandfx/back-arrow.svg") no-repeat center;
+  background: url("/assets/images/back-arrow.svg") no-repeat center;
 }
 
 /* line 40, ../sass/works.scss */
@@ -153,39 +153,4 @@ section#main .gallery .photo-container:hover .photo {
 /* line 141, ../sass/works.scss */
 section#main .gallery .photo-container .photo {
   height: 100%;
-}
-
-/* line 148, ../sass/works.scss */
-#lightbox {
-  height: 100vh;
-  top: 0 !important;
-}
-/* line 152, ../sass/works.scss */
-#lightbox .lb-outerContainer {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -moz-transform: translate(-50%, calc(-50% - 80px));
-  -ms-transform: translate(-50%, calc(-50% - 80px));
-  -webkit-transform: translate(-50%, calc(-50% - 80px));
-  transform: translate(-50%, calc(-50% - 80px));
-  -moz-box-shadow: 4px 5px 11px 2px black;
-  -webkit-box-shadow: 4px 5px 11px 2px black;
-  box-shadow: 4px 5px 11px 2px black;
-}
-/* line 160, ../sass/works.scss */
-#lightbox .lb-details {
-  position: absolute;
-  bottom: 30px;
-}
-/* line 165, ../sass/works.scss */
-#lightbox .lb-close {
-  position: absolute;
-  right: 30px;
-  top: 30px;
-}
-/* line 171, ../sass/works.scss */
-#lightbox .lb-caption {
-  font-family: "Loto", sans-serif;
-  font-size: 16px;
 }

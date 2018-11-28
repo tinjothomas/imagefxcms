@@ -10,7 +10,7 @@
     <div class="carousel-inner">
       {{ range $index, $elm := .Params.slides }}
       <div class="carousel-item {{ if eq $index 0 }}active{{ end }}"
-           style="background: url('{{ .image }}') no-repeat bottom; -webkit-background-size: cover;background-size: cover;"></div>
+           style="background: url('{{ .image }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
       {{ end }}
     </div>
     <a class="carousel-control-prev" href="#heroSlider" role="button" data-slide="prev">
@@ -47,7 +47,7 @@
       <div class="col-12 services mb-5">
         <div class="row">
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
-               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+               data-aos="fade" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">BrandingFx</div>
               <p class="service-description">{{ .Params.brandfx_desc }}</p>
@@ -57,7 +57,7 @@
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
-               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+               data-aos="fade" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">SignFX</div>
               <p class="service-description">{{ .Params.signfx_desc }}</p>
@@ -67,7 +67,7 @@
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
-               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+               data-aos="fade" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">VehicleFX</div>
               <p class="service-description">{{ .Params.vehiclefx_desc }}</p>
@@ -77,7 +77,7 @@
             </a>
           </div> <!-- /.col-6 -->
           <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
-               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+               data-aos="fade" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">DesignFX</div>
               <p class="service-description">{{ .Params.designfx_desc }}</p>
@@ -219,13 +219,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 left"
-           data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+           data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
         <h1 class="mb-3">{{ .Params.bottom_heading }}</h1>
         <p class="mb-5">{{ .Params.bottom_desc }}</p>
         <a href="#" class="request-quote">Contact us for a free estimate</a>
       </div> <!-- /.col-7 left -->
       <div class="col-12 col-lg-4 ml-auto right"
-           data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
+           data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
         <h4>CONTACT US</h4>
         <p class="address">
           {{ .Params.address_1 }} <br>

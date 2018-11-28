@@ -1,6 +1,6 @@
 ---
 title: "BrandingFX"
-image: "/assets/images/brandingfx-hero.jpeg"
+image: "/assets/images/works/brand/file18.jpg"
 heading: "Enhance, Evolve or Transform your Space."
 intro: "The power of placement. The psychology of color. The flow of communications. It all plays into the image of your company. Which is why you need a proactive partner that excels in strategy and design, and that has mastered the art of collaboration. Enter, BrandingFX. Find out how this total imaging solution can help you transform your environment."
 section_2:
