@@ -48,7 +48,7 @@
         <div class="row">
           {{ $page := .data.GetPage "/gallery.md" }}
           {{ if eq .category "" }}
-            {{ range $page.Params.gallery }}
+            {{ range shuffle $page.Params.gallery }}
             <div class="col-12 col-md-6 col-lg-3 photo-container mb-3">
               <a href="{{ .image }}" data-lightbox="works" data-title="{{ .description }}">
                 <div class="photo"
@@ -59,7 +59,7 @@
             {{ end }}
           {{ else }}
             {{ range (where $page.Params.gallery "category" .category ) }}
-            <div class="col-3 photo-container mb-3">
+            <div class="col-12 col-md-6 col-lg-3 photo-container mb-3">
               <a href="{{ .image }}" data-lightbox="works" data-title="{{ .description }}">
                 <div class="photo"
                      style="background: url('{{ .image }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>

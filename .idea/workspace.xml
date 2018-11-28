@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="695b9ff9-e9ea-4503-9edf-88d0941d2c56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/works.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/works.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/sass/works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/works.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/works.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/gallery.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
         <counts>
           <entry key="brandfx" value="2" />
           <entry key="css" value="4" />
-          <entry key="html" value="177" />
+          <entry key="html" value="178" />
           <entry key="js" value="3" />
           <entry key="md" value="99" />
           <entry key="scss" value="59" />
@@ -43,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="177" />
+          <entry key="HTML" value="178" />
           <entry key="JavaScript" value="3" />
           <entry key="Markdown" value="99" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -55,7 +51,7 @@
         <counts>
           <entry key="brandfx" value="5" />
           <entry key="css" value="52" />
-          <entry key="html" value="14686" />
+          <entry key="html" value="14704" />
           <entry key="js" value="286" />
           <entry key="md" value="2010" />
           <entry key="scss" value="11232" />
@@ -64,7 +60,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="52" />
-          <entry key="HTML" value="14686" />
+          <entry key="HTML" value="14704" />
           <entry key="JavaScript" value="286" />
           <entry key="Markdown" value="2010" />
           <entry key="PLAIN_TEXT" value="5" />
@@ -76,19 +72,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/assets/sass/works.scss">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="244">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,7 +165,6 @@
         <option value="$PROJECT_DIR$/content/works-vehiclefx/_index.md" />
         <option value="$PROJECT_DIR$/layouts/works-signfx/works-signfx.html" />
         <option value="$PROJECT_DIR$/layouts/works-vehiclefx/works-vehiclefx.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/gallery.html" />
         <option value="$PROJECT_DIR$/layouts/vehiclefx/list.html" />
         <option value="$PROJECT_DIR$/static/assets/sass/header.scss" />
         <option value="$PROJECT_DIR$/layouts/partials/services.html" />
@@ -192,6 +182,7 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/static/assets/sass/works.scss" />
+        <option value="$PROJECT_DIR$/layouts/partials/gallery.html" />
       </list>
     </option>
   </component>
@@ -338,21 +329,21 @@
       <workItem from="1543049139993" duration="71000" />
       <workItem from="1543049241196" duration="18786000" />
       <workItem from="1543212296356" duration="168000" />
-      <workItem from="1543222070326" duration="57215000" />
+      <workItem from="1543222070326" duration="57961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157095000" />
+    <option name="totallyTimeSpent" value="157841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15814696" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34196892" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.42038217" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -657,17 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/signfx/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -791,6 +771,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/sass/works.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -798,10 +785,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/sass/works.scss">
+    <entry file="file://$PROJECT_DIR$/layouts/partials/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        <state relative-caret-position="244">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
