@@ -1,6 +1,6 @@
 ---
 title: "SignFX"
-image: "/assets/images/brandingfx-hero.jpeg"
+image: "/assets/images/works/sign/file11.jpg"
 heading: "Set the Stage with SignFX."
 intro: "Promotional signs. Monument and backlit signs. LED displays. Whatever it is, the overall look and feel of your interior and exterior graphics play a role in how customers experience your environment. How the displays flow, their colors and type fonts all have an impact on the customer experience. And SignFX doesn't overlook a single detail."
 section_2:

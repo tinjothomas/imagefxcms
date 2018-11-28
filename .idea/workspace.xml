@@ -2,47 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695b9ff9-e9ea-4503-9edf-88d0941d2c56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/home.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/services.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/works.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/5dc30bf0406cb013facafa9b9975a3f6d5292d9b/works.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/brandingfx/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/brandingfx/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/designfx/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/designfx/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/gallery.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/gallery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/about/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/about/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/brandfx/back-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/brandingfx-hero.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/product-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/product-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/product-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/product-4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/recent-work-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/recent-work-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/recent-work-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/slide-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/slide-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/slide-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/works/product-8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/sass/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/sass/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/signfx/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/signfx/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/vehiclefx/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/vehiclefx/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/assets/sass/works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/sass/works.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/assets/stylesheets/works.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/stylesheets/works.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,21 +33,21 @@
         <counts>
           <entry key="brandfx" value="2" />
           <entry key="css" value="4" />
-          <entry key="html" value="174" />
+          <entry key="html" value="175" />
           <entry key="js" value="3" />
-          <entry key="md" value="92" />
-          <entry key="scss" value="57" />
+          <entry key="md" value="99" />
+          <entry key="scss" value="58" />
           <entry key="svg" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="174" />
+          <entry key="HTML" value="175" />
           <entry key="JavaScript" value="3" />
-          <entry key="Markdown" value="92" />
+          <entry key="Markdown" value="99" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="57" />
+          <entry key="SCSS" value="58" />
           <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
@@ -93,8 +57,8 @@
           <entry key="css" value="52" />
           <entry key="html" value="14672" />
           <entry key="js" value="286" />
-          <entry key="md" value="1984" />
-          <entry key="scss" value="11087" />
+          <entry key="md" value="2010" />
+          <entry key="scss" value="11162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -102,20 +66,35 @@
           <entry key="CSS" value="52" />
           <entry key="HTML" value="14672" />
           <entry key="JavaScript" value="286" />
-          <entry key="Markdown" value="1984" />
+          <entry key="Markdown" value="2010" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="11087" />
+          <entry key="SCSS" value="11162" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/gallery.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-3422">
+                <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="51" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <entry file="file://$PROJECT_DIR$/content/brandingfx/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-189">
+                <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="45" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,8 +180,6 @@
         <option value="$PROJECT_DIR$/content/works-vehiclefx/_index.md" />
         <option value="$PROJECT_DIR$/layouts/works-signfx/works-signfx.html" />
         <option value="$PROJECT_DIR$/layouts/works-vehiclefx/works-vehiclefx.html" />
-        <option value="$PROJECT_DIR$/content/signfx/_index.md" />
-        <option value="$PROJECT_DIR$/content/vehiclefx/_index.md" />
         <option value="$PROJECT_DIR$/layouts/partials/gallery.html" />
         <option value="$PROJECT_DIR$/layouts/vehiclefx/list.html" />
         <option value="$PROJECT_DIR$/static/assets/sass/header.scss" />
@@ -212,13 +189,15 @@
         <option value="$PROJECT_DIR$/content/gallery.md" />
         <option value="$PROJECT_DIR$/content/_index.md" />
         <option value="$PROJECT_DIR$/content/brandingfx/_index.md" />
-        <option value="$PROJECT_DIR$/content/designfx/_index.md" />
         <option value="$PROJECT_DIR$/layouts/brandingfx/list.html" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/about/list.html" />
-        <option value="$PROJECT_DIR$/static/assets/sass/works.scss" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
+        <option value="$PROJECT_DIR$/content/designfx/_index.md" />
+        <option value="$PROJECT_DIR$/content/signfx/_index.md" />
+        <option value="$PROJECT_DIR$/content/vehiclefx/_index.md" />
+        <option value="$PROJECT_DIR$/static/assets/sass/works.scss" />
       </list>
     </option>
   </component>
@@ -250,13 +229,18 @@
             <path>
               <item name="imagefx" type="b2602c69:ProjectViewProjectNode" />
               <item name="imagefx" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagefx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagefx" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="brandingfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imagefx" type="b2602c69:ProjectViewProjectNode" />
               <item name="imagefx" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imagefx" type="b2602c69:ProjectViewProjectNode" />
@@ -360,12 +344,12 @@
       <workItem from="1543049139993" duration="71000" />
       <workItem from="1543049241196" duration="18786000" />
       <workItem from="1543212296356" duration="168000" />
-      <workItem from="1543222070326" duration="54552000" />
+      <workItem from="1543222070326" duration="56112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154432000" />
+    <option name="totallyTimeSpent" value="155992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -618,26 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/signfx/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/vehiclefx/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/vehiclefx/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -679,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/gallery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="394">
-            <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -696,33 +650,6 @@
             <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/brandingfx/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/designfx/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/brandingfx/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -756,16 +683,6 @@
           <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/sass/works.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="e#574#983#0" />
           </folding>
         </state>
       </provider>
@@ -825,8 +742,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="380">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/brandingfx/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/designfx/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/signfx/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="80">
+            <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/vehiclefx/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/sass/works.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="153" column="11" lean-forward="true" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/gallery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3422">
+            <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/brandingfx/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-189">
+            <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

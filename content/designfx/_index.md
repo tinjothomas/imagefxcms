@@ -1,6 +1,6 @@
 ---
 title: "DesignFX"
-image: "/assets/images/works/design/file12.jpg"
+image: "/assets/images/works/design/file1.jpg"
 heading: "Reframe Perceptions with DesignFX."
 intro: "Sometimes you want something unique. Something that targets a specific audience or captures a special ambience. Other times, you may want to develop a new brand or update your image. Perhaps you want to unveil a new logo. Whatever your custom design needs may be, DesignFX is the answer."
 section_2:

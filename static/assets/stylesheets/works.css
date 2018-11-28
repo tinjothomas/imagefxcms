@@ -154,3 +154,29 @@ section#main .gallery .photo-container:hover .photo {
 section#main .gallery .photo-container .photo {
   height: 100%;
 }
+
+/* line 148, ../sass/works.scss */
+#lightbox {
+  height: 100vh;
+}
+/* line 151, ../sass/works.scss */
+#lightbox .lb-close {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+/* line 157, ../sass/works.scss */
+#lightbox .lb-details {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+/* line 163, ../sass/works.scss */
+#lightbox .lb-caption {
+  font-family: "Loto", sans-serif;
+  font-size: 16px;
+}
+/* line 168, ../sass/works.scss */
+#lightbox .lb-number {
+  margin-top: 10px !important;
+}
