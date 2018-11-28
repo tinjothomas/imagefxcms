@@ -45,7 +45,6 @@ section#hero {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 500;
-    text-transform: uppercase;
     padding-left: 22px;
     position: relative;
 
@@ -166,6 +165,12 @@ section#recent-works {
     right: 20px;
     bottom: -35px;
     text-transform: uppercase;
+    text-decoration: none;
+    @include transition(all 0.2s);
+
+    &:hover {
+    right: 10px;
+  }
 
     & img {
       margin: -3px 0 0 20px
@@ -258,6 +263,11 @@ section#our-advantages {
     font-family: "montserrat", sans-serif;
     font-size: 35px;
     font-weight: 600;
+
+    & a {
+      color: #ffffff;
+      text-decoration: none;
+    }
   }
 
   & .advantage {

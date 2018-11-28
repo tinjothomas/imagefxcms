@@ -1,6 +1,6 @@
 {{ partial "header" (dict "docTitle" "ImageFX - Visual Branding" "stylesheet" "home") }}
 
-<section id="slides">
+<section id="slides" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div id="heroSlider" class="carousel slide" data-ride="carousel" data-pause="false" data-speed="5000">
     <ol class="carousel-indicators">
       {{ range $index, $elm := .Params.slides }}
@@ -24,7 +24,7 @@
   </div>
 </section> <!-- /#slides -->
 
-<section id="hero-matter" class="pt-5">
+<section id="hero-matter" class="pt-5" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 px-5 pb-3">
@@ -46,7 +46,8 @@
       </div>
       <div class="col-12 services mb-5">
         <div class="row">
-          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
+          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
+               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">BrandingFx</div>
               <p class="service-description">{{ .Params.brandfx_desc }}</p>
@@ -55,7 +56,8 @@
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
-          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
+          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
+               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">SignFX</div>
               <p class="service-description">{{ .Params.signfx_desc }}</p>
@@ -64,7 +66,8 @@
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
-          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
+          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
+               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">VehicleFX</div>
               <p class="service-description">{{ .Params.vehiclefx_desc }}</p>
@@ -73,7 +76,8 @@
               <div class="button">Know more</div> <!-- /.button -->
             </a>
           </div> <!-- /.col-6 -->
-          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between">
+          <div class="col-12 col-lg-6 my-4 service d-flex flex-column justify-content-between"
+               data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
             <div class="top">
               <div class="service-name">DesignFX</div>
               <p class="service-description">{{ .Params.designfx_desc }}</p>
@@ -88,13 +92,13 @@
   </div> <!-- /.container -->
 </section> <!-- /#services -->
 
-<section id="phone">
+<section id="phone" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container text-center py-5">
-    <img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850
+    <a href="tel:630-655-2850"><img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850</a>
   </div> <!-- /.container -->
 </section> <!-- /#phone -->
 
-<section id="new-products">
+<section id="new-products" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 heading mb-3 ml-4">New Product Arrivals</div>
@@ -157,10 +161,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-3 mb-5">
-        <div class="heading">RECENT WORKS</div>
-        <a href="#" class="see-works">SEE OUR WORKS</a>
+        <div class="heading"
+             data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">RECENT WORKS</div>
+        <a href="/works/" class="see-works"
+           data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">SEE OUR WORKS</a>
       </div> <!-- /.col-4 -->
-      <div class="col-12 col-lg-9">
+      <div class="col-12 col-lg-9"
+           data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
         <div class="row">
           <div class="col-12 col-lg-11 ml-auto">
             <div class="row">
@@ -176,28 +183,28 @@
               <!--{ $images := $s.Get "images" }}-->
               <!--{ $descriptions := $s.Get "descriptions" }}-->
 
-              <div class="col-12 col-md-8 work work-1 d-flex"
+              <a href="/works/" class="col-12 col-md-8 work work-1 d-flex"
                    style="
                   background: url('{{ .Params.image_1 }}') no-repeat center;
                   -webkit-background-size: cover;background-size: cover;">
                 <div class="project-name align-self-end">{{ .Params.description_1 }}</div>
-              </div> <!-- /.col-8 -->
+              </a> <!-- /.col-8 -->
               <div class="col-4 pr-4 d-none d-md-block">
                 <div class="row">
-                  <div class="col-12 work work-2 d-flex"
+                  <a href="/works/" class="col-12 work work-2 d-flex"
                        style="
                       background: url('{{ .Params.image_2 }}') no-repeat center;
                       -webkit-background-size: cover;background-size: cover;">
                     <div class="project-name align-self-end">{{ .Params.description_2 }}</div>
-                  </div> <!-- /.col-12 image -->
+                  </a> <!-- /.col-12 image -->
                 </div> <!-- /.row -->
                 <div class="row">
-                  <div class="col-12 work work-3 d-flex"
+                  <a href="/works/" class="col-12 work work-3 d-flex"
                        style="
                       background: url('{{ .Params.image_3 }}') no-repeat center;
                       -webkit-background-size: cover;background-size: cover;">
                     <div class="project-name align-self-end">{{ .Params.description_3 }}</div>
-                  </div> <!-- /.col-12 image -->
+                  </a> <!-- /.col-12 image -->
                 </div> <!-- /.row -->
               </div> <!-- /.col-4 -->
             </div> <!-- /.row -->
@@ -211,12 +218,14 @@
 <section id="end-part">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 left">
+      <div class="col-12 col-lg-6 left"
+           data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
         <h1 class="mb-3">{{ .Params.bottom_heading }}</h1>
         <p class="mb-5">{{ .Params.bottom_desc }}</p>
         <a href="#" class="request-quote">Contact us for a free estimate</a>
       </div> <!-- /.col-7 left -->
-      <div class="col-12 col-lg-4 ml-auto right">
+      <div class="col-12 col-lg-4 ml-auto right"
+           data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
         <h4>CONTACT US</h4>
         <p class="address">
           {{ .Params.address_1 }} <br>

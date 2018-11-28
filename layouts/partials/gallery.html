@@ -1,7 +1,7 @@
 <section id="nav-back">
   <div class="container">
     <div class="row">
-      <div class="col mt-4">
+      <div class="col-11 col-lg-12 mx-auto mt-4">
         <div class="row">
           <a href="/" class="navigate-back">Home</a>
         </div> <!-- /.row -->
@@ -14,7 +14,7 @@
 <section id="heading">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 text">
+      <div class="col-11 col-lg-12 mx-auto col-lg-6 text">
         <div class="row">
           <h1 class="my-4">{{ .data.Title }}</h1>
         </div> <!-- /.row -->
@@ -27,14 +27,14 @@
 <section id="main">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-11 col-lg-12 mx-auto">
         <div class="row">
           <ul class="list-inline">
-            <li class='list-inline-item service {{ if eq .category "" }}active{{ end }}'><a href="/works/">All</a></li>
-            <li class='list-inline-item service {{ if eq .category "brandingfx" }}active{{ end }}'><a href="/works/brandingfx/">BrandingFX</a></li>
-            <li class='list-inline-item service {{ if eq .category "signfx" }}active{{ end }}'><a href="/works/signfx/">SignFX</a></li>
-            <li class='list-inline-item service {{ if eq .category "vehiclefx" }}active{{ end }}'><a href="/works/vehiclefx/">VehicleFX</a></li>
-            <li class='list-inline-item service {{ if eq .category "designfx" }}active{{ end }}'><a href="/works/designfx/">DesignFX</a></li>
+            <li class='list-inline-item service mb-2 {{ if eq .category "" }}active{{ end }}'><a href="/works/">All</a></li>
+            <li class='list-inline-item service mb-2 {{ if eq .category "brandingfx" }}active{{ end }}'><a href="/works/brandingfx/">BrandingFX</a></li>
+            <li class='list-inline-item service mb-2 {{ if eq .category "signfx" }}active{{ end }}'><a href="/works/signfx/">SignFX</a></li>
+            <li class='list-inline-item service mb-2 {{ if eq .category "vehiclefx" }}active{{ end }}'><a href="/works/vehiclefx/">VehicleFX</a></li>
+            <li class='list-inline-item service mb-2 {{ if eq .category "designfx" }}active{{ end }}'><a href="/works/designfx/">DesignFX</a></li>
           </ul>
         </div>
         <!-- /.row -->

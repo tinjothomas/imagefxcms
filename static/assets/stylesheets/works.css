@@ -68,72 +68,99 @@ section#main .service {
   background-color: #444444;
   color: #ffffff;
   cursor: pointer;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
 }
-/* line 76, ../sass/works.scss */
+/* line 77, ../sass/works.scss */
+section#main .service:hover {
+  background-color: #731a1c;
+}
+/* line 81, ../sass/works.scss */
 section#main .service a {
   color: #fff;
   height: 51px;
   padding: 0 35px;
   line-height: 51px;
   display: block;
+  text-decoration: none;
 }
-/* line 84, ../sass/works.scss */
+/* line 90, ../sass/works.scss */
 section#main .service.active {
   background-color: #bc0c14;
 }
-/* line 89, ../sass/works.scss */
+/* line 95, ../sass/works.scss */
 section#main .gallery {
   background-color: #444444;
   -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 93, ../sass/works.scss */
+/* line 99, ../sass/works.scss */
 section#main .gallery .photo-container {
   height: 180px;
 }
+/* line 102, ../sass/works.scss */
+section#main .gallery .photo-container .photo {
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid transparent;
+}
+/* line 108, ../sass/works.scss */
+section#main .gallery .photo-container:hover .photo {
+  -moz-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  border-color: rgba(255, 255, 255, 0.4);
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 97, ../sass/works.scss */
+  /* line 114, ../sass/works.scss */
   section#main .gallery .photo-container:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 102, ../sass/works.scss */
+  /* line 119, ../sass/works.scss */
   section#main .gallery .photo-container:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 93, ../sass/works.scss */
+  /* line 99, ../sass/works.scss */
   section#main .gallery .photo-container {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 113, ../sass/works.scss */
+  /* line 130, ../sass/works.scss */
   section#main .gallery .photo-container:nth-of-type(4n+1) {
     padding-left: 15px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 118, ../sass/works.scss */
+  /* line 135, ../sass/works.scss */
   section#main .gallery .photo-container:nth-of-type(4n) {
     padding-right: 15px;
   }
 }
-/* line 124, ../sass/works.scss */
+/* line 141, ../sass/works.scss */
 section#main .gallery .photo-container .photo {
   height: 100%;
 }
 
-/* line 131, ../sass/works.scss */
+/* line 148, ../sass/works.scss */
 #lightbox {
   height: 100vh;
   top: 0 !important;
 }
-/* line 135, ../sass/works.scss */
+/* line 152, ../sass/works.scss */
 #lightbox .lb-outerContainer {
   position: absolute;
   left: 50%;
@@ -146,18 +173,18 @@ section#main .gallery .photo-container .photo {
   -webkit-box-shadow: 4px 5px 11px 2px black;
   box-shadow: 4px 5px 11px 2px black;
 }
-/* line 143, ../sass/works.scss */
+/* line 160, ../sass/works.scss */
 #lightbox .lb-details {
   position: absolute;
   bottom: 30px;
 }
-/* line 148, ../sass/works.scss */
+/* line 165, ../sass/works.scss */
 #lightbox .lb-close {
   position: absolute;
   right: 30px;
   top: 30px;
 }
-/* line 154, ../sass/works.scss */
+/* line 171, ../sass/works.scss */
 #lightbox .lb-caption {
   font-family: "Loto", sans-serif;
   font-size: 16px;

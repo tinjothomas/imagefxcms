@@ -15,7 +15,7 @@ html, body {
 
 // SLIDES
 #slides, .carousel-item {
-  height: 450px;
+  height: 60vh;
   width: 100%;
 
   @media screen and (max-width: 768px) {
@@ -230,6 +230,11 @@ ol.carousel-indicators li {
   font-family: "montserrat", sans-serif;
   font-size: 35px;
   font-weight: 600;
+  
+  & a {
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 
 // NEW-PRODUCTS
@@ -327,6 +332,12 @@ ol.carousel-indicators li {
     right: 20px;
     bottom: -35px;
     text-transform: uppercase;
+    text-decoration: none;
+    @include transition(all 0.2s);
+
+    &:hover {
+      right: 10px;
+    }
 
     & img {
       margin: -3px 0 0 20px
@@ -371,6 +382,13 @@ ol.carousel-indicators li {
       color: #d3d3d3;
       padding-left: 30px;
       position: relative;
+      text-decoration: none;
+      @include transition(all 0.2s);
+      position: relative;
+
+      &:hover {
+        color: #ffffff;
+      }
 
       &:before {
         content: '';
@@ -382,6 +400,7 @@ ol.carousel-indicators li {
         right: -80px;
         bottom: -14px;
         @include border-radius(50%);
+        @include transition(1s);
       }
 
       &:after {
@@ -399,6 +418,7 @@ ol.carousel-indicators li {
 
     & .work {
       padding: 0;
+      color: #ffffff;
     }
 
     & .work-1 {

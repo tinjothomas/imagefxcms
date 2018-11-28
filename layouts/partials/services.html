@@ -2,7 +2,7 @@
 <section id="nav-back">
   <div class="container">
     <div class="row">
-      <div class="col mt-4">
+      <div class="col-12 mt-4 mx-3 mx-lg-0">
         <div class="row">
           <a href="/" class="navigate-back">Home</a>
         </div> <!-- /.row -->
@@ -12,10 +12,10 @@
 </section> <!-- /#nav-back -->
 
 <!-- hero -->
-<section id="hero">
+<section id="hero" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 text">
+      <div class="col-11 col-lg-12 mx-auto col-lg-6 text">
         <div class="row">
           <h1 class="my-4">{{ .context.Title }}</h1>
         </div> <!-- /.row -->
@@ -33,17 +33,17 @@
 </section> <!-- /#hero -->
 
 <!-- recent works -->
-<section id="recent-works">
+<section id="recent-works" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 works">
         <div class="row">
           {{ $page := .context.GetPage "/gallery.md" }}
           {{ range first 8 (shuffle (where $page.Params.gallery "category" .service)) }}
-          <div class="col-12 col-md-6 col-lg-3 work">
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
                  style="background: url('{{ .image }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
-          </div>
+          </a>
           {{ end }}
         </div> <!-- /.row -->
         <div class="heading">Recent Works</div>
@@ -54,7 +54,7 @@
 </section> <!-- /#recent-works -->
 
 {{ $section_2 := index .context.Params.section_2 0 }}
-<section id="turn-around">
+<section id="turn-around" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 mb-4 left">
@@ -68,22 +68,22 @@
 </section> <!-- /#turn-around -->
 
 <!-- our advantages -->
-<section id="our-advantages">
+<section id="our-advantages" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 order-2 order-lg-1 mb-4 mb-lg-0">
         <div class="heading">Our Advantages</div>
       </div> <!-- /.col-6 -->
       <div class="col-12 col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 text-center text-lg-right">
-        <div class="phone">
-          <img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850
+        <div class="phone" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+          <a href="tel:630-655-2850"><img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850</a>
         </div> <!-- /.phone -->
       </div> <!-- /.col-6 -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-4 advantage mb-4">
+      <div class="col-12 col-lg-4 advantage mb-4" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
         {{ $usp := index .context.Params.usp 0 }}
         <h1 class="heading">{{ $usp.heading }}</h1>
         <div class="detail">
@@ -92,7 +92,7 @@
       </div> <!-- /.col-3 advantage -->
     </div> <!-- /.row -->
     <div class="row">
-      <div class="col-12 col-lg-4 advantage mb-4 mx-auto">
+      <div class="col-12 col-lg-4 advantage mb-4 mx-auto" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
         {{ $usp := index .context.Params.usp 1 }}
         <h1 class="heading">{{ $usp.heading }}</h1>
         <div class="detail">
@@ -101,7 +101,7 @@
       </div> <!-- /.col-3 advantage -->
     </div> <!-- /.row -->
     <div class="row">
-      <div class="col-12 col-lg-4 advantage mb-4 ml-auto">
+      <div class="col-12 col-lg-4 advantage mb-4 ml-auto" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
         {{ $usp := index .context.Params.usp 2 }}
         <h1 class="heading">{{ $usp.heading }}</h1>
         <div class="detail">
