@@ -161,23 +161,27 @@ section#main .gallery .photo-container .photo {
   top: 50px !important;
 }
 /* line 152, ../sass/works.scss */
+#lightbox .lb-image {
+  border-color: #575757 !important;
+}
+/* line 156, ../sass/works.scss */
 #lightbox .lb-close {
   position: absolute;
   right: 30px;
   top: 0;
 }
-/* line 158, ../sass/works.scss */
+/* line 162, ../sass/works.scss */
 #lightbox .lb-details {
   margin-top: 10px;
   text-align: center;
   width: 100%;
 }
-/* line 164, ../sass/works.scss */
+/* line 168, ../sass/works.scss */
 #lightbox .lb-caption {
   font-family: "Loto", sans-serif;
   font-size: 16px;
 }
-/* line 169, ../sass/works.scss */
+/* line 173, ../sass/works.scss */
 #lightbox .lb-number {
   margin-top: 10px !important;
 }

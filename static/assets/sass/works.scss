@@ -149,6 +149,10 @@ section#main {
   position: fixed !important;
   top: 50px !important;
 
+  & .lb-image {
+    border-color: #575757 !important;
+  }
+
   & .lb-close {
     position: absolute;
     right: 30px;
