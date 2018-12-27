@@ -84,8 +84,9 @@ ul.navbar-nav .request-quote {
 ul.navbar-nav .services {
   cursor: pointer;
   position: relative;
+  position: relative;
 }
-/* line 81, ../sass/header.scss */
+/* line 82, ../sass/header.scss */
 ul.navbar-nav .services .dropdown {
   position: absolute;
   background-color: #444444;
@@ -100,7 +101,7 @@ ul.navbar-nav .services .dropdown {
   z-index: 2000;
 }
 @media screen and (max-width: 1200px) {
-  /* line 81, ../sass/header.scss */
+  /* line 82, ../sass/header.scss */
   ul.navbar-nav .services .dropdown {
     position: static;
     background-color: transparent;
@@ -110,7 +111,7 @@ ul.navbar-nav .services .dropdown {
     box-shadow: 10px 16px 12px 9px transparent;
   }
 }
-/* line 99, ../sass/header.scss */
+/* line 100, ../sass/header.scss */
 ul.navbar-nav .services .dropdown a {
   line-height: normal;
   color: #fff;
@@ -119,27 +120,29 @@ ul.navbar-nav .services .dropdown a {
   font-weight: 400;
   text-decoration: none;
 }
-/* line 108, ../sass/header.scss */
+/* line 109, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item {
   padding: 15px 60px 15px 36px;
   border-left: 2px solid transparent;
+  width: 240px;
 }
-/* line 112, ../sass/header.scss */
+/* line 114, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item:hover {
   background-color: #232323;
   border-left: 2px solid #f2bb05;
+  width: auto;
 }
-/* line 119, ../sass/header.scss */
+/* line 122, ../sass/header.scss */
 ul.navbar-nav .services:hover .dropdown {
   display: block;
 }
 
-/* line 127, ../sass/header.scss */
+/* line 130, ../sass/header.scss */
 #shop-now {
   position: relative;
   cursor: default;
 }
-/* line 131, ../sass/header.scss */
+/* line 134, ../sass/header.scss */
 #shop-now:before {
   content: 'COMING SOON';
   position: absolute;
@@ -153,12 +156,12 @@ ul.navbar-nav .services:hover .dropdown {
   line-height: normal;
 }
 
-/* line 148, ../sass/header.scss */
+/* line 151, ../sass/header.scss */
 #dummy-top-margin {
   margin-top: 110px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 148, ../sass/header.scss */
+  /* line 151, ../sass/header.scss */
   #dummy-top-margin {
     margin-top: 69px;
   }
