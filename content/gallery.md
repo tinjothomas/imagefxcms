@@ -77,55 +77,55 @@ gallery:
       category: 'brandingfx'
     - image: "/assets/images/works/design/file1.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file2.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file3.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file4.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file5.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file6.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file7.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file8.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file9.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file10.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file11.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file12.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file13.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file14.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file15.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file16.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/design/file17.jpg"
       description: "Company name or..."
-      category: 'designfx'
+      category: 'displayfx'
     - image: "/assets/images/works/sign/file1.jpg"
       description: "Company name or..."
       category: 'signfx'

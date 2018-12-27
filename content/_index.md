@@ -4,12 +4,19 @@ slides:
     - image: "assets/images/slides/slide-2.jpg"
     - image: "assets/images/slides/slide-3.jpg"
     
-title: "The fact you're here says you understand the importance of creating environments that create connections with your customers."
+title: "The fact you're here says you understand the importance of branding environments that create connections with your customers."
 
-brandfx_desc: "The power of placement. The psychology of color. The flow of communications. It all plays into the image of your company. Which is why you need a proactive partner that excels in strategy and design, and that has mastered the art of collaboration."
-signfx_desc: "Promotional signs. Monument and backlit signs. LED displays. Whatever it is, the overall look and feel of your interior and exterior graphics play a role in how customers experience your environment. How the displays flow, their colors and type fonts all have an impact on the customer experience. And SignFX doesn't overlook a single detail."
-vehiclefx_desc: "The more you get your brand and your message out there, the more top of mind you'll be with your customers. And whether you drive a truck, a van, or a car, vehicle messaging is a good way to get the word out. It's also one of the least expensive and most effective ways to reach customers. If you're out on the water, you may want to splash your logo on your boat, too."
-designfx_desc: "Sometimes you want something unique. Something that targets a specific audience or captures a special ambience. Other times, you may want to develop a new brand or update your image. Perhaps you want to unveil a new logo. Whatever your custom design needs may be, DesignFX is the answer."
+brandfx_subhead: "Your Turnkey Imaging Resource"
+brandfx_desc: "From design, management, fabrication and install and service, we are your complete interior and exterior branding solution."
+
+signfx_subhead: "Display and Promote Your Brand"
+signfx_desc: "Whether it’s back-lit signs, monument or ID signs, digital display signage or graphics of all sizes, the overall look and feel of your signage play a role in how customers experience your environment. SignFX does not overlook a single detail."
+
+vehiclefx_subhead: "Take Your Brand on the Road"
+vehiclefx_desc: "ImageFX has a full service suite to brand your vehicle from marketing, design, production and install. We will help you get your message displayed in an eective and professional way."
+
+displayfx_subhead: "You Imagine It and We Create It"
+displayfx_desc: "Sometimes you want something that is unique or to capture a specic audience. Let us help you bring your idea or space to life."
 
 image_1: "/assets/images/works/design/file3.jpg"
 description_1: "Inverom Corporate office NY"
@@ -29,6 +36,4 @@ phone: "630-655-2850 "
 email: "contact@imagefxcorp.com"
 ---
 
-Making and sustaining those connections means having the right flow, the right feel, the right image for your business. And that's where we come in. Not only do we provide dynamic graphics, displays and other promotional features, we produce, fabricate, install and maintain them. We are, in essence, your one-stop image-maker.
-
-Whether you're a service station or restaurant, an auto dealership or a Fortune 500 Company, ImageFX has the expertise, the resources and the vision to create (or re-create) your space and delivery vehicles. We create powerful branding that engages your customers, and we do it quickly and efficiently. Check out all our FX services.
+Making and sustaining those connections means having the right look, the right feel, the right image for your business. That’s what we do best.

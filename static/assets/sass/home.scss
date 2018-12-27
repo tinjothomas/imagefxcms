@@ -38,6 +38,7 @@ ol.carousel-indicators li {
     font-size: 28px;
     font-weight: 500;
     margin-top: 25px;
+    margin-bottom: 30px;
     line-height: 1.4;
     position: relative;
     max-width: 467px;
@@ -54,6 +55,7 @@ ol.carousel-indicators li {
   }
 
   p {
+    padding-top: 6px;
     margin-bottom: 15px;
   }
 
@@ -164,6 +166,7 @@ ol.carousel-indicators li {
       font-weight: 600;
       color: #fff;
       padding-left: 26px;
+      padding-top: 4px;
       position: relative;
 
       &:before {
@@ -178,11 +181,22 @@ ol.carousel-indicators li {
       }
     }
 
+    & .subhead {
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+
+      background-color: #161414;
+      display: inline-block;
+      padding: 6px 12px;
+      @include border-radius(4px)
+    }
+
     & .service-description {
       font-family: "lato", sans-serif;
       font-size: 16px;
       font-weight: 400;
-      padding: 20px 0;
+      padding: 10px 0 30px 0;
     }
 
     & a {

@@ -46,11 +46,12 @@ ol.carousel-indicators li {
   font-size: 28px;
   font-weight: 500;
   margin-top: 25px;
+  margin-bottom: 30px;
   line-height: 1.4;
   position: relative;
   max-width: 467px;
 }
-/* line 45, ../sass/home.scss */
+/* line 46, ../sass/home.scss */
 #hero-matter h1:before {
   content: '';
   position: absolute;
@@ -60,11 +61,12 @@ ol.carousel-indicators li {
   background-color: #bc0c14;
   top: -21px;
 }
-/* line 56, ../sass/home.scss */
+/* line 57, ../sass/home.scss */
 #hero-matter p {
+  padding-top: 6px;
   margin-bottom: 15px;
 }
-/* line 60, ../sass/home.scss */
+/* line 62, ../sass/home.scss */
 #hero-matter:before {
   content: '';
   display: block;
@@ -76,12 +78,12 @@ ol.carousel-indicators li {
   background-color: #161414;
 }
 
-/* line 73, ../sass/home.scss */
+/* line 75, ../sass/home.scss */
 #services {
   color: #d3d3d3;
   position: relative;
 }
-/* line 77, ../sass/home.scss */
+/* line 79, ../sass/home.scss */
 #services .heading span.top, #services .heading span.shadow {
   display: block;
   font-family: 'lato', sans-serif;
@@ -89,14 +91,14 @@ ol.carousel-indicators li {
   font-weight: 400;
   line-height: 52px;
 }
-/* line 84, ../sass/home.scss */
+/* line 86, ../sass/home.scss */
 #services .heading span.top:before, #services .heading span.shadow:before {
   content: 'Our services';
   height: 52px;
   width: 190px;
   position: absolute;
 }
-/* line 91, ../sass/home.scss */
+/* line 93, ../sass/home.scss */
 #services .heading span.top:after, #services .heading span.shadow:after {
   position: absolute;
   content: '';
@@ -106,41 +108,41 @@ ol.carousel-indicators li {
   border-left: 26px solid transparent;
   border-right: 26px solid transparent;
 }
-/* line 102, ../sass/home.scss */
+/* line 104, ../sass/home.scss */
 #services .heading span.top {
   position: relative;
 }
-/* line 105, ../sass/home.scss */
+/* line 107, ../sass/home.scss */
 #services .heading span.top:before {
   left: 7px;
   top: 0;
   padding-left: 40px;
   background-color: #bc0c14;
 }
-/* line 112, ../sass/home.scss */
+/* line 114, ../sass/home.scss */
 #services .heading span.top:after {
   top: 0;
   left: 171px;
   border-bottom: 52px solid #bc0c14;
 }
-/* line 119, ../sass/home.scss */
+/* line 121, ../sass/home.scss */
 #services .heading span.shadow {
   position: absolute;
 }
-/* line 122, ../sass/home.scss */
+/* line 124, ../sass/home.scss */
 #services .heading span.shadow:before {
   left: 17px;
   top: 4px;
   padding-left: 30px;
   background-color: #232323;
 }
-/* line 129, ../sass/home.scss */
+/* line 131, ../sass/home.scss */
 #services .heading span.shadow:after {
   top: 4px;
   left: 181px;
   border-bottom: 52px solid #232323;
 }
-/* line 136, ../sass/home.scss */
+/* line 138, ../sass/home.scss */
 #services .services {
   background-color: #444444;
   padding: 32px 0 42px 0;
@@ -149,7 +151,7 @@ ol.carousel-indicators li {
   box-shadow: 10px 16px 12px 9px rgba(0, 0, 0, 0.12);
   position: relative;
 }
-/* line 142, ../sass/home.scss */
+/* line 144, ../sass/home.scss */
 #services .services:after {
   content: '';
   display: block;
@@ -161,25 +163,26 @@ ol.carousel-indicators li {
   background-color: #2d2a2a;
 }
 @media screen and (max-width: 992px) {
-  /* line 142, ../sass/home.scss */
+  /* line 144, ../sass/home.scss */
   #services .services:after {
     display: none;
   }
 }
-/* line 157, ../sass/home.scss */
+/* line 159, ../sass/home.scss */
 #services .services .service {
   padding: 0 62px;
 }
-/* line 161, ../sass/home.scss */
+/* line 163, ../sass/home.scss */
 #services .services .service-name {
   font-family: 'montserrat', sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   padding-left: 26px;
+  padding-top: 4px;
   position: relative;
 }
-/* line 169, ../sass/home.scss */
+/* line 172, ../sass/home.scss */
 #services .services .service-name:before {
   position: absolute;
   content: '';
@@ -190,18 +193,30 @@ ol.carousel-indicators li {
   left: 0;
   top: 6px;
 }
-/* line 181, ../sass/home.scss */
+/* line 184, ../sass/home.scss */
+#services .services .subhead {
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #161414;
+  display: inline-block;
+  padding: 6px 12px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 195, ../sass/home.scss */
 #services .services .service-description {
   font-family: "lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 20px 0;
+  padding: 10px 0 30px 0;
 }
-/* line 188, ../sass/home.scss */
+/* line 202, ../sass/home.scss */
 #services .services a {
   color: #d3d3d3 !important;
 }
-/* line 192, ../sass/home.scss */
+/* line 206, ../sass/home.scss */
 #services .services .button {
   font-family: "lato", sans-serif;
   font-size: 16px;
@@ -210,7 +225,7 @@ ol.carousel-indicators li {
   padding-right: 65px;
   position: relative;
 }
-/* line 200, ../sass/home.scss */
+/* line 214, ../sass/home.scss */
 #services .services .button:before {
   content: '';
   position: absolute;
@@ -224,7 +239,7 @@ ol.carousel-indicators li {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 212, ../sass/home.scss */
+/* line 226, ../sass/home.scss */
 #services .services .button:after {
   content: '';
   position: absolute;
@@ -237,26 +252,26 @@ ol.carousel-indicators li {
   background: url("../images/arrow.svg") no-repeat center;
 }
 
-/* line 228, ../sass/home.scss */
+/* line 242, ../sass/home.scss */
 #phone {
   color: #d3d3d3;
   font-family: "montserrat", sans-serif;
   font-size: 35px;
   font-weight: 600;
 }
-/* line 234, ../sass/home.scss */
+/* line 248, ../sass/home.scss */
 #phone a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 241, ../sass/home.scss */
+/* line 255, ../sass/home.scss */
 #new-products {
   color: #d3d3d3;
   position: relative;
   margin-bottom: 148px;
 }
-/* line 246, ../sass/home.scss */
+/* line 260, ../sass/home.scss */
 #new-products:before {
   content: '';
   display: block;
@@ -266,13 +281,13 @@ ol.carousel-indicators li {
   top: 40%;
   background-color: #161414;
 }
-/* line 256, ../sass/home.scss */
+/* line 270, ../sass/home.scss */
 #new-products .heading {
   font-family: "lato", sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
-/* line 262, ../sass/home.scss */
+/* line 276, ../sass/home.scss */
 #new-products .products {
   background-color: #444444;
   padding-top: 15px;
@@ -281,67 +296,67 @@ ol.carousel-indicators li {
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 269, ../sass/home.scss */
+/* line 283, ../sass/home.scss */
 #new-products .products .product {
   margin-bottom: 15px;
   overflow: hidden;
 }
-/* line 274, ../sass/home.scss */
+/* line 288, ../sass/home.scss */
 #new-products .products .product:hover {
   -webkit-filter: grayscale(20%);
   filter: grayscale(20%);
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 279, ../sass/home.scss */
+  /* line 293, ../sass/home.scss */
   #new-products .products .product:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  /* line 284, ../sass/home.scss */
+  /* line 298, ../sass/home.scss */
   #new-products .products .product:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 269, ../sass/home.scss */
+  /* line 283, ../sass/home.scss */
   #new-products .products .product {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 295, ../sass/home.scss */
+  /* line 309, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n+1) {
     padding-left: 15px;
   }
 }
 @media screen and (min-width: 993px) {
-  /* line 300, ../sass/home.scss */
+  /* line 314, ../sass/home.scss */
   #new-products .products .product:nth-of-type(4n) {
     padding-right: 15px;
   }
 }
-/* line 305, ../sass/home.scss */
+/* line 319, ../sass/home.scss */
 #new-products .products .product .image {
   height: 180px;
   width: 100%;
 }
-/* line 310, ../sass/home.scss */
+/* line 324, ../sass/home.scss */
 #new-products .products .product .name {
   font-family: 'lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
 }
-/* line 317, ../sass/home.scss */
+/* line 331, ../sass/home.scss */
 #new-products .products .product .price {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #f2bb05;
 }
-/* line 326, ../sass/home.scss */
+/* line 340, ../sass/home.scss */
 #new-products .shop-now {
   color: #fff;
   background-color: #bc0c14;
@@ -359,21 +374,21 @@ ol.carousel-indicators li {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 338, ../sass/home.scss */
+/* line 352, ../sass/home.scss */
 #new-products .shop-now:hover {
   right: 10px;
 }
-/* line 342, ../sass/home.scss */
+/* line 356, ../sass/home.scss */
 #new-products .shop-now img {
   margin: -3px 0 0 20px;
 }
 
-/* line 349, ../sass/home.scss */
+/* line 363, ../sass/home.scss */
 #recent-works {
   color: #d3d3d3;
   position: relative;
 }
-/* line 353, ../sass/home.scss */
+/* line 367, ../sass/home.scss */
 #recent-works .container {
   background-color: #444444;
   padding: 26px;
@@ -381,7 +396,7 @@ ol.carousel-indicators li {
   -webkit-box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 4px 5px 11px 2px rgba(0, 0, 0, 0.12);
 }
-/* line 359, ../sass/home.scss */
+/* line 373, ../sass/home.scss */
 #recent-works .container .heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -392,7 +407,7 @@ ol.carousel-indicators li {
   padding-left: 30px;
   color: #fff;
 }
-/* line 369, ../sass/home.scss */
+/* line 383, ../sass/home.scss */
 #recent-works .container .heading:before {
   content: '';
   display: block;
@@ -403,7 +418,7 @@ ol.carousel-indicators li {
   top: 10%;
   background-color: #f2bb05;
 }
-/* line 381, ../sass/home.scss */
+/* line 395, ../sass/home.scss */
 #recent-works .container .see-works {
   color: #d3d3d3;
   padding-left: 30px;
@@ -415,11 +430,11 @@ ol.carousel-indicators li {
   transition: all 0.2s;
   position: relative;
 }
-/* line 389, ../sass/home.scss */
+/* line 403, ../sass/home.scss */
 #recent-works .container .see-works:hover {
   color: #ffffff;
 }
-/* line 393, ../sass/home.scss */
+/* line 407, ../sass/home.scss */
 #recent-works .container .see-works:before {
   content: '';
   position: absolute;
@@ -437,7 +452,7 @@ ol.carousel-indicators li {
   -webkit-transition: 1s;
   transition: 1s;
 }
-/* line 406, ../sass/home.scss */
+/* line 420, ../sass/home.scss */
 #recent-works .container .see-works:after {
   content: '';
   position: absolute;
@@ -449,22 +464,22 @@ ol.carousel-indicators li {
   bottom: -12px;
   background: url("../images/arrow.svg") no-repeat center;
 }
-/* line 419, ../sass/home.scss */
+/* line 433, ../sass/home.scss */
 #recent-works .container .work {
   padding: 0;
   color: #ffffff;
 }
-/* line 424, ../sass/home.scss */
+/* line 438, ../sass/home.scss */
 #recent-works .container .work-1 {
   height: 404px;
   position: relative;
 }
-/* line 429, ../sass/home.scss */
+/* line 443, ../sass/home.scss */
 #recent-works .container .work-2, #recent-works .container .work-3 {
   height: 202px;
   position: relative;
 }
-/* line 434, ../sass/home.scss */
+/* line 448, ../sass/home.scss */
 #recent-works .container .project-name {
   position: absolute;
   width: 100%;
@@ -481,40 +496,40 @@ ol.carousel-indicators li {
   transition: background 0.2s;
   overflow: hidden;
 }
-/* line 448, ../sass/home.scss */
+/* line 462, ../sass/home.scss */
 #recent-works .container .work:hover .project-name {
   background-color: #020202;
 }
 
-/* line 455, ../sass/home.scss */
+/* line 469, ../sass/home.scss */
 #end-part {
   color: #d3d3d3;
   margin: 95px 0 74px 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 455, ../sass/home.scss */
+  /* line 469, ../sass/home.scss */
   #end-part {
     padding: 15px;
   }
 }
-/* line 463, ../sass/home.scss */
+/* line 477, ../sass/home.scss */
 #end-part .left {
   margin-left: -15px;
 }
-/* line 466, ../sass/home.scss */
+/* line 480, ../sass/home.scss */
 #end-part .left h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 472, ../sass/home.scss */
+/* line 486, ../sass/home.scss */
 #end-part .left p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   max-width: 432px;
 }
-/* line 479, ../sass/home.scss */
+/* line 493, ../sass/home.scss */
 #end-part .left .request-quote {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -526,18 +541,18 @@ ol.carousel-indicators li {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 479, ../sass/home.scss */
+  /* line 493, ../sass/home.scss */
   #end-part .left .request-quote {
     font-size: 14px;
   }
 }
-/* line 497, ../sass/home.scss */
+/* line 511, ../sass/home.scss */
 #end-part .right h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
-/* line 503, ../sass/home.scss */
+/* line 517, ../sass/home.scss */
 #end-part .right p {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -545,7 +560,7 @@ ol.carousel-indicators li {
   padding-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
-  /* line 511, ../sass/home.scss */
+  /* line 525, ../sass/home.scss */
   #end-part .right {
     margin-top: 60px;
     padding: 0;
