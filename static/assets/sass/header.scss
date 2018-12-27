@@ -1,5 +1,15 @@
 @import "compass/css3";
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 140px;
+  padding-bottom: 50px;
+}
+
 * a {
   text-decoration: none;
 }

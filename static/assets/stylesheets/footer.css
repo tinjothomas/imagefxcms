@@ -2,6 +2,9 @@
 footer {
   height: 140px;
   background-color: #161414;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/footer.scss */
@@ -10,13 +13,13 @@ footer {
     height: auto;
   }
 }
-/* line 12, ../sass/footer.scss */
+/* line 15, ../sass/footer.scss */
 footer .logo, footer .copyright, footer .social {
   height: 140px;
   display: flex;
 }
 @media screen and (max-width: 768px) {
-  /* line 12, ../sass/footer.scss */
+  /* line 15, ../sass/footer.scss */
   footer .logo, footer .copyright, footer .social {
     display: block;
     width: 100%;

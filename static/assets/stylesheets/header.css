@@ -1,9 +1,21 @@
 /* line 3, ../sass/header.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 8, ../sass/header.scss */
+body {
+  margin-bottom: 140px;
+  padding-bottom: 50px;
+}
+
+/* line 13, ../sass/header.scss */
 * a {
   text-decoration: none;
 }
 
-/* line 7, ../sass/header.scss */
+/* line 17, ../sass/header.scss */
 #navbar {
   background-color: #161414;
   height: 110px;
@@ -12,18 +24,18 @@
   box-shadow: 10px 5px 12px 9px rgba(0, 0, 0, 0.12);
 }
 @media screen and (max-width: 1200px) {
-  /* line 7, ../sass/header.scss */
+  /* line 17, ../sass/header.scss */
   #navbar {
     height: auto;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 18, ../sass/header.scss */
+  /* line 28, ../sass/header.scss */
   #navbar .navbar-brand img {
     width: 180px;
   }
 }
-/* line 27, ../sass/header.scss */
+/* line 37, ../sass/header.scss */
 #navbar li.nav-item a.nav-link {
   line-height: 62px;
   color: #fff;
@@ -34,7 +46,7 @@
   margin: 0;
   position: relative;
 }
-/* line 37, ../sass/header.scss */
+/* line 47, ../sass/header.scss */
 #navbar li.nav-item a.nav-link:after {
   content: "";
   position: absolute;
@@ -49,12 +61,12 @@
   -webkit-transition: height 0.2s;
   transition: height 0.2s;
 }
-/* line 49, ../sass/header.scss */
+/* line 59, ../sass/header.scss */
 #navbar li.nav-item a.nav-link:not(.request-quote):hover:after {
   height: 4px;
 }
 
-/* line 58, ../sass/header.scss */
+/* line 68, ../sass/header.scss */
 ul.navbar-nav .request-quote {
   background-color: #bc0c14;
   -moz-box-shadow: inset -4px -5px 0 0 #cb2c33;
@@ -68,12 +80,12 @@ ul.navbar-nav .request-quote {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 67, ../sass/header.scss */
+/* line 77, ../sass/header.scss */
 ul.navbar-nav .services {
   cursor: pointer;
   position: relative;
 }
-/* line 71, ../sass/header.scss */
+/* line 81, ../sass/header.scss */
 ul.navbar-nav .services .dropdown {
   position: absolute;
   background-color: #444444;
@@ -88,7 +100,7 @@ ul.navbar-nav .services .dropdown {
   z-index: 2000;
 }
 @media screen and (max-width: 1200px) {
-  /* line 71, ../sass/header.scss */
+  /* line 81, ../sass/header.scss */
   ul.navbar-nav .services .dropdown {
     position: static;
     background-color: transparent;
@@ -98,7 +110,7 @@ ul.navbar-nav .services .dropdown {
     box-shadow: 10px 16px 12px 9px transparent;
   }
 }
-/* line 89, ../sass/header.scss */
+/* line 99, ../sass/header.scss */
 ul.navbar-nav .services .dropdown a {
   line-height: normal;
   color: #fff;
@@ -107,27 +119,27 @@ ul.navbar-nav .services .dropdown a {
   font-weight: 400;
   text-decoration: none;
 }
-/* line 98, ../sass/header.scss */
+/* line 108, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item {
   padding: 15px 60px 15px 36px;
   border-left: 2px solid transparent;
 }
-/* line 102, ../sass/header.scss */
+/* line 112, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item:hover {
   background-color: #232323;
   border-left: 2px solid #f2bb05;
 }
-/* line 109, ../sass/header.scss */
+/* line 119, ../sass/header.scss */
 ul.navbar-nav .services:hover .dropdown {
   display: block;
 }
 
-/* line 117, ../sass/header.scss */
+/* line 127, ../sass/header.scss */
 #shop-now {
   position: relative;
   cursor: default;
 }
-/* line 121, ../sass/header.scss */
+/* line 131, ../sass/header.scss */
 #shop-now:before {
   content: 'COMING SOON';
   position: absolute;
@@ -141,12 +153,12 @@ ul.navbar-nav .services:hover .dropdown {
   line-height: normal;
 }
 
-/* line 138, ../sass/header.scss */
+/* line 148, ../sass/header.scss */
 #dummy-top-margin {
   margin-top: 110px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 138, ../sass/header.scss */
+  /* line 148, ../sass/header.scss */
   #dummy-top-margin {
     margin-top: 69px;
   }
