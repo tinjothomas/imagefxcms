@@ -71,9 +71,6 @@ body {
 /* line 70, ../sass/header.scss */
 ul.navbar-nav .request-quote {
   background-color: #bc0c14;
-  -moz-box-shadow: inset -4px -5px 0 0 #cb2c33;
-  -webkit-box-shadow: inset -4px -5px 0 0 #cb2c33;
-  box-shadow: inset -4px -5px 0 0 #cb2c33;
   padding: 0 32px !important;
   font-size: 18px;
   text-align: center;
