@@ -25,6 +25,12 @@ body {
     height: auto;
   }
 
+  & ul.navbar-nav {
+    @media screen and (max-width: 1200px) {
+      height: 100vh;
+    }
+  }
+
   & .navbar-brand {
 
     & img {
@@ -46,16 +52,25 @@ body {
       margin: 0;
       position: relative;
 
+      @media screen and (max-width: 1200px) {
+        line-height: 50px;
+      }
+
       &:after {
         content: "";
         position: absolute;
         display: block;
         left: 0;
-        bottom: -3px;
+        bottom: 15px;
         width: 100%;
         height: 0;
         background-color: #bc0c14;
-        @include transition(height 0.2s)
+        @include transition(height 0.2s);
+
+        @media screen and (max-width: 1200px) {
+          bottom: 0;
+        }
+
       }
 
       &:not(.request-quote):hover:after {
@@ -144,6 +159,13 @@ ul.navbar-nav {
     top: 8px;
     font-weight: 600;
     line-height: normal;
+
+    @media screen and (max-width: 1200px) {
+      top: 20px;
+      left: 150px;
+      padding: 3px 10px;
+    }
+
   }
 }
 // Coming soon
