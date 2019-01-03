@@ -13,7 +13,7 @@ signfx_subhead: "Display and Promote Your Brand"
 signfx_desc: "Whether it’s back-lit signs, monument or ID signs, digital display signage or graphics of all sizes, the overall look and feel of your signage play a role in how customers experience your environment. SignFX does not overlook a single detail."
 
 vehiclefx_subhead: "Take Your Brand on the Road"
-vehiclefx_desc: "ImageFX has a full service suite to brand your vehicle from marketing, design, production and install. We will help you get your message displayed in an eective and professional way."
+vehiclefx_desc: "ImageFX has a full service suite to brand your vehicle from marketing, design, production and install. We will help you get your message displayed in an effective and professional way."
 
 displayfx_subhead: "You Imagine It and We Create It"
 displayfx_desc: "Sometimes you want something that is unique or to capture a specic audience. Let us help you bring your idea or space to life."

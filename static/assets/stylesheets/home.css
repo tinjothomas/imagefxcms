@@ -16,7 +16,7 @@ html, body {
 
 /* line 17, ../sass/home.scss */
 #slides, .carousel-item {
-  height: 70vh;
+  height: 55vh;
   width: 100%;
 }
 @media screen and (max-width: 768px) {

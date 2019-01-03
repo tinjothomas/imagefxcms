@@ -2,42 +2,44 @@
 html {
   position: relative;
   min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
-/* line 8, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 body {
   margin-bottom: 140px;
   padding-bottom: 50px;
 }
 
-/* line 13, ../sass/header.scss */
+/* line 15, ../sass/header.scss */
 * a {
   text-decoration: none;
 }
 
-/* line 17, ../sass/header.scss */
+/* line 19, ../sass/header.scss */
 #navbar {
   background-color: #161414;
-  height: 110px;
+  height: 75px;
   -moz-box-shadow: 10px 5px 12px 9px rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 10px 5px 12px 9px rgba(0, 0, 0, 0.12);
   box-shadow: 10px 5px 12px 9px rgba(0, 0, 0, 0.12);
 }
 @media screen and (max-width: 1200px) {
-  /* line 17, ../sass/header.scss */
+  /* line 19, ../sass/header.scss */
   #navbar {
     height: auto;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 28, ../sass/header.scss */
+  /* line 30, ../sass/header.scss */
   #navbar .navbar-brand img {
     width: 180px;
   }
 }
-/* line 37, ../sass/header.scss */
+/* line 39, ../sass/header.scss */
 #navbar li.nav-item a.nav-link {
-  line-height: 62px;
+  line-height: 75px;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -46,7 +48,7 @@ body {
   margin: 0;
   position: relative;
 }
-/* line 47, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 #navbar li.nav-item a.nav-link:after {
   content: "";
   position: absolute;
@@ -61,12 +63,12 @@ body {
   -webkit-transition: height 0.2s;
   transition: height 0.2s;
 }
-/* line 59, ../sass/header.scss */
+/* line 61, ../sass/header.scss */
 #navbar li.nav-item a.nav-link:not(.request-quote):hover:after {
   height: 4px;
 }
 
-/* line 68, ../sass/header.scss */
+/* line 70, ../sass/header.scss */
 ul.navbar-nav .request-quote {
   background-color: #bc0c14;
   -moz-box-shadow: inset -4px -5px 0 0 #cb2c33;
@@ -80,13 +82,13 @@ ul.navbar-nav .request-quote {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 77, ../sass/header.scss */
+/* line 79, ../sass/header.scss */
 ul.navbar-nav .services {
   cursor: pointer;
   position: relative;
   position: relative;
 }
-/* line 82, ../sass/header.scss */
+/* line 84, ../sass/header.scss */
 ul.navbar-nav .services .dropdown {
   position: absolute;
   background-color: #444444;
@@ -101,7 +103,7 @@ ul.navbar-nav .services .dropdown {
   z-index: 2000;
 }
 @media screen and (max-width: 1200px) {
-  /* line 82, ../sass/header.scss */
+  /* line 84, ../sass/header.scss */
   ul.navbar-nav .services .dropdown {
     position: static;
     background-color: transparent;
@@ -111,7 +113,7 @@ ul.navbar-nav .services .dropdown {
     box-shadow: 10px 16px 12px 9px transparent;
   }
 }
-/* line 100, ../sass/header.scss */
+/* line 102, ../sass/header.scss */
 ul.navbar-nav .services .dropdown a {
   line-height: normal;
   color: #fff;
@@ -120,29 +122,29 @@ ul.navbar-nav .services .dropdown a {
   font-weight: 400;
   text-decoration: none;
 }
-/* line 109, ../sass/header.scss */
+/* line 111, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item {
   padding: 15px 60px 15px 36px;
   border-left: 2px solid transparent;
   width: 240px;
 }
-/* line 114, ../sass/header.scss */
+/* line 116, ../sass/header.scss */
 ul.navbar-nav .services .dropdown .drop-item:hover {
   background-color: #232323;
   border-left: 2px solid #f2bb05;
   width: auto;
 }
-/* line 122, ../sass/header.scss */
+/* line 124, ../sass/header.scss */
 ul.navbar-nav .services:hover .dropdown {
   display: block;
 }
 
-/* line 130, ../sass/header.scss */
+/* line 132, ../sass/header.scss */
 #shop-now {
   position: relative;
   cursor: default;
 }
-/* line 134, ../sass/header.scss */
+/* line 136, ../sass/header.scss */
 #shop-now:before {
   content: 'COMING SOON';
   position: absolute;
@@ -151,17 +153,17 @@ ul.navbar-nav .services:hover .dropdown {
   color: #ffffff;
   font-size: 9px;
   left: 38px;
-  top: 3px;
+  top: 8px;
   font-weight: 600;
   line-height: normal;
 }
 
-/* line 151, ../sass/header.scss */
+/* line 153, ../sass/header.scss */
 #dummy-top-margin {
-  margin-top: 110px;
+  margin-top: 75px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 151, ../sass/header.scss */
+  /* line 153, ../sass/header.scss */
   #dummy-top-margin {
     margin-top: 69px;
   }
