@@ -62,26 +62,27 @@ section#heading h1:before {
 
 /* line 66, ../sass/about.scss */
 section#main {
-  text-align: center;
   color: #d3d3d3;
 }
-/* line 70, ../sass/about.scss */
+/* line 69, ../sass/about.scss */
 section#main h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 32px;
+  position: relative;
 }
-/* line 76, ../sass/about.scss */
+/* line 75, ../sass/about.scss */
 section#main h2:after {
   content: '';
   display: block;
-  position: relative;
+  position: absolute;
   width: 44px;
   height: 5px;
   background-color: #bc0c14;
   margin: 0 auto;
-  bottom: -10px;
+  left: 0;
+  bottom: -15px;
 }
 /* line 88, ../sass/about.scss */
 section#main p {

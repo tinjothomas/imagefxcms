@@ -26,12 +26,19 @@
 </section> <!-- /#hero -->
 
 <!-- main -->
-<section id="main" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+<section id="main" data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-8 mx-auto">
-        <h2>{{ .Params.heading }}</h2>
-        <p>{{ .Params.desc }}</p>
+      <div class="col-12 col-lg-10 mx-auto pt-5"
+           style="background: url('/assets/images/about-page-background.png') no-repeat right;">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="pt-4">{{ .Params.heading }}</h2>
+            <p>{{ .Params.desc }}</p>
+          </div>
+          <!-- /.col-12 col-lg-6 -->
+        </div>
+        <!-- /.row -->
       </div>
       <!-- /.col-12 col-lg-8 -->
     </div>

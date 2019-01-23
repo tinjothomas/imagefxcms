@@ -64,7 +64,6 @@ section#heading {
 
 // main
 section#main {
-  text-align: center;
   color: #d3d3d3;
 
   & h2 {
@@ -72,16 +71,18 @@ section#main {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 32px;
+    position: relative;
 
     &:after {
       content: '';
       display: block;
-      position: relative;
+      position: absolute;
       width: 44px;
       height: 5px;
       background-color: #bc0c14;
       margin: 0 auto;
-      bottom: -10px;
+      left: 0;
+      bottom: -15px;
     }
   }
 

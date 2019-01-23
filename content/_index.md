@@ -3,6 +3,7 @@ slides:
     - image: "assets/images/slides/slide-1.jpg"
     - image: "assets/images/slides/slide-2.jpg"
     - image: "assets/images/slides/slide-3.jpg"
+    - image: "assets/images/slides/slide-4.jpg"
     
 title: "The fact you're here says you understand the importance of branding environments that create connections with your customers."
 
@@ -18,9 +19,9 @@ vehiclefx_desc: "ImageFX has a full service suite to brand your vehicle from mar
 displayfx_subhead: "You Imagine It and We Create It"
 displayfx_desc: "Sometimes you want something that is unique or to capture a specic audience. Let us help you bring your idea or space to life."
 
-image_1: "/assets/images/works/design/file3.jpg"
+image_1: "/assets/images/works/display/file4.jpg"
 description_1: "Inverom Corporate office NY"
-image_2: "/assets/images/works/design/file16.jpg"
+image_2: "/assets/images/works/vehicle/file12.jpg"
 description_2: "Navistar"
 image_3: "/assets/images/works/brand/file6.jpg"
 description_3: "Singboards at Singboards at …Singboards at …Singboards at ……"

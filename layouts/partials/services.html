@@ -38,13 +38,42 @@
     <div class="row">
       <div class="col-12 works">
         <div class="row">
-          {{ $page := .context.GetPage "/gallery.md" }}
-          {{ range first 8 (shuffle (where $page.Params.gallery "category" .service)) }}
+          <!-- {-{ $page := .context.GetPage "/gallery.md" }}
+          {-{ range first 8 (shuffle (where $page.Params.gallery "category" .service)) }} -->
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .image }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+                 style="background: url('{{ .context.Params.recent_1 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
-          {{ end }}
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_2 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_3 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_4 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_5 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_6 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_7 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
+            <div class="image"
+                 style="background: url('{{ .context.Params.recent_8 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+          </a>
+          <!-- {-{ end }} -->
         </div> <!-- /.row -->
         <div class="heading">Recent Works</div>
         <a href="/works/{{ .service }}" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg" alt=""></a>

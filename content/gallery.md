@@ -69,63 +69,98 @@ gallery:
     - image: "/assets/images/works/brand/file23.jpg"
       description: "Company name or..."
       category: 'brandingfx'
-    - image: "/assets/images/works/brand/file24.jpg"
-      description: "Company name or..."
-      category: 'brandingfx'
-    - image: "/assets/images/works/brand/file25.jpg"
-      description: "Company name or..."
-      category: 'brandingfx'
-    - image: "/assets/images/works/design/file1.jpg"
+      
+    - image: "/assets/images/works/display/file1.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file2.jpg"
+    - image: "/assets/images/works/display/file2.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file3.jpg"
+    - image: "/assets/images/works/display/file3.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file4.jpg"
+    - image: "/assets/images/works/display/file4.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file5.jpg"
+    - image: "/assets/images/works/display/file5.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file6.jpg"
+    - image: "/assets/images/works/display/file6.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file7.jpg"
+    - image: "/assets/images/works/display/file7.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file8.jpg"
+    - image: "/assets/images/works/display/file8.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file9.jpg"
+    - image: "/assets/images/works/display/file9.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file10.jpg"
+    - image: "/assets/images/works/display/file11.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file11.jpg"
+    - image: "/assets/images/works/display/file12.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file12.jpg"
+    - image: "/assets/images/works/display/file13.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file13.jpg"
+    - image: "/assets/images/works/display/file14.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file14.jpg"
+    - image: "/assets/images/works/display/file15.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file15.jpg"
+    - image: "/assets/images/works/display/file16.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file16.jpg"
+    - image: "/assets/images/works/display/file17.jpg"
       description: "Company name or..."
       category: 'displayfx'
-    - image: "/assets/images/works/design/file17.jpg"
+    - image: "/assets/images/works/display/file18.jpg"
       description: "Company name or..."
       category: 'displayfx'
+    - image: "/assets/images/works/display/file19.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file20.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file21.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file22.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file23.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file24.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file25.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file26.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file27.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file28.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file29.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file30.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+    - image: "/assets/images/works/display/file31.jpg"
+      description: "Company name or..."
+      category: 'displayfx'
+      
     - image: "/assets/images/works/sign/file1.jpg"
       description: "Company name or..."
       category: 'signfx'
@@ -201,24 +236,7 @@ gallery:
     - image: "/assets/images/works/sign/file25.jpg"
       description: "Company name or..."
       category: 'signfx'
-    - image: "/assets/images/works/sign/file26.jpg"
-      description: "Company name or..."
-      category: 'signfx'
-    - image: "/assets/images/works/sign/file27.jpg"
-      description: "Company name or..."
-      category: 'signfx'
-    - image: "/assets/images/works/sign/file28.jpg"
-      description: "Company name or..."
-      category: 'signfx'
-    - image: "/assets/images/works/sign/file28.jpg"
-      description: "Company name or..."
-      category: 'signfx'
-    - image: "/assets/images/works/sign/file30.jpg"
-      description: "Company name or..."
-      category: 'signfx'
-    - image: "/assets/images/works/sign/file31.jpg"
-      description: "Company name or..."
-      category: 'signfx'
+      
     - image: "/assets/images/works/vehicle/file1.jpg"
       description: "Company name or..."
       category: 'vehiclefx'
@@ -244,6 +262,60 @@ gallery:
       description: "Company name or..."
       category: 'vehiclefx'
     - image: "/assets/images/works/vehicle/file9.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file10.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file11.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file12.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file13.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file14.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file15.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file16.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file17.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file18.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file19.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file20.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file21.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file22.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file23.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file24.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file25.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file26.jpg"
+      description: "Company name or..."
+      category: 'vehiclefx'
+    - image: "/assets/images/works/vehicle/file27.jpg"
       description: "Company name or..."
       category: 'vehiclefx'
 ---
