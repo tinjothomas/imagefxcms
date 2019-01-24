@@ -28,30 +28,30 @@
 <body>
 
 <div id="form-wrapper">
-  <div class="quote ml-auto">
+  <div class="quote">
     <div class="col-12 text-right pt-3">
       <img src="/assets/images/close-button.svg" width="16" alt="" class="close-button">
     </div>
-    <div class="top px-5 py-4">
+    <div class="top px-3 py-3 px-md-5 py-md-4">
       <form action="" id="quote" netlify>
         <div class="row">
-          <div class="form-group col-6">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="form-control">
+          <div class="form-group col-12 col-md-6">
+            <label for="name" class="d-none d-md-block">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Name">
           </div>
-          <div class="form-group col-6">
-            <label for="company">Company</label>
-            <input type="text" id="company" class="form-control">
+          <div class="form-group col-12 col-md-6">
+            <label for="company" class="d-none d-md-block" >Company</label>
+            <input type="text" id="company" class="form-control" placeholder="Company">
           </div>
-          <div class="form-group col-6">
-            <label for="phone">Phone</label>
-            <input type="text" id="phone" class="form-control">
+          <div class="form-group col-12 col-md-6">
+            <label for="cphone" class="d-none d-md-block">Phone</label>
+            <input type="text" id="cphone" class="form-control" placeholder="Phone">
           </div>
-          <div class="form-group col-6">
-            <label for="email">Email</label>
-            <input type="text" id="email" class="form-control">
+          <div class="form-group col-12 col-md-6">
+            <label for="email" class="d-none d-md-block">Email</label>
+            <input type="text" id="email" class="form-control" placeholder="Email">
           </div>
-          <div class="form-group col-6 form-inline">
+          <div class="form-group col-12 col-md-6 form-inline">
             <div class="row col-12">
               <label>Preferred contact method</label>
             </div>
@@ -64,7 +64,7 @@
               Email
             </label>
           </div>
-          <div class="form-group col-6">
+          <div class="form-group col-12 col-md-6">
             <label for="service">I am interested in</label>
             <select name="service" id="service" class="form-control">
               <option value="brandingImageFx">Branding ImageFX</option>
@@ -88,11 +88,11 @@
     <!-- /.top -->
     <div class="bottom px-5">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-lg-6 text-center text-md-left">
           <div class="email-address">contact@imagefxcorp.com</div>
           <div class="phone-number">630.655.2850</div>
         </div>
-        <div class="col-6 text-right pt-2">
+        <div class="col-12 col-lg-6 text-center text-md-right pt-2">
           <a href="https://twitter.com/imagefxcorp">
             <img src="/assets/images/twitter-dark.svg" width="24" class="ml-3" alt="">
           </a>
@@ -122,6 +122,12 @@
     top: 0;
     background-color: rgba(0,0,0,0.9);
     display: none;
+    overflow-y: auto;
+  }
+  @media screen and (max-width: 1200px) {
+    #form-wrapper {
+      z-index: 2000;
+    }
   }
   .close-button {
     cursor: pointer;
@@ -151,6 +157,14 @@
     max-width: 675px;
     margin-right: 63px;
     margin-top: 75px;
+    margin-left: auto;
+  }
+  @media screen and (max-width: 1200px) {
+    .quote {
+      margin-right: auto;
+      margin-top: 0;
+      max-width: 100%;
+    }
   }
   input[type=radio]+label {
     background-color: #d8d8d8;
@@ -168,6 +182,11 @@
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+  }
+  @media screen and (max-width: 1200px) {
+    .quote label {
+      margin-top: 0;
+    }
   }
   .quote select {
     -webkit-appearance: none;
@@ -187,6 +206,15 @@
     border: none;
     color: #fff;
   }
+  @media screen and (max-width: 1200px) {
+    .quote button {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 4000;
+    }
+  }
   .quote input, .quote select, .quote textarea {
     background-color: #d8d8d8;
     color: #161414 !important;
@@ -199,6 +227,12 @@
     padding-bottom: 20px;
     color: #161414;
   }
+  @media screen and (max-width: 1200px) {
+    .quote .bottom {
+      margin-bottom: 50px;
+    }
+  }
+
 </style>
 
 <section id="header">
