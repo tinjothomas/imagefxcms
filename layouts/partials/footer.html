@@ -61,5 +61,17 @@
 <script src="assets/scripts/{{ .script }}.js"></script>
 {{ end }}
 
+<script>
+  $(document).ready(function() {
+    $('.request-quote').click(function(e) {
+      e.preventDefault();
+      $('#form-wrapper').slideDown();
+    });
+    $('.close-button').click(function() {
+      $('#form-wrapper').slideUp();
+    });
+  });
+</script>
+
 </body>
 </html>

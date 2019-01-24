@@ -72,7 +72,7 @@ section#main h2 {
   margin-bottom: 32px;
   position: relative;
 }
-/* line 75, ../sass/about.scss */
+/* line 76, ../sass/about.scss */
 section#main h2:after {
   content: '';
   display: block;
@@ -84,7 +84,7 @@ section#main h2:after {
   left: 0;
   bottom: -15px;
 }
-/* line 88, ../sass/about.scss */
+/* line 89, ../sass/about.scss */
 section#main p {
   font-family: "Lato", sans-serif;
   font-size: 18px;

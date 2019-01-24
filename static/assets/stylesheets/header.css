@@ -181,12 +181,12 @@ ul.navbar-nav .services:hover .dropdown {
   }
 }
 
-/* line 175, ../sass/header.scss */
+/* line 174, ../sass/header.scss */
 #dummy-top-margin {
   margin-top: 75px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 175, ../sass/header.scss */
+  /* line 174, ../sass/header.scss */
   #dummy-top-margin {
     margin-top: 69px;
   }
