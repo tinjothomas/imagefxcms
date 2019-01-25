@@ -36,20 +36,24 @@
       <form action="" id="quote" netlify>
         <div class="row">
           <div class="form-group col-12 col-md-6">
-            <label for="name" class="d-none d-md-block">Name</label>
-            <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+            <label class="d-none d-md-block">
+              Name: <input type="text" name="name" class="form-control" placeholder="Name">
+            </label>
           </div>
           <div class="form-group col-12 col-md-6">
-            <label for="company" class="d-none d-md-block" >Company</label>
-            <input type="text" id="company" name="name" class="form-control" placeholder="Company">
+            <label class="d-none d-md-block">
+              Company: <input type="text" name="company" class="form-control" placeholder="Company">
+            </label>
           </div>
           <div class="form-group col-12 col-md-6">
-            <label for="cphone" class="d-none d-md-block">Phone</label>
-            <input type="text" name="phone-umber" id="cphone" class="form-control" placeholder="Phone">
+            <label class="d-none d-md-block">
+              Phone: <input type="text" name="phone" class="form-control" placeholder="Phone">
+            </label>
           </div>
           <div class="form-group col-12 col-md-6">
-            <label for="email" class="d-none d-md-block">Email</label>
-            <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+            <label class="d-none d-md-block">
+              Email: <input type="text" name="email" class="form-control" placeholder="Email">
+            </label>
           </div>
           <div class="form-group col-12 col-md-6 form-inline">
             <div class="row col-12">
@@ -65,17 +69,20 @@
             </label>
           </div>
           <div class="form-group col-12 col-md-6">
-            <label for="service">I am interested in</label>
-            <select name="service" id="service" class="form-control">
-              <option value="brandingImageFx">Branding ImageFX</option>
-              <option value="signFx">SignFX</option>
-              <option value="vehicleFx">VehicleFX</option>
-              <option value="designFx">DesignFX</option>
-            </select>
+            <label>
+              I am interested in
+              <select name="service" class="form-control">
+                <option value="brandingImageFx">Branding ImageFX</option>
+                <option value="signFx">SignFX</option>
+                <option value="vehicleFx">VehicleFX</option>
+                <option value="designFx">DesignFX</option>
+              </select>
+            </label>
           </div>
           <div class="form-group col-12">
-            <label for="message">Message</label>
-            <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+            <label>
+              Message: <textarea name="message" class="form-control" rows="3"></textarea>
+            </label>
           </div>
           <div class="corm-group col-12 text-right mt-2">
             <button type="submit" id="submit">SUBMIT</button>

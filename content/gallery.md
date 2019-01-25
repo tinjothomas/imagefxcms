@@ -69,7 +69,6 @@ gallery:
     - image: "/assets/images/works/brand/file23.jpg"
       description: "Company name or..."
       category: 'brandingfx'
-      
     - image: "/assets/images/works/display/file1.jpg"
       description: "Company name or..."
       category: 'displayfx'
@@ -160,7 +159,6 @@ gallery:
     - image: "/assets/images/works/display/file31.jpg"
       description: "Company name or..."
       category: 'displayfx'
-      
     - image: "/assets/images/works/sign/file1.jpg"
       description: "Company name or..."
       category: 'signfx'
@@ -236,7 +234,6 @@ gallery:
     - image: "/assets/images/works/sign/file25.jpg"
       description: "Company name or..."
       category: 'signfx'
-      
     - image: "/assets/images/works/vehicle/file1.jpg"
       description: "Company name or..."
       category: 'vehiclefx'
