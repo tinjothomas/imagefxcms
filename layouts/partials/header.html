@@ -32,58 +32,116 @@
     <div class="col-12 text-right pt-3">
       <img src="/assets/images/close-button.svg" width="16" alt="" class="close-button">
     </div>
-    <div class="top px-3 py-3 px-md-5 py-md-4">
+    <div class="top px-3 py-5 px-md-5 py-md-0 pb-md-4">
       <form action="" id="quote" netlify>
         <div class="row">
           <div class="form-group col-12 col-md-6">
-            <label class="d-none d-md-block">
-              Name: <input type="text" name="name" class="form-control" placeholder="Name">
-            </label>
+            <label for="name" class="d-none d-md-block">Name</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Name">
           </div>
           <div class="form-group col-12 col-md-6">
-            <label class="d-none d-md-block">
-              Company: <input type="text" name="company" class="form-control" placeholder="Company">
-            </label>
+            <label for="company" class="d-none d-md-block">Company</label>
+            <input type="text" id="company" name="company" class="form-control" placeholder="Company">
           </div>
           <div class="form-group col-12 col-md-6">
-            <label class="d-none d-md-block">
-              Phone: <input type="text" name="phone" class="form-control" placeholder="Phone">
-            </label>
+            <label for="cphone" class="d-none d-md-block">Phone</label>
+            <input type="text" id="cphone" name="phone" class="form-control" placeholder="Phone">
           </div>
           <div class="form-group col-12 col-md-6">
-            <label class="d-none d-md-block">
-              Email: <input type="text" name="email" class="form-control" placeholder="Email">
-            </label>
+            <label for="email" class="d-none d-md-block">Email</label>
+            <input type="text" id="email" name="email" class="form-control" placeholder="Email">
           </div>
           <div class="form-group col-12 col-md-6 form-inline">
-            <div class="row col-12">
-              <label>Preferred contact method</label>
+
+            <label class="d-md-block mb-2">Preferred contact method</label>
+            <div class="toggle-button" id='button-container'>
+              <div id='my-button' class="button-element">
+                <p id='via-email'>Email</p>
+              </div>
+              <p id='via-phone'>Phone</p>
             </div>
-            <input class="d-none" type="radio" name="method" id="via-phone" value="phone" checked>
-            <label class="form-check-label p-2" for="via-phone">
-              Phone
-            </label>
-            <input class="d-none" type="radio" name="method" id="via-email" value="email">
-            <label class="form-check-label p-2" for="via-email">
-              Email
-            </label>
+            <div id=here-itis></div>
+            <label class="d-none">Preferred contact method <input id='for-button' type="text" name="method" value='Email' /></label>
+
+            <style>
+              .toggle-button {
+                width: 142px;
+                height: 37px;
+                border-radius: 3px;
+                background-color: #d8d8d8;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+              }
+              .button-element {
+                width: 71px;
+                height: 37px;
+                border-radius: 3px;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+                background-color: #c3262d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.2s;
+              }
+              #via-email {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                letter-spacing: 0.2px;
+                color: #fff;
+              }
+              #via-phone {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                letter-spacing: 0.2px;
+                color: #646464;
+                padding-left: 16px;
+              }
+            </style>
+            <script>
+              var button = document.getElementById('button-container');
+              var email = document.getElementById('via-email');
+              var phone = document.getElementById('via-phone');
+              var where = document.getElementById('for-button');
+              var buttonState = true;
+              button.addEventListener('click', function(){
+                if (buttonState) {
+                  document.getElementById("my-button").style.transform = "translateX(71px)";
+                  buttonState = false;
+                  email.innerText = 'Phone';
+                  phone.innerText = 'Email';
+                  phone.style.transform = "translateX(-71px)";
+                  where.value = 'Phone'
+                } else {
+                  document.getElementById("my-button").style.transform = "translateX(0px)";
+                  buttonState = true;
+                  email.innerText = 'Email';
+                  phone.innerText = 'Phone';
+                  phone.style.transform = "translateX(0px)";
+                  where.value = 'Email'
+                }
+              })
+            </script>
+
           </div>
           <div class="form-group col-12 col-md-6">
-            <label>
-              I am interested in
-              <select name="service" class="form-control">
-                <option value="brandingImageFx">Branding ImageFX</option>
-                <option value="signFx">SignFX</option>
-                <option value="vehicleFx">VehicleFX</option>
-                <option value="designFx">DesignFX</option>
-              </select>
-            </label>
+            <label for="service">I am interested in</label>
+            <select id="service" name="service" class="form-control">
+              <option value="brandingImageFx">Branding ImageFX</option>
+              <option value="signFx">SignFX</option>
+              <option value="vehicleFx">VehicleFX</option>
+              <option value="designFx">DesignFX</option>
+            </select>
           </div>
           <div class="form-group col-12">
-            <label>
-              Message: <textarea name="message" class="form-control" rows="3"></textarea>
-            </label>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-control" rows="3"></textarea>
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <div class="corm-group col-12 text-right mt-2">
             <button type="submit" id="submit">SUBMIT</button>
           </div>
@@ -129,7 +187,7 @@
     top: 0;
     background-color: rgba(0,0,0,0.9);
     display: none;
-    overflow-y: auto;
+    overflow-y: scroll;
   }
   @media screen and (max-width: 1200px) {
     #form-wrapper {
@@ -139,30 +197,13 @@
   .close-button {
     cursor: pointer;
     z-index: 401;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  .close-button:hover {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
   }
   .quote {
     background-color: #161414;
     color: #fff;
     width: 100%;
     max-width: 675px;
-    margin-right: 63px;
+    margin-right: 48px;
     margin-top: 75px;
     margin-left: auto;
   }

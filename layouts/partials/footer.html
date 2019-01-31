@@ -65,10 +65,15 @@
   $(document).ready(function() {
     $('.request-quote').click(function(e) {
       e.preventDefault();
-      $('#form-wrapper').slideDown();
+      $('#form-wrapper').fadeIn();
     });
     $('.close-button').click(function() {
-      $('#form-wrapper').slideUp();
+      $('#form-wrapper').fadeOut();
+    });
+    $('#form-wrapper').click(function(e) {
+      if( e.target === this ) { // stop event propagation tochildren
+        $('#form-wrapper').fadeOut();
+      }
     });
   });
 </script>
