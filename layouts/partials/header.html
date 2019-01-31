@@ -101,6 +101,10 @@
                 color: #646464;
                 padding-left: 16px;
               }
+              .g-recaptcha {
+                transform:scale(0.77);
+                transform-origin:0 0;
+              }
             </style>
             <script>
               var button = document.getElementById('button-container');
@@ -141,9 +145,17 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" class="form-control" rows="3"></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
-          <div class="corm-group col-12 text-right mt-2">
-            <button type="submit" id="submit">SUBMIT</button>
+          <div class="col-12" data-netlify-recaptcha="true" style="height: auto"></div>
+          <div class="corm-group col-12 mt-2">
+            <div class="row">
+              <div class="col-6">
+                kkkk
+              </div>
+              <div class="col-6 text-right">
+                <button type="submit" id="submit">SUBMIT</button>
+              </div>
+            </div>
+            <!-- /.row -->
           </div>
         </div>
         <!-- /.row -->
