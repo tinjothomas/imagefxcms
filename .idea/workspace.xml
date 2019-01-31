@@ -60,7 +60,7 @@
         <counts>
           <entry key="brandfx" value="5" />
           <entry key="css" value="77" />
-          <entry key="html" value="19473" />
+          <entry key="html" value="19495" />
           <entry key="js" value="287" />
           <entry key="md" value="2757" />
           <entry key="rb" value="2" />
@@ -72,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="77" />
-          <entry key="HTML" value="19473" />
+          <entry key="HTML" value="19495" />
           <entry key="JavaScript" value="287" />
           <entry key="Markdown" value="2757" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="258">
+              <caret line="151" column="33" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="33" />
               <folding>
                 <element signature="n#script#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -330,12 +330,12 @@
       <workItem from="1548400920699" duration="82000" />
       <workItem from="1548401323033" duration="1225000" />
       <workItem from="1548411110236" duration="1481000" />
-      <workItem from="1548909072020" duration="1331000" />
+      <workItem from="1548909072020" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222479000" />
+    <option name="totallyTimeSpent" value="222591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="258">
+          <caret line="151" column="33" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="33" />
           <folding>
             <element signature="n#script#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
