@@ -1,0 +1,31 @@
+backend:
+  name: bitbucket
+  repo: coredes/imagefx-cms # Path to your Bitbucket repository
+
+# These lines should *not* be indented
+media_folder: "static/assets/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+
+collections:
+  - label: "Home"
+    name: "home"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: BrandFX Subheading, name: brandfx_subhead, widget: string} 
+          - {label: BrandFX Description, name: brandfx_desc, widget: string} 
+          - {label: SignFX Subheading, name: signfx_subhead, widget: string} 
+          - {label: SignFX Description, name: signfx_desc, widget: string} 
+          - {label: VehicleFX Subheading, name: vehiclefx_subhead, widget: string} 
+          - {label: VehicleFX Description, name: vehiclefx_desc, widget: string}  
+          - {label: DisplayFX Subheading, name: displayfx_subhead, widget: string} 
+          - {label: DisplayFX Description, name: displayfx_desc, widget: string}  
+          - {label: Address Line 1, name: address_1, widget: string} 
+          - {label: Address Line 2, name: address_2, widget: string}  
+          - {label: Address Line 3, name: address_3, widget: string}  
+          - {label: Phone, name: phone, widget: string}
+          - {label: Email, name: email, widget: string}     
