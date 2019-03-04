@@ -1,6 +1,6 @@
 backend:
-  name: bitbucket
-  repo: coredes/imagefx-cms # Path to your Bitbucket repository
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented
 media_folder: "static/assets/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -8,8 +8,8 @@ public_folder: "/assets/images/uploads" # The src attribute for uploaded media w
 
 
 collections:
-  - label: "Home"
-    name: "home"
+  - label: "Single Pages"
+    name: "pages"
     files:
       - label: "Home Page"
         name: "home"
