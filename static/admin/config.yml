@@ -15,6 +15,10 @@ collections:
         name: "home"
         file: "content/_index.md"
         fields:
+          - label: "Gallery"
+            name: "slides"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
           - {label: Title, name: title, widget: string}
           - {label: BrandFX Subheading, name: brandfx_subhead, widget: string} 
           - {label: BrandFX Description, name: brandfx_desc, widget: string} 
