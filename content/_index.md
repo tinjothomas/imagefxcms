@@ -1,9 +1,5 @@
 ---
-slides:
-    - image: "assets/images/slides/slide-1.jpg"
-    - image: "assets/images/slides/slide-2.jpg"
-    - image: "assets/images/slides/slide-3.jpg"
-    - image: "assets/images/slides/slide-4.jpg"
+slides: ["assets/images/slides/slide-1.jpg", "assets/images/slides/slide-2.jpg", "assets/images/slides/slide-3.jpg", "assets/images/slides/slide-4.jpg"]
     
 title: "The fact you're here says you understand the importance of branding environments that create connections with your customers."
 

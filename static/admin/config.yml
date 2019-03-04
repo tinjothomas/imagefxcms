@@ -15,7 +15,7 @@ collections:
         name: "home"
         file: "content/_index.md"
         fields:
-          - label: "Slides"
+          - label: "Slider Images"
             name: "slides"
             widget: "list"
             field: {label: Image, name: image, widget: image}
