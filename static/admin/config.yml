@@ -15,7 +15,7 @@ collections:
         name: "home"
         file: "content/_index.md"
         fields:
-          - label: "Gallery"
+          - label: "Slides"
             name: "slides"
             widget: "list"
             field: {label: Image, name: image, widget: image}
@@ -27,12 +27,21 @@ collections:
           - {label: VehicleFX Subheading, name: vehiclefx_subhead, widget: string} 
           - {label: VehicleFX Description, name: vehiclefx_desc, widget: string}  
           - {label: DisplayFX Subheading, name: displayfx_subhead, widget: string} 
-          - {label: DisplayFX Description, name: displayfx_desc, widget: string}  
+          - {label: DisplayFX Description, name: displayfx_desc, widget: string}
+          - {label: Recent Works Image 1, name: image_1, widget: image}   
+          - {label: Description for image 1, name: description_1, widget: string}
+          - {label: Recent Works Image 2, name: image_2, widget: image}   
+          - {label: Description for image 2, name: description_2, widget: string} 
+          - {label: Recent Works Image 3, name: image_3, widget: image}   
+          - {label: Description for image 3, name: description_3, widget: string}
+          - {label: Bottom Heading, name: bottom_heading, widget: string} 
+          - {label: Bottom Description, name: bottom_desc, widget: string} 
           - {label: Address Line 1, name: address_1, widget: string} 
           - {label: Address Line 2, name: address_2, widget: string}  
           - {label: Address Line 3, name: address_3, widget: string}  
           - {label: Phone, name: phone, widget: string}
           - {label: Email, name: email, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
       - label: "About"
         name: "about"
         file: "content/about/_index.md"
