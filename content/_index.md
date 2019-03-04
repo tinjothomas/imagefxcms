@@ -4,8 +4,6 @@ slides:
   - assets/images/slides/slide-2.jpg
   - assets/images/slides/slide-3.jpg
   - assets/images/slides/slide-4.jpg
-  - >-
-    https://raw.githubusercontent.com/tinjothomas/imagefxcms/master/static/assets/images/uploads/slide.jpg
 title: >-
   The fact you're here says you understand the importance of branding
   environments that create connections with your customers.
