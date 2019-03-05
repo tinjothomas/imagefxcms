@@ -315,9 +315,5 @@ gallery:
   - category: vehiclefx
     description: Company name or...
     image: /assets/images/works/vehicle/file27.jpg
-  - category: signfx
-    description: 'This is a slider image '
-    image: >-
-      https://raw.githubusercontent.com/tinjothomas/imagefxcms/master/static/assets/images/uploads/slide.jpg
 ---
 
