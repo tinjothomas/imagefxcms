@@ -51,10 +51,10 @@ collections:
           - {label: Description, name: desc, widget: string}
       - label: "Gallery"
         name: "gallery"
-        file: "content/Gallery.md"
+        file: "content/gallery.md"
         fields:
           - label: "All Images"
-            name: "images"
+            name: "gallery"
             widget: "list"
             fields:
               - {label: "Image", name: "image", widget: "image"}
