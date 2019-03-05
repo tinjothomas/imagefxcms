@@ -48,4 +48,15 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string} 
-          - {label: Description, name: desc, widget: string}     
+          - {label: Description, name: desc, widget: string}
+      - label: "Gallery"
+        name: "gallery"
+        file: "content/Gallery.md"
+        fields:
+          - label: "All Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "description", name: "description", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["brandingfx", "displayfx", "signfx", "vehiclefx"]}  
