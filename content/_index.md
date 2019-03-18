@@ -26,10 +26,10 @@ displayfx_subhead: You Imagine It and We Create It
 displayfx_desc: >-
   Sometimes you want something that is unique or to capture a specic audience.
   Let us help you bring your idea or space to life.
-image_1: /assets/images/works/display/file4.jpg
-description_1: Inverom Corporate office NY
-image_2: /assets/images/works/vehicle/file12.jpg
-description_2: Navistar
+image_1: /assets/images/uploads/neves.jpg
+description_1: Custom metal logo
+image_2: /assets/images/uploads/windy-1.jpg
+description_2: Custom LED neon logo for LEXUS display
 image_3: /assets/images/works/brand/file6.jpg
 description_3: Singboards at Singboards at …Singboards at …Singboards at ……
 bottom_heading: ImageFX Is Your One-Stop Image Source.
