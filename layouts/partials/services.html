@@ -27,7 +27,8 @@
         </div> <!-- /.row -->
       </div> <!-- /.col-12 col-lg-6 text -->
       <div class="col-12 col-lg-6 image"
-           style="background: url('{{ .context.Params.image }}') no-repeat center; -webkit-background-size: cover; background-size: cover;"></div> <!-- /.col-12 col-lg-6 image -->
+        style="background: url('{{ .context.Params.image }}') no-repeat center; -webkit-background-size: cover; background-size: cover;">
+      </div> <!-- /.col-12 col-lg-6 image -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 </section> <!-- /#hero -->
@@ -42,41 +43,49 @@
           {-{ range first 8 (shuffle (where $page.Params.gallery "category" .service)) }} -->
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_1 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+              style="background: url('{{ .context.Params.recent_1 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
             </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_2 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_2 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_3 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_3 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_4 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_4 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_5 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_5 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_6 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_6 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_7 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_7 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <a href="/works/{{ .category }}/" class="col-12 col-md-6 col-lg-3 work">
             <div class="image"
-                 style="background: url('{{ .context.Params.recent_8 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;"></div>
+              style="background: url('{{ .context.Params.recent_8 }}') no-repeat center; -webkit-background-size: cover;background-size: cover;">
+            </div>
           </a>
           <!-- {-{ end }} -->
         </div> <!-- /.row -->
         <div class="heading">Recent Works</div>
-        <a href="/works/{{ .service }}" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg" alt=""></a>
+        <a href="/works/{{ .service }}" class="see-more-works">SEE MORE <img src="/assets/images/right-arrow.svg"
+            alt=""></a>
       </div> <!-- /.col-12 works -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
@@ -105,7 +114,8 @@
       </div> <!-- /.col-6 -->
       <div class="col-12 col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 text-center text-lg-right">
         <div class="phone">
-          <a href="tel:630-655-2850"><img src="/assets/images/phone.svg" width="60" alt="white phone icon"> 630-655-2850</a>
+          <a href="tel:630-655-2850"><img src="/assets/images/phone.svg" width="60" alt="white phone icon">
+            630-655-2850</a>
         </div> <!-- /.phone -->
       </div> <!-- /.col-6 -->
     </div> <!-- /.row -->
@@ -113,28 +123,27 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-4 advantage mb-4" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
-        {{ $usp := index .context.Params.usp 0 }}
-        <h1 class="heading">{{ $usp.heading }}</h1>
+        <h1 class="heading">{{ .context.Params.usp_heading_1 }}</h1>
         <div class="detail">
-          <p>{{ $usp.body }}</p>
+          <p>{{ .context.Params.usp_body_1 }}</p>
         </div>
       </div> <!-- /.col-3 advantage -->
     </div> <!-- /.row -->
     <div class="row">
-      <div class="col-12 col-lg-4 advantage mb-4 mx-auto" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
-        {{ $usp := index .context.Params.usp 1 }}
-        <h1 class="heading">{{ $usp.heading }}</h1>
+      <div class="col-12 col-lg-4 advantage mb-4 mx-auto" data-aos="flip-up" data-aos-duration="700"
+        data-aos-delay="100">
+        <h1 class="heading">{{ .context.Params.usp_heading_2 }}</h1>
         <div class="detail">
-          <p>{{ $usp.body }}</p>
+          <p>{{ .context.Params.usp_body_2 }}</p>
         </div>
       </div> <!-- /.col-3 advantage -->
     </div> <!-- /.row -->
     <div class="row">
-      <div class="col-12 col-lg-4 advantage mb-4 ml-auto" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
-        {{ $usp := index .context.Params.usp 2 }}
-        <h1 class="heading">{{ $usp.heading }}</h1>
+      <div class="col-12 col-lg-4 advantage mb-4 ml-auto" data-aos="flip-up" data-aos-duration="700"
+        data-aos-delay="100">
+        <h1 class="heading">{{ .context.Params.usp_heading_3 }}</h1>
         <div class="detail">
-          <p>{{ $usp.body }}</p>
+          <p>{{ .context.Params.usp_body_3 }}</p>
         </div>
       </div> <!-- /.col-3 advantage -->
     </div> <!-- /.row -->

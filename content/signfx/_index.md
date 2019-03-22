@@ -17,11 +17,10 @@ section_2:
     - title: "Signs, Banners and a Lot More"
       description: "We do it all. From banners and fabricated displays to brand conversions and environmental brands. We also offer a full range of promotional designs, from jackets and hats to mugs and buttons."
 
-usp:
-    - heading: "One-Stop Shop"
-      body: "We're your one stop shop for all your signage needs."
-    - heading: "Projects of All Sizes"
-      body: "No sign is too big, no detail too small to receive our undivided attention."
-    - heading: "Specialized Staff"
-      body: "Our sign specialists know how to mirror your brand and connect with customers."
+usp_heading_1: "One-Stop Shop"
+usp_body_1: "We're your one stop shop for all your signage needs."
+usp_heading_2: "Projects of All Sizes"
+usp_body_2: "No sign is too big, no detail too small to receive our undivided attention."
+usp_heading_3: "Specialized Staff"
+usp_body_3: "Our sign specialists know how to mirror your brand and connect with customers."
 ---
