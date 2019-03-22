@@ -84,3 +84,75 @@ collections:
           - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
           - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
           - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+      - label: "Display Fx"
+        name: "displayfx"
+        file: "content/displayfx/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Recent 1", name: "recent_1", widget: "image"}
+          - {label: "Recent 2", name: "recent_2", widget: "image"}
+          - {label: "Recent 3", name: "recent_3", widget: "image"}
+          - {label: "Recent 4", name: "recent_4", widget: "image"}
+          - {label: "Recent 5", name: "recent_5", widget: "image"}
+          - {label: "Recent 6", name: "recent_6", widget: "image"}
+          - {label: "Recent 7", name: "recent_7", widget: "image"}
+          - {label: "Recent 8", name: "recent_8", widget: "image"}
+          - {label: "Middle section title", name: "ms_title", widget: "string"}
+          - {label: "Middle section description", name: "ms_description", widget: "string"}
+          - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+      - label: "Sign Fx"
+        name: "fignfx"
+        file: "content/signfx/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Recent 1", name: "recent_1", widget: "image"}
+          - {label: "Recent 2", name: "recent_2", widget: "image"}
+          - {label: "Recent 3", name: "recent_3", widget: "image"}
+          - {label: "Recent 4", name: "recent_4", widget: "image"}
+          - {label: "Recent 5", name: "recent_5", widget: "image"}
+          - {label: "Recent 6", name: "recent_6", widget: "image"}
+          - {label: "Recent 7", name: "recent_7", widget: "image"}
+          - {label: "Recent 8", name: "recent_8", widget: "image"}
+          - {label: "Middle section title", name: "ms_title", widget: "string"}
+          - {label: "Middle section description", name: "ms_description", widget: "string"}
+          - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+      - label: "Vehicle Fx"
+        name: "vehiclefx"
+        file: "content/vehiclefx/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Recent 1", name: "recent_1", widget: "image"}
+          - {label: "Recent 2", name: "recent_2", widget: "image"}
+          - {label: "Recent 3", name: "recent_3", widget: "image"}
+          - {label: "Recent 4", name: "recent_4", widget: "image"}
+          - {label: "Recent 5", name: "recent_5", widget: "image"}
+          - {label: "Recent 6", name: "recent_6", widget: "image"}
+          - {label: "Recent 7", name: "recent_7", widget: "image"}
+          - {label: "Recent 8", name: "recent_8", widget: "image"}
+          - {label: "Middle section title", name: "ms_title", widget: "string"}
+          - {label: "Middle section description", name: "ms_description", widget: "string"}
+          - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
