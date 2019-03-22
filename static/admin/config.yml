@@ -21,13 +21,13 @@ collections:
             field: {label: Image, name: image, widget: image}
           - {label: Title, name: title, widget: string}
           - {label: BrandFX Subheading, name: brandfx_subhead, widget: string} 
-          - {label: BrandFX Description, name: brandfx_desc, widget: string} 
+          - {label: BrandFX Description, name: brandfx_desc, widget: text} 
           - {label: SignFX Subheading, name: signfx_subhead, widget: string} 
-          - {label: SignFX Description, name: signfx_desc, widget: string} 
+          - {label: SignFX Description, name: signfx_desc, widget: text} 
           - {label: VehicleFX Subheading, name: vehiclefx_subhead, widget: string} 
-          - {label: VehicleFX Description, name: vehiclefx_desc, widget: string}  
+          - {label: VehicleFX Description, name: vehiclefx_desc, widget: text}  
           - {label: DisplayFX Subheading, name: displayfx_subhead, widget: string} 
-          - {label: DisplayFX Description, name: displayfx_desc, widget: string}
+          - {label: DisplayFX Description, name: displayfx_desc, widget: text}
           - {label: Recent Works Image 1, name: image_1, widget: image}   
           - {label: Description for image 1, name: description_1, widget: string}
           - {label: Recent Works Image 2, name: image_2, widget: image}   
@@ -35,7 +35,7 @@ collections:
           - {label: Recent Works Image 3, name: image_3, widget: image}   
           - {label: Description for image 3, name: description_3, widget: string}
           - {label: Bottom Heading, name: bottom_heading, widget: string} 
-          - {label: Bottom Description, name: bottom_desc, widget: string} 
+          - {label: Bottom Description, name: bottom_desc, widget: text} 
           - {label: Address Line 1, name: address_1, widget: string} 
           - {label: Address Line 2, name: address_2, widget: string}  
           - {label: Address Line 3, name: address_3, widget: string}  
@@ -48,7 +48,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string} 
-          - {label: Description, name: desc, widget: string}
+          - {label: Description, name: desc, widget: text}
       - label: "Gallery"
         name: "gallery"
         file: "content/gallery.md"
@@ -67,7 +67,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "text"}
           - {label: "Recent 1", name: "recent_1", widget: "image"}
           - {label: "Recent 2", name: "recent_2", widget: "image"}
           - {label: "Recent 3", name: "recent_3", widget: "image"}
@@ -77,13 +77,13 @@ collections:
           - {label: "Recent 7", name: "recent_7", widget: "image"}
           - {label: "Recent 8", name: "recent_8", widget: "image"}
           - {label: "Middle section title", name: "ms_title", widget: "string"}
-          - {label: "Middle section description", name: "ms_description", widget: "string"}
+          - {label: "Middle section description", name: "ms_description", widget: "text"}
           - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
-          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "text"}
           - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
-          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "text"}
           - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
-          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "text"}
       - label: "Display Fx"
         name: "displayfx"
         file: "content/displayfx/_index.md"
@@ -91,7 +91,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "text"}
           - {label: "Recent 1", name: "recent_1", widget: "image"}
           - {label: "Recent 2", name: "recent_2", widget: "image"}
           - {label: "Recent 3", name: "recent_3", widget: "image"}
@@ -103,11 +103,11 @@ collections:
           - {label: "Middle section title", name: "ms_title", widget: "string"}
           - {label: "Middle section description", name: "ms_description", widget: "string"}
           - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
-          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "text"}
           - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
-          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "text"}
           - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
-          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "text"}
       - label: "Sign Fx"
         name: "fignfx"
         file: "content/signfx/_index.md"
@@ -115,7 +115,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "text"}
           - {label: "Recent 1", name: "recent_1", widget: "image"}
           - {label: "Recent 2", name: "recent_2", widget: "image"}
           - {label: "Recent 3", name: "recent_3", widget: "image"}
@@ -127,11 +127,11 @@ collections:
           - {label: "Middle section title", name: "ms_title", widget: "string"}
           - {label: "Middle section description", name: "ms_description", widget: "string"}
           - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
-          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "text"}
           - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
-          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "text"}
           - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
-          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "text"}
       - label: "Vehicle Fx"
         name: "vehiclefx"
         file: "content/vehiclefx/_index.md"
@@ -139,7 +139,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Introduction", name: "intro", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "text"}
           - {label: "Recent 1", name: "recent_1", widget: "image"}
           - {label: "Recent 2", name: "recent_2", widget: "image"}
           - {label: "Recent 3", name: "recent_3", widget: "image"}
@@ -151,8 +151,8 @@ collections:
           - {label: "Middle section title", name: "ms_title", widget: "string"}
           - {label: "Middle section description", name: "ms_description", widget: "string"}
           - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
-          - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
+          - {label: "USP 1 body", name: "usp_body_1", widget: "text"}
           - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}
-          - {label: "USP 2 body", name: "usp_body_2", widget: "string"}
+          - {label: "USP 2 body", name: "usp_body_2", widget: "text"}
           - {label: "USP 3 heading", name: "usp_heading_3", widget: "string"}
-          - {label: "USP 3 body", name: "usp_body_3", widget: "string"}
+          - {label: "USP 3 body", name: "usp_body_3", widget: "text"}
