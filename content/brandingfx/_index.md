@@ -13,9 +13,8 @@ recent_6: "/assets/images/works/brand/file10.jpg"
 recent_7: "/assets/images/works/brand/file7.jpg"
 recent_8: "/assets/images/works/brand/file5.jpg"
 
-section_2:
-    - title: "Even our turnaround is impeccable."
-      description: "Brand ImagingFX transforms ordinary space into extraordinary environments. Experts at converting and re-imaging all types of environments, our multi-disciplinary team can implement every aspect of the project, from initial brainstorming and design to fabricating, installing and maintaining your exciting new space"
+ms_title: "Even our turnaround is impeccable."
+ms_description: "Brand ImagingFX transforms ordinary space into extraordinary environments. Experts at converting and re-imaging all types of environments, our multi-disciplinary team can implement every aspect of the project, from initial brainstorming and design to fabricating, installing and maintaining your exciting new space"
 
 usp_heading_1: "Fuel the Imagination"
 usp_body_1: "Whether customers are stopping to refuel their car, their bodies, or their minds, we fuel their imagination."

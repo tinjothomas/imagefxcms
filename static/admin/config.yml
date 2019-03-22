@@ -76,11 +76,8 @@ collections:
           - {label: "Recent 6", name: "recent_6", widget: "image"}
           - {label: "Recent 7", name: "recent_7", widget: "image"}
           - {label: "Recent 8", name: "recent_8", widget: "image"}
-          - label: "Middle section"
-            name: "section_2"
-            fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Description", name: "description", widget: "string"}
+          - {label: "Middle section title", name: "ms_title", widget: "string"}
+          - {label: "Middle section description", name: "ms_description", widget: "string"}
           - {label: "USP 1 heading", name: "usp_heading_1", widget: "string"}
           - {label: "USP 1 body", name: "usp_body_1", widget: "string"}
           - {label: "USP 2 heading", name: "usp_heading_2", widget: "string"}

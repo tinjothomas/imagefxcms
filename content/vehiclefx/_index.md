@@ -13,9 +13,8 @@ recent_6: "/assets/images/works/vehicle/file14.jpg"
 recent_7: "/assets/images/works/vehicle/file8.jpg"
 recent_8: "/assets/images/works/vehicle/file1.jpg"
 
-section_2:
-    - title: "Your Brand on Any Vehicle"
-      description: "Whatever the vehicle, our designers have your brand covered. We can design, produce and install on just about anything imagineable. From simple lettering decals, to full body wraps. Whether it’s a single vehicle or a fleet of vehicles, our team is meticulous and expedient. So if you want to hit the road in style and you need it fast, give us a call."
+ms_title: "Your Brand on Any Vehicle"
+ms_description: "Whatever the vehicle, our designers have your brand covered. We can design, produce and install on just about anything imagineable. From simple lettering decals, to full body wraps. Whether it’s a single vehicle or a fleet of vehicles, our team is meticulous and expedient. So if you want to hit the road in style and you need it fast, give us a call."
 
 usp_heading_1: "Specialized Services"
 usp_body_1: "We specialize in creating signage in all types of materials for all types of vehicles."

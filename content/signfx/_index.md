@@ -13,9 +13,8 @@ recent_6: "/assets/images/works/sign/file8.jpg"
 recent_7: "/assets/images/works/sign/file7.jpg"
 recent_8: "/assets/images/works/sign/file6.jpg"
 
-section_2:
-    - title: "Signs, Banners and a Lot More"
-      description: "We do it all. From banners and fabricated displays to brand conversions and environmental brands. We also offer a full range of promotional designs, from jackets and hats to mugs and buttons."
+ms_title: "Signs, Banners and a Lot More"
+ms_description: "We do it all. From banners and fabricated displays to brand conversions and environmental brands. We also offer a full range of promotional designs, from jackets and hats to mugs and buttons."
 
 usp_heading_1: "One-Stop Shop"
 usp_body_1: "We're your one stop shop for all your signage needs."

@@ -91,15 +91,14 @@
   </div> <!-- /.container -->
 </section> <!-- /#recent-works -->
 
-{{ $section_2 := index .context.Params.section_2 0 }}
 <section id="turn-around" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 mb-4 left">
-        <div class="heading">{{ $section_2.title }}</div>
+        <div class="heading">{{ .context.Params.ms_title }}</div>
       </div> <!-- /.col-6 heading -->
       <div class="col-12 col-lg-6 right">
-        <p>{{ $section_2.description }}</p>
+        <p>{{ .context.Params.ms_description }}</p>
       </div> <!-- /.col-6 right -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->
