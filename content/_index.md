@@ -29,9 +29,9 @@ displayfx_desc: >-
 image_1: /assets/images/uploads/neves.jpg
 description_1: Custom metal logo
 image_2: /assets/images/uploads/windy-1.jpg
-description_2: Custom LED neon logo for LEXUS display
+description_2: Custom LED neon logo
 image_3: /assets/images/uploads/img_7047.jpg
-description_3: Complete Station Imaging from design to install
+description_3: Complete Station Imaging
 bottom_heading: ImageFX Is Your One-Stop Image Source.
 bottom_desc: >-
   If you're looking to create high-impact branding, you've come to the right
