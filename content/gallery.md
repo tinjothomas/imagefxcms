@@ -40,7 +40,7 @@ gallery:
     description: Logo designs
     image: /assets/images/works/brand/file13.jpg
   - category: brandingfx
-    description: Hospital Displays
+    description: Donor Recognition Walls
     image: /assets/images/works/brand/file14.jpg
   - category: brandingfx
     description: Environmental Branding
@@ -67,8 +67,8 @@ gallery:
     description: Interior Branding
     image: /assets/images/works/brand/file22.jpg
   - category: brandingfx
-    description: Dimensional Signs
-    image: /assets/images/works/brand/file23.jpg
+    description: Petroleum Imaging
+    image: /assets/images/uploads/photo-oct-05-4-40-48-pm.jpg
   - category: displayfx
     description: Complete Branding for TELLABS
     image: /assets/images/works/display/file1.jpg
@@ -103,22 +103,22 @@ gallery:
     description: Trade Show Backdrops
     image: /assets/images/works/display/file12.jpg
   - category: displayfx
-    description: Wall Display for NAvISTAR
+    description: Wall Display Stand Off System
     image: /assets/images/works/display/file13.jpg
   - category: displayfx
-    description: NAVISTAR Branding
+    description: Stand Off Displays
     image: /assets/images/works/display/file14.jpg
   - category: displayfx
-    description: 3D Aluminum Logo
+    description: 3D Aluminum Logos
     image: /assets/images/works/display/file15.jpg
   - category: displayfx
-    description: hand painted displays
+    description: hand painted Graphics
     image: /assets/images/works/display/file16.jpg
   - category: displayfx
     description: Reception Display
     image: /assets/images/works/display/file17.jpg
   - category: displayfx
-    description: Print and Dimensional Display
+    description: Environmental Branding
     image: /assets/images/works/display/file18.jpg
   - category: displayfx
     description: Kids themed rooms
@@ -151,7 +151,7 @@ gallery:
     description: Timeline Display
     image: /assets/images/works/display/file28.jpg
   - category: displayfx
-    description: Trade Show Both
+    description: Custom Trade Show Both
     image: /assets/images/works/display/file29.jpg
   - category: displayfx
     description: Free Standing Display
@@ -175,7 +175,7 @@ gallery:
     description: Metal Logos
     image: /assets/images/works/sign/file5.jpg
   - category: signfx
-    description: Exterior signs
+    description: Exterior Diminsional Signs
     image: /assets/images/works/sign/file6.jpg
   - category: signfx
     description: Monument Fascias
@@ -190,13 +190,13 @@ gallery:
     description: Design and Production
     image: /assets/images/works/sign/file10.jpg
   - category: signfx
-    description: Hand Painted Wall Graphics
+    description: Hand Painted Wall Murals
     image: /assets/images/works/sign/file11.jpg
   - category: signfx
     description: Wall Wrap with Dimensional Graphics
     image: /assets/images/works/sign/file12.jpg
   - category: signfx
-    description: Custom Dimensional signs
+    description: Custom Router signs
     image: /assets/images/works/sign/file13.jpg
   - category: signfx
     description: Halo Metal Logos
@@ -214,13 +214,13 @@ gallery:
     description: Contour Cut Signs
     image: /assets/images/works/sign/file18.jpg
   - category: signfx
-    description: Foam board Wall Logos
+    description: Enterior Dimensional Letters
     image: /assets/images/works/sign/file19.jpg
   - category: signfx
     description: Custom Banners
     image: /assets/images/works/sign/file20.jpg
   - category: signfx
-    description: Dimensional Wall Display
+    description: Dimensional Wall Displays
     image: /assets/images/works/sign/file21.jpg
   - category: signfx
     description: Fabric Banners
@@ -229,10 +229,10 @@ gallery:
     description: Custom Sign Cabinets
     image: /assets/images/works/sign/file23.jpg
   - category: signfx
-    description: Custom Trophy
+    description: Custom Trophys
     image: /assets/images/uploads/chrome-trophy.jpg
   - category: signfx
-    description: Routing
+    description: Routing services
     image: /assets/images/works/sign/file25.jpg
   - category: vehiclefx
     description: Police Vehicle Graphics
@@ -241,25 +241,25 @@ gallery:
     description: Reflective Vehicle Graphics
     image: /assets/images/works/vehicle/file2.jpg
   - category: vehiclefx
-    description: Trailer Wraps
+    description: Fleet  Wraps
     image: /assets/images/works/vehicle/file3.jpg
   - category: vehiclefx
     description: Pace Car Wraps
     image: /assets/images/works/vehicle/file4.jpg
   - category: vehiclefx
-    description: Window Graphics
+    description: Vehicle Window Graphics
     image: /assets/images/works/vehicle/file5.jpg
   - category: vehiclefx
     description: Complete Vehicle Wraps
     image: /assets/images/works/vehicle/file6.jpg
   - category: vehiclefx
-    description: Float Construction and Graphics
+    description: Parade Floats
     image: /assets/images/works/vehicle/file7.jpg
   - category: vehiclefx
     description: Race Car Wraps
     image: /assets/images/works/vehicle/file8.jpg
   - category: vehiclefx
-    description: Reflective Police Graphics
+    description: Police Graphic designs
     image: /assets/images/works/vehicle/file9.jpg
   - category: vehiclefx
     description: Trailer Design and Wrap
@@ -271,49 +271,49 @@ gallery:
     description: Specialty Wraps
     image: /assets/images/works/vehicle/file12.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Vehicle graphic design
     image: /assets/images/works/vehicle/file13.jpg
   - category: vehiclefx
-    description: Perforated Window Wraps
+    description: Large Bus Wraps
     image: /assets/images/works/vehicle/file14.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Truck Wraps
     image: /assets/images/works/vehicle/file15.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Vehicle Stripe Packages.
     image: /assets/images/works/vehicle/file16.jpg
   - category: vehiclefx
     description: Emergency Vehicles
     image: /assets/images/works/vehicle/file17.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Fleet Graphics
     image: /assets/images/works/vehicle/file18.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Vehicle Branding
     image: /assets/images/works/vehicle/file19.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Police Car Wraps
     image: /assets/images/works/vehicle/file20.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Race Car Graphic Design
     image: /assets/images/works/vehicle/file21.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Vehicle Graphic Installation
     image: /assets/images/works/vehicle/file22.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Corporate Branded Vehicles
     image: /assets/images/works/vehicle/file23.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Custom Boat Wraps
     image: /assets/images/works/vehicle/file24.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Logo Design
     image: /assets/images/works/vehicle/file25.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Zamboni Wraps
     image: /assets/images/works/vehicle/file26.jpg
   - category: vehiclefx
-    description: Company name or...
+    description: Race Car Hauler Wraps
     image: /assets/images/works/vehicle/file27.jpg
   - category: signfx
     description: Custom Neon Signs
