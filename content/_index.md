@@ -27,7 +27,7 @@ displayfx_desc: >-
   Sometimes you want something that is unique or to capture a specic audience.
   Let us help you bring your idea or space to life.
 image_1: /assets/images/uploads/img_7568.jpg
-description_1: Custom metal logo
+description_1: Timeline wall display
 image_2: /assets/images/uploads/img_7649.jpg
 description_2: Bears Anniversary wraps
 image_3: /assets/images/uploads/img_7047.jpg
