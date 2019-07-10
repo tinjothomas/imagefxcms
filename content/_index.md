@@ -2,7 +2,7 @@
 slides:
   - assets/images/slides/slide-1.jpg
   - assets/images/slides/slide-2.jpg
-  - /assets/images/uploads/neves.jpg
+  - /assets/images/uploads/img_7568.jpg
   - assets/images/slides/slide-4.jpg
 title: >-
   The fact you're here says you understand the importance of branding
