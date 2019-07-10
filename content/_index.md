@@ -28,8 +28,8 @@ displayfx_desc: >-
   Let us help you bring your idea or space to life.
 image_1: /assets/images/uploads/neves.jpg
 description_1: Custom metal logo
-image_2: /assets/images/uploads/windy-1.jpg
-description_2: Custom LED neon logo
+image_2: /assets/images/uploads/img_7649.jpg
+description_2: Bears Anniversary wraps
 image_3: /assets/images/uploads/img_7047.jpg
 description_3: Complete Station Imaging
 bottom_heading: ImageFX Is Your One-Stop Image Source.
