@@ -145,28 +145,28 @@ ul.navbar-nav {
 
 // Coming soon
 #shop-now {
-  position: relative;
-  cursor: default;
+  //position: relative;
+  //cursor: default;
 
-  &:before {
-    content: 'COMING SOON';
-    position: absolute;
-    background-color: #bc0c14;
-    padding: 3px;
-    color: #ffffff;
-    font-size: 9px;
-    left: 38px;
-    top: 8px;
-    font-weight: 600;
-    line-height: normal;
-
-    @media screen and (max-width: 1200px) {
-      top: 20px;
-      left: 150px;
-      padding: 3px 10px;
-    }
-
-  }
+  //&:before {
+  //  content: 'COMING SOON';
+  //  position: absolute;
+  //  background-color: #bc0c14;
+  //  padding: 3px;
+  //  color: #ffffff;
+  //  font-size: 9px;
+  //  left: 38px;
+  //  top: 8px;
+  //  font-weight: 600;
+  //  line-height: normal;
+  //
+  //  @media screen and (max-width: 1200px) {
+  //    top: 20px;
+  //    left: 150px;
+  //    padding: 3px 10px;
+  //  }
+  //
+  //}
 }
 // Coming soon
 
@@ -176,5 +176,26 @@ ul.navbar-nav {
 
   @media screen and (max-width: 1200px) {
     margin-top: 69px;
+  }
+}
+
+.mobile-online {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  height: 52px;
+  color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 15px;
+  border-radius: 6px;
+  background-color: #bc0c14;
+  z-index: 6000;
+  img {
+    margin-right: 7px;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff !important;
+    padding: 0 20px;
   }
 }
