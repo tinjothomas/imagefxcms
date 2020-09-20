@@ -22,8 +22,8 @@ vehiclefx_desc: ImageFX has a full service suite to brand your vehicle from
 displayfx_subhead: You Imagine It and We Create It
 displayfx_desc: Sometimes you want something that is unique or to capture a
   specic audience. Let us help you bring your idea or space to life.
-image_1: /assets/images/uploads/img_7568.jpg
-description_1: Timeline wall display
+image_1: /assets/images/uploads/photo-oct-05-4-40-48-pm.jpg
+description_1: Gas Station Rebrand
 image_2: /assets/images/uploads/img_20200902_091118.jpg
 description_2: Bears wraps
 image_3: /assets/images/uploads/big-slots-after-wall.jpg
