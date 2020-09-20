@@ -24,8 +24,8 @@ displayfx_desc: Sometimes you want something that is unique or to capture a
   specic audience. Let us help you bring your idea or space to life.
 image_1: /assets/images/uploads/img_7568.jpg
 description_1: Timeline wall display
-image_2: /assets/images/uploads/img_7649.jpg
-description_2: Bears Anniversary wraps
+image_2: /assets/images/uploads/img_20200902_091118.jpg
+description_2: Bears wraps
 image_3: /assets/images/uploads/big-slots-after-wall.jpg
 description_3: Wall Graphics
 bottom_heading: ImageFX Is Your One-Stop Image Source.
