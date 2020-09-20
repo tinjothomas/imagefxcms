@@ -1,6 +1,6 @@
 ---
 slides:
-  - /assets/images/uploads/yard-sign-web-5.jpg
+  - /assets/images/uploads/img_7649.jpg
   - assets/images/slides/slide-1.jpg
   - assets/images/slides/slide-2.jpg
   - /assets/images/uploads/img_7568.jpg
