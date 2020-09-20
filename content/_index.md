@@ -26,8 +26,8 @@ image_1: /assets/images/uploads/img_7568.jpg
 description_1: Timeline wall display
 image_2: /assets/images/uploads/img_7649.jpg
 description_2: Bears Anniversary wraps
-image_3: /assets/images/uploads/yard-sign-web-5.jpg
-description_3: Yard Signs
+image_3: /assets/images/uploads/big-slots-after-wall.jpg
+description_3: Wall Graphics
 bottom_heading: ImageFX Is Your One-Stop Image Source.
 bottom_desc: If you're looking to create high-impact branding, you've come to
   the right place. Our suite of customizable services range from total imaging
