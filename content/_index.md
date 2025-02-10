@@ -1,6 +1,6 @@
 ---
 slides:
-  - /assets/images/uploads/img_7649.jpg
+  - /assets/images/uploads/col-crew.jpg
   - assets/images/slides/slide-1.jpg
   - assets/images/slides/slide-2.jpg
   - /assets/images/uploads/img_7568.jpg
