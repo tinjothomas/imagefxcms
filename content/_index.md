@@ -4,7 +4,7 @@ slides:
   - /assets/images/uploads/bears-2.jpg
   - /assets/images/uploads/ferrara-wall.jpg
   - /assets/images/uploads/img_7568.jpg
-  - assets/images/slides/slide-4.jpg
+  - /assets/images/uploads/img_8618.jpg
 title: The fact you're here says you understand the importance of branding
   environments that create connections with your customers.
 brandfx_subhead: Your Turnkey Imaging Resource
