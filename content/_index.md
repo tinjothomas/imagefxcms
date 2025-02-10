@@ -24,17 +24,17 @@ displayfx_desc: Sometimes you want something that is unique or to capture a
   specic audience. Let us help you bring your idea or space to life.
 image_1: /assets/images/uploads/photo-oct-05-4-40-48-pm.jpg
 description_1: Gas Station Rebrand
-image_2: /assets/images/uploads/img_20200902_091118.jpg
+image_2: /assets/images/uploads/img_1471.jpeg
 description_2: Bears wraps
-image_3: /assets/images/uploads/big-slots-after-wall.jpg
+image_3: /assets/images/uploads/img_9528.jpg
 description_3: Wall Graphics
 bottom_heading: ImageFX Is Your One-Stop Image Source.
 bottom_desc: If you're looking to create high-impact branding, you've come to
   the right place. Our suite of customizable services range from total imaging
   solutions and environmental branding to vehicle branding and signage.
 address_1: ImageFX
-address_2: 16 W 109 83rd St.
-address_3: Burr Ridge, IL 60527
+address_2: 1412 Joliet Rd
+address_3: Romeoville, Il 60446
 phone: "630-655-2850 "
 email: contact@imagefxcorp.com
 ---
