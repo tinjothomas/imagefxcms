@@ -46,7 +46,7 @@ gallery:
     description: Environmental Branding
     image: /assets/images/works/brand/file15.jpg
   - category: brandingfx
-    description: 'Gas Station Design, Production, Install'
+    description: Gas Station Design, Production, Install
     image: /assets/images/works/brand/file16.jpg
   - category: brandingfx
     description: Event Branding
@@ -108,23 +108,23 @@ gallery:
   - category: displayfx
     description: Stand Off Displays
     image: /assets/images/works/display/file14.jpg
-  - category: displayfx
-    description: 3D Aluminum Logos
+  - category: brandingfx
+    description: Heath Care Branding
     image: /assets/images/works/display/file15.jpg
-  - category: displayfx
-    description: hand painted Graphics
+  - category: brandingfx
+    description: Gas Station Graphics
     image: /assets/images/works/display/file16.jpg
-  - category: displayfx
-    description: Reception Display
+  - category: vehiclefx
+    description: Emergency and Fire Graphics
     image: /assets/images/works/display/file17.jpg
-  - category: displayfx
-    description: Environmental Branding
-    image: /assets/images/works/display/file18.jpg
-  - category: displayfx
-    description: Kids themed rooms
+  - category: brandingfx
+    description: Wall Wraps
+    image: /assets/images/uploads/ferrara-wall.jpg
+  - category: signfx
+    description: School Graphics
     image: /assets/images/works/display/file19.jpg
-  - category: displayfx
-    description: Custom Product Displays
+  - category: vehiclefx
+    description: Fleet Graphics
     image: /assets/images/works/display/file20.jpg
   - category: displayfx
     description: Illuminated Display
@@ -319,4 +319,3 @@ gallery:
     description: Custom Neon Signs
     image: /assets/images/uploads/windy-1.jpg
 ---
-
